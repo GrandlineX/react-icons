@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+package-lock.json
+*.tgz
+/style/
+/.idea/
+/docs/
+/icon/icons/
+/icon/icons/out
