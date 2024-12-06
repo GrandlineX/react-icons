@@ -1,21 +1,19 @@
-import React from "react";
+import React from 'react';
+import { IconProps, useIconProps } from '../IconProps';
 
-export default function IOTabletLandscape(props:{size?:number; width?:number;height?:number}) {
-let {width,height,size}=props;
-if(size!==undefined){width=size;height=size;}
-if(width===undefined && height===undefined){width=16;height=16;}
+export default function IOTabletLandscape(props: IconProps) {
+  const { width, height } = useIconProps(props);
 
   return (
-    <svg className="glx--icon glx-io-icon" width={ width } height={ height }
+    <svg
+      className="glx--icon glx-io-icon"
+      width={width}
+      height={height}
       xmlns="http://www.w3.org/2000/svg"
-      
-      
       viewBox="0 0 512 512"
     >
-      <path d="M512 128v256a64.07 64.07 0 01-64 64H64a64.07 64.07 0 01-64-64V128a64.07 64.07 0 0164-64h384a64.07 64.07 0 0164 64zM32 384a32 32 0 0032 32h384a32 32 0 0032-32V128a32 32 0 00-32-32H64a32 32 0 00-32 32z"></path>
-      <path d="M0 128a64.07 64.07 0 0164-64h384a64.07 64.07 0 0164 64v256a64.07 64.07 0 01-64 64H64a64.07 64.07 0 01-64-64V128m480 256V128a32 32 0 00-32-32H64a32 32 0 00-32 32v256a32 32 0 0032 32h384a32 32 0 0032-32m-16 0a16 16 0 01-16 16H64a16 16 0 01-16-16V128a16 16 0 0116-16h384a16 16 0 0116 16v256z"></path>
+      <path d="M512 128v256a64.07 64.07 0 01-64 64H64a64.07 64.07 0 01-64-64V128a64.07 64.07 0 0164-64h384a64.07 64.07 0 0164 64zM32 384a32 32 0 0032 32h384a32 32 0 0032-32V128a32 32 0 00-32-32H64a32 32 0 00-32 32z" />
+      <path d="M0 128a64.07 64.07 0 0164-64h384a64.07 64.07 0 0164 64v256a64.07 64.07 0 01-64 64H64a64.07 64.07 0 01-64-64V128m480 256V128a32 32 0 00-32-32H64a32 32 0 00-32 32v256a32 32 0 0032 32h384a32 32 0 0032-32m-16 0a16 16 0 01-16 16H64a16 16 0 01-16-16V128a16 16 0 0116-16h384a16 16 0 0116 16v256z" />
     </svg>
   );
 }
-
-

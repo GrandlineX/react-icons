@@ -1,20 +1,18 @@
-import React from "react";
+import React from 'react';
+import { IconProps, useIconProps } from '../IconProps';
 
-export default function IOSend(props:{size?:number; width?:number;height?:number}) {
-let {width,height,size}=props;
-if(size!==undefined){width=size;height=size;}
-if(width===undefined && height===undefined){width=16;height=16;}
+export default function IOSend(props: IconProps) {
+  const { width, height } = useIconProps(props);
 
   return (
-    <svg className="glx--icon glx-io-icon" width={ width } height={ height }
+    <svg
+      className="glx--icon glx-io-icon"
+      width={width}
+      height={height}
       xmlns="http://www.w3.org/2000/svg"
-      
-      
       viewBox="0 0 512 512"
     >
-      <path d="M476.59 227.05l-.16-.07L49.35 49.84A23.56 23.56 0 0027.14 52 24.65 24.65 0 0016 72.59v113.29a24 24 0 0019.52 23.57l232.93 43.07a4 4 0 010 7.86L35.53 303.45A24 24 0 0016 327v113.31A23.57 23.57 0 0026.59 460a23.94 23.94 0 0013.22 4 24.55 24.55 0 009.52-1.93L476.4 285.94l.19-.09a32 32 0 000-58.8z"></path>
+      <path d="M476.59 227.05l-.16-.07L49.35 49.84A23.56 23.56 0 0027.14 52 24.65 24.65 0 0016 72.59v113.29a24 24 0 0019.52 23.57l232.93 43.07a4 4 0 010 7.86L35.53 303.45A24 24 0 0016 327v113.31A23.57 23.57 0 0026.59 460a23.94 23.94 0 0013.22 4 24.55 24.55 0 009.52-1.93L476.4 285.94l.19-.09a32 32 0 000-58.8z" />
     </svg>
   );
 }
-
-

@@ -1,20 +1,18 @@
-import React from "react";
+import React from 'react';
+import { IconProps, useIconProps } from '../IconProps';
 
-export default function IOAlertCircle(props:{size?:number; width?:number;height?:number}) {
-let {width,height,size}=props;
-if(size!==undefined){width=size;height=size;}
-if(width===undefined && height===undefined){width=16;height=16;}
+export default function IOAlertCircle(props: IconProps) {
+  const { width, height } = useIconProps(props);
 
   return (
-    <svg className="glx--icon glx-io-icon" width={ width } height={ height }
+    <svg
+      className="glx--icon glx-io-icon"
+      width={width}
+      height={height}
       xmlns="http://www.w3.org/2000/svg"
-      
-      
       viewBox="0 0 512 512"
     >
-      <path d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm0 319.91a20 20 0 1120-20 20 20 0 01-20 20zm21.72-201.15l-5.74 122a16 16 0 01-32 0l-5.74-121.94v-.05a21.74 21.74 0 1143.44 0z"></path>
+      <path d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm0 319.91a20 20 0 1120-20 20 20 0 01-20 20zm21.72-201.15l-5.74 122a16 16 0 01-32 0l-5.74-121.94v-.05a21.74 21.74 0 1143.44 0z" />
     </svg>
   );
 }
-
-

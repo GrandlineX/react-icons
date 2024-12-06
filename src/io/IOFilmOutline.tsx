@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
+import { IconProps, useIconProps } from '../IconProps';
 
-export default function IOFilmOutline(props:{size?:number; width?:number;height?:number}) {
-let {width,height,size}=props;
-if(size!==undefined){width=size;height=size;}
-if(width===undefined && height===undefined){width=16;height=16;}
+export default function IOFilmOutline(props: IconProps) {
+  const { width, height } = useIconProps(props);
 
   return (
-    <svg className="glx--icon glx-io-icon" width={ width } height={ height }
+    <svg
+      className="glx--icon glx-io-icon"
+      width={width}
+      height={height}
       xmlns="http://www.w3.org/2000/svg"
-      
-      
       viewBox="0 0 512 512"
     >
       <rect
@@ -23,7 +23,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
       <rect
         width="80"
         height="80"
@@ -35,7 +35,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
       <rect
         width="80"
         height="80"
@@ -47,7 +47,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
       <rect
         width="80"
         height="80"
@@ -59,7 +59,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
       <rect
         width="80"
         height="80"
@@ -71,7 +71,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
       <rect
         width="80"
         height="80"
@@ -83,7 +83,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
       <rect
         width="80"
         height="80"
@@ -95,7 +95,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
       <rect
         width="80"
         height="80"
@@ -107,7 +107,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
       <rect
         width="80"
         height="80"
@@ -119,7 +119,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
       <rect
         width="256"
         height="160"
@@ -131,7 +131,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
       <rect
         width="256"
         height="160"
@@ -143,9 +143,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeWidth="32"
         rx="28"
         ry="28"
-      ></rect>
+      />
     </svg>
   );
 }
-
-

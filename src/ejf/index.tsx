@@ -9,41 +9,40 @@ import EJFEmoji008 from './EJFEmoji008';
 import EJFEmoji009 from './EJFEmoji009';
 import EJFEmoji010 from './EJFEmoji010';
 
-
 export const EJFWrapper = {
-    EJFEmoji001,
-    EJFEmoji002,
-    EJFEmoji003,
-    EJFEmoji004,
-    EJFEmoji005,
-    EJFEmoji006,
-    EJFEmoji007,
-    EJFEmoji008,
-    EJFEmoji009,
-    EJFEmoji010,
-}
+  EJFEmoji001,
+  EJFEmoji002,
+  EJFEmoji003,
+  EJFEmoji004,
+  EJFEmoji005,
+  EJFEmoji006,
+  EJFEmoji007,
+  EJFEmoji008,
+  EJFEmoji009,
+  EJFEmoji010,
+};
 
-export type EJFNames =  'EJFEmoji001'
-    | 'EJFEmoji002'
-    | 'EJFEmoji003'
-    | 'EJFEmoji004'
-    | 'EJFEmoji005'
-    | 'EJFEmoji006'
-    | 'EJFEmoji007'
-    | 'EJFEmoji008'
-    | 'EJFEmoji009'
-    | 'EJFEmoji010'
-
+export type EJFNames =
+  | 'EJFEmoji001'
+  | 'EJFEmoji002'
+  | 'EJFEmoji003'
+  | 'EJFEmoji004'
+  | 'EJFEmoji005'
+  | 'EJFEmoji006'
+  | 'EJFEmoji007'
+  | 'EJFEmoji008'
+  | 'EJFEmoji009'
+  | 'EJFEmoji010';
 
 export {
-    EJFEmoji001,
-    EJFEmoji002,
-    EJFEmoji003,
-    EJFEmoji004,
-    EJFEmoji005,
-    EJFEmoji006,
-    EJFEmoji007,
-    EJFEmoji008,
-    EJFEmoji009,
-    EJFEmoji010,
-}
+  EJFEmoji001,
+  EJFEmoji002,
+  EJFEmoji003,
+  EJFEmoji004,
+  EJFEmoji005,
+  EJFEmoji006,
+  EJFEmoji007,
+  EJFEmoji008,
+  EJFEmoji009,
+  EJFEmoji010,
+};

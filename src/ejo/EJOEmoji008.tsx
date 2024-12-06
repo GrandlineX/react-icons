@@ -1,11 +1,11 @@
 import React from 'react';
-import { getIconProps, IconProps } from '../IconProps';
+import { IconProps, useIconProps } from '../IconProps';
 
 export default function EJOEmoji008(props: IconProps) {
-  const { width, height, fill } = getIconProps(props);
+  const { width, height, className } = useIconProps(props);
   return (
     <svg
-      className="glx--icon glx-ej-icon"
+      className={`glx--icon glx-ej-icon${className}`}
       stroke="currentColor"
       height={height}
       width={width}

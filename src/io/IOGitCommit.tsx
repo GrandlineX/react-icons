@@ -1,20 +1,18 @@
-import React from "react";
+import React from 'react';
+import { IconProps, useIconProps } from '../IconProps';
 
-export default function IOGitCommit(props:{size?:number; width?:number;height?:number}) {
-let {width,height,size}=props;
-if(size!==undefined){width=size;height=size;}
-if(width===undefined && height===undefined){width=16;height=16;}
+export default function IOGitCommit(props: IconProps) {
+  const { width, height } = useIconProps(props);
 
   return (
-    <svg className="glx--icon glx-io-icon" width={ width } height={ height }
+    <svg
+      className="glx--icon glx-io-icon"
+      width={width}
+      height={height}
       xmlns="http://www.w3.org/2000/svg"
-      
-      
       viewBox="0 0 512 512"
     >
-      <path d="M448 224h-68a128 128 0 00-247.9 0H64a32 32 0 000 64h68.05A128 128 0 00380 288h68a32 32 0 000-64zm-192 96a64 64 0 1164-64 64.07 64.07 0 01-64 64z"></path>
+      <path d="M448 224h-68a128 128 0 00-247.9 0H64a32 32 0 000 64h68.05A128 128 0 00380 288h68a32 32 0 000-64zm-192 96a64 64 0 1164-64 64.07 64.07 0 01-64 64z" />
     </svg>
   );
 }
-
-

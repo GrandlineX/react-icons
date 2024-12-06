@@ -51,169 +51,218 @@ import SIWireguard from './SIWireguard';
 import SIWireshark from './SIWireshark';
 import SIXbox from './SIXbox';
 import SIYoutube from './SIYoutube';
+import SIX from './SIX';
+import SICurseforge from './SICurseforge';
+import SIFacebook from './SIFacebook';
+import SIGmail from './SIGmail';
+import SIGooglecalendar from './SIGooglecalendar';
+import SIGoogledrive from './SIGoogledrive';
+import SIInstagram from './SIInstagram';
+import SIKubernetes from './SIKubernetes';
+import SIMiro from './SIMiro';
+import SIPaperlessngx from './SIPaperlessngx';
+import SIStackoverflow from './SIStackoverflow';
+import SITiktok from './SITiktok';
 
 export const SIWrapper = {
-    SI1password,
-    SIBitwarden,
-    SIChromecast,
-    SIDerspiegel,
-    SIDiscord,
-    SIElement,
-    SIEpicgames,
-    SIFigma,
-    SIFilezilla,
-    SIFirefoxbrowser,
-    SIGit,
-    SIGitea,
-    SIGithub,
-    SIGitlab,
-    SIGogdotcom,
-    SIIntellijidea,
-    SIJirasoftware,
-    SILinux,
-    SILogmein,
-    SIMacos,
-    SIMattermost,
-    SIMicrosoftoutlook,
-    SIMicrosoftteams,
-    SINextcloud,
-    SINintendoswitch,
-    SIPihole,
-    SIPimcore,
-    SIPlaystation,
-    SIPlaystation2,
-    SIPlaystation3,
-    SIPlaystation4,
-    SIPlaystation5,
-    SIPlex,
-    SISentry,
-    SISignal,
-    SISoundcloud,
-    SISpeedtest,
-    SISpotify,
-    SISteam,
-    SISublimetext,
-    SITeamspeak,
-    SITelegram,
-    SIThunderbird,
-    SITwitter,
-    SITypescript,
-    SIWhatsapp,
-    SIWiiu,
-    SIWindows,
-    SIWindowsterminal,
-    SIWireguard,
-    SIWireshark,
-    SIXbox,
-    SIYoutube,
-}
+  SI1password,
+  SIBitwarden,
+  SIChromecast,
+  SIDerspiegel,
+  SIDiscord,
+  SIElement,
+  SIEpicgames,
+  SIFigma,
+  SIFilezilla,
+  SIFirefoxbrowser,
+  SIGit,
+  SIGitea,
+  SIGithub,
+  SIGitlab,
+  SIGogdotcom,
+  SIIntellijidea,
+  SIJirasoftware,
+  SILinux,
+  SILogmein,
+  SIMacos,
+  SIMattermost,
+  SIMicrosoftoutlook,
+  SIMicrosoftteams,
+  SINextcloud,
+  SINintendoswitch,
+  SIPihole,
+  SIPimcore,
+  SIPlaystation,
+  SIPlaystation2,
+  SIPlaystation3,
+  SIPlaystation4,
+  SIPlaystation5,
+  SIPlex,
+  SISentry,
+  SISignal,
+  SISoundcloud,
+  SISpeedtest,
+  SISpotify,
+  SISteam,
+  SISublimetext,
+  SITeamspeak,
+  SITelegram,
+  SIThunderbird,
+  SITwitter,
+  SITypescript,
+  SIWhatsapp,
+  SIWiiu,
+  SIWindows,
+  SIWindowsterminal,
+  SIWireguard,
+  SIWireshark,
+  SIXbox,
+  SIYoutube,
+  SIX,
+  SICurseforge,
+  SIFacebook,
+  SIGmail,
+  SIGooglecalendar,
+  SIGoogledrive,
+  SIInstagram,
+  SIKubernetes,
+  SIMiro,
+  SIPaperlessngx,
+  SIStackoverflow,
+  SITiktok,
+};
 
-export type SINames = 'SI1password'
-    | 'SIBitwarden'
-    | 'SIChromecast'
-    | 'SIDerspiegel'
-    | 'SIDiscord'
-    | 'SIElement'
-    | 'SIEpicgames'
-    | 'SIFigma'
-    | 'SIFilezilla'
-    | 'SIFirefoxbrowser'
-    | 'SIGit'
-    | 'SIGitea'
-    | 'SIGithub'
-    | 'SIGitlab'
-    | 'SIGogdotcom'
-    | 'SIIntellijidea'
-    | 'SIJirasoftware'
-    | 'SILinux'
-    | 'SILogmein'
-    | 'SIMacos'
-    | 'SIMattermost'
-    | 'SIMicrosoftoutlook'
-    | 'SIMicrosoftteams'
-    | 'SINextcloud'
-    | 'SINintendoswitch'
-    | 'SIPihole'
-    | 'SIPimcore'
-    | 'SIPlaystation'
-    | 'SIPlaystation2'
-    | 'SIPlaystation3'
-    | 'SIPlaystation4'
-    | 'SIPlaystation5'
-    | 'SIPlex'
-    | 'SISentry'
-    | 'SISignal'
-    | 'SISoundcloud'
-    | 'SISpeedtest'
-    | 'SISpotify'
-    | 'SISteam'
-    | 'SISublimetext'
-    | 'SITeamspeak'
-    | 'SITelegram'
-    | 'SIThunderbird'
-    | 'SITwitter'
-    | 'SITypescript'
-    | 'SIWhatsapp'
-    | 'SIWiiu'
-    | 'SIWindows'
-    | 'SIWindowsterminal'
-    | 'SIWireguard'
-    | 'SIWireshark'
-    | 'SIXbox'
-    | 'SIYoutube';
+export type SINames =
+  | 'SI1password'
+  | 'SIBitwarden'
+  | 'SIChromecast'
+  | 'SIDerspiegel'
+  | 'SIDiscord'
+  | 'SIElement'
+  | 'SIEpicgames'
+  | 'SIFigma'
+  | 'SIFilezilla'
+  | 'SIFirefoxbrowser'
+  | 'SIGit'
+  | 'SIGitea'
+  | 'SIGithub'
+  | 'SIGitlab'
+  | 'SIGogdotcom'
+  | 'SIIntellijidea'
+  | 'SIJirasoftware'
+  | 'SILinux'
+  | 'SILogmein'
+  | 'SIMacos'
+  | 'SIMattermost'
+  | 'SIMicrosoftoutlook'
+  | 'SIMicrosoftteams'
+  | 'SINextcloud'
+  | 'SINintendoswitch'
+  | 'SIPihole'
+  | 'SIPimcore'
+  | 'SIPlaystation'
+  | 'SIPlaystation2'
+  | 'SIPlaystation3'
+  | 'SIPlaystation4'
+  | 'SIPlaystation5'
+  | 'SIPlex'
+  | 'SISentry'
+  | 'SISignal'
+  | 'SISoundcloud'
+  | 'SISpeedtest'
+  | 'SISpotify'
+  | 'SISteam'
+  | 'SISublimetext'
+  | 'SITeamspeak'
+  | 'SITelegram'
+  | 'SIThunderbird'
+  | 'SITwitter'
+  | 'SITypescript'
+  | 'SIWhatsapp'
+  | 'SIWiiu'
+  | 'SIWindows'
+  | 'SIWindowsterminal'
+  | 'SIWireguard'
+  | 'SIWireshark'
+  | 'SIXbox'
+  | 'SIYoutube'
+  | 'SIX'
+  | 'SICurseforge'
+  | 'SIFacebook'
+  | 'SIGmail'
+  | 'SIGooglecalendar'
+  | 'SIGoogledrive'
+  | 'SIInstagram'
+  | 'SIKubernetes'
+  | 'SIMiro'
+  | 'SIPaperlessngx'
+  | 'SIStackoverflow'
+  | 'SITiktok';
 
 export {
-    SI1password,
-    SIBitwarden,
-    SIChromecast,
-    SIDerspiegel,
-    SIDiscord,
-    SIElement,
-    SIEpicgames,
-    SIFigma,
-    SIFilezilla,
-    SIFirefoxbrowser,
-    SIGit,
-    SIGitea,
-    SIGithub,
-    SIGitlab,
-    SIGogdotcom,
-    SIIntellijidea,
-    SIJirasoftware,
-    SILinux,
-    SILogmein,
-    SIMacos,
-    SIMattermost,
-    SIMicrosoftoutlook,
-    SIMicrosoftteams,
-    SINextcloud,
-    SINintendoswitch,
-    SIPihole,
-    SIPimcore,
-    SIPlaystation,
-    SIPlaystation2,
-    SIPlaystation3,
-    SIPlaystation4,
-    SIPlaystation5,
-    SIPlex,
-    SISentry,
-    SISignal,
-    SISoundcloud,
-    SISpeedtest,
-    SISpotify,
-    SISteam,
-    SISublimetext,
-    SITeamspeak,
-    SITelegram,
-    SIThunderbird,
-    SITwitter,
-    SITypescript,
-    SIWhatsapp,
-    SIWiiu,
-    SIWindows,
-    SIWindowsterminal,
-    SIWireguard,
-    SIWireshark,
-    SIXbox,
-    SIYoutube,
-}
+  SI1password,
+  SIBitwarden,
+  SIChromecast,
+  SIDerspiegel,
+  SIDiscord,
+  SIElement,
+  SIEpicgames,
+  SIFigma,
+  SIFilezilla,
+  SIFirefoxbrowser,
+  SIGit,
+  SIGitea,
+  SIGithub,
+  SIGitlab,
+  SIGogdotcom,
+  SIIntellijidea,
+  SIJirasoftware,
+  SILinux,
+  SILogmein,
+  SIMacos,
+  SIMattermost,
+  SIMicrosoftoutlook,
+  SIMicrosoftteams,
+  SINextcloud,
+  SINintendoswitch,
+  SIPihole,
+  SIPimcore,
+  SIPlaystation,
+  SIPlaystation2,
+  SIPlaystation3,
+  SIPlaystation4,
+  SIPlaystation5,
+  SIPlex,
+  SISentry,
+  SISignal,
+  SISoundcloud,
+  SISpeedtest,
+  SISpotify,
+  SISteam,
+  SISublimetext,
+  SITeamspeak,
+  SITelegram,
+  SIThunderbird,
+  SITwitter,
+  SITypescript,
+  SIWhatsapp,
+  SIWiiu,
+  SIWindows,
+  SIWindowsterminal,
+  SIWireguard,
+  SIWireshark,
+  SIXbox,
+  SIYoutube,
+  SIX,
+  SICurseforge,
+  SIFacebook,
+  SIGmail,
+  SIGooglecalendar,
+  SIGoogledrive,
+  SIInstagram,
+  SIKubernetes,
+  SIMiro,
+  SIPaperlessngx,
+  SIStackoverflow,
+  SITiktok,
+};

@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
+import { IconProps, useIconProps } from '../IconProps';
 
-export default function IOGameControllerOutline(props:{size?:number; width?:number;height?:number}) {
-let {width,height,size}=props;
-if(size!==undefined){width=size;height=size;}
-if(width===undefined && height===undefined){width=16;height=16;}
+export default function IOGameControllerOutline(props: IconProps) {
+  const { width, height } = useIconProps(props);
 
   return (
-    <svg className="glx--icon glx-io-icon" width={ width } height={ height }
+    <svg
+      className="glx--icon glx-io-icon"
+      width={width}
+      height={height}
       xmlns="http://www.w3.org/2000/svg"
-      
-      
       viewBox="0 0 512 512"
     >
       <path
@@ -18,11 +18,11 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeMiterlimit="10"
         strokeWidth="32"
         d="M467.51 248.83c-18.4-83.18-45.69-136.24-89.43-149.17A91.5 91.5 0 00352 96c-26.89 0-48.11 16-96 16s-69.15-16-96-16a99.09 99.09 0 00-27.2 3.66C89 112.59 61.94 165.7 43.33 248.83c-19 84.91-15.56 152 21.58 164.88 26 9 49.25-9.61 71.27-37 25-31.2 55.79-40.8 119.82-40.8s93.62 9.6 118.66 40.8c22 27.41 46.11 45.79 71.42 37.16 41.02-14.01 40.44-79.13 21.43-165.04z"
-      ></path>
-      <circle cx="292" cy="224" r="20"></circle>
-      <path d="M336 288a20 20 0 1120-19.95A20 20 0 01336 288z"></path>
-      <circle cx="336" cy="180" r="20"></circle>
-      <circle cx="380" cy="224" r="20"></circle>
+      />
+      <circle cx="292" cy="224" r="20" />
+      <path d="M336 288a20 20 0 1120-19.95A20 20 0 01336 288z" />
+      <circle cx="336" cy="180" r="20" />
+      <circle cx="380" cy="224" r="20" />
       <path
         fill="none"
         stroke="#000"
@@ -30,7 +30,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeLinejoin="round"
         strokeWidth="32"
         d="M160 176L160 272"
-      ></path>
+      />
       <path
         fill="none"
         stroke="#000"
@@ -38,9 +38,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         strokeLinejoin="round"
         strokeWidth="32"
         d="M208 224L112 224"
-      ></path>
+      />
     </svg>
   );
 }
-
-

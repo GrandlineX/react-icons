@@ -1,11 +1,9 @@
-import  IXMinimize  from "./IXMinimize";
+import IXMinimize from './IXMinimize';
 
 export const IXWrapper = {
-    IXMinimize,
-}
+  IXMinimize,
+};
 
-export type IXNames = "IXMinimize"
+export type IXNames = 'IXMinimize';
 
-export {
-    IXMinimize,
-}
+export { IXMinimize };

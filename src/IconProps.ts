@@ -1,27 +1,37 @@
+import { useMemo } from 'react';
+
 export type IconProps = {
   width?: number;
   height?: number;
   size?: number;
   stroke?: string;
   fill?: string;
+  className?: string;
 };
 
-export function getIconProps(props: IconProps) {
-  const { size } = props;
-  let { width, height, fill, stroke } = props;
-  if (size !== undefined) {
-    width = size;
-    height = size;
-  }
-  if (width === undefined && height === undefined) {
-    width = 16;
-    height = 16;
-  }
-  if (fill === undefined) {
-    fill = 'currentColor';
-  }
-  if (stroke === undefined) {
-    stroke = 'currentColor';
-  }
-  return { width, height, fill, stroke };
+export function useIconProps(props: IconProps) {
+  return useMemo(() => {
+    const { size } = props;
+    let { width, height, fill, stroke, className } = props;
+    if (!className) {
+      className = '';
+    } else {
+      className = ` ${className}`;
+    }
+    if (size !== undefined) {
+      width = size;
+      height = size;
+    }
+    if (width === undefined && height === undefined) {
+      width = 16;
+      height = 16;
+    }
+    if (fill === undefined) {
+      fill = 'currentColor';
+    }
+    if (stroke === undefined) {
+      stroke = 'currentColor';
+    }
+    return { width, height, fill, stroke, className };
+  }, [props]);
 }

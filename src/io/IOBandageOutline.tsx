@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
+import { IconProps, useIconProps } from '../IconProps';
 
-export default function IOBandageOutline(props:{size?:number; width?:number;height?:number}) {
-let {width,height,size}=props;
-if(size!==undefined){width=size;height=size;}
-if(width===undefined && height===undefined){width=16;height=16;}
+export default function IOBandageOutline(props: IconProps) {
+  const { width, height } = useIconProps(props);
 
   return (
-    <svg className="glx--icon glx-io-icon" width={ width } height={ height }
+    <svg
+      className="glx--icon glx-io-icon"
+      width={width}
+      height={height}
       xmlns="http://www.w3.org/2000/svg"
-      
-      
       viewBox="0 0 512 512"
     >
       <rect
@@ -25,7 +25,7 @@ if(width===undefined && height===undefined){width=16;height=16;}
         rx="88.12"
         ry="88.12"
         transform="rotate(-45 256 256.002)"
-      ></rect>
+      />
       <rect
         width="176"
         height="196"
@@ -39,13 +39,11 @@ if(width===undefined && height===undefined){width=16;height=16;}
         rx="32"
         ry="32"
         transform="rotate(45 257.409 254.582)"
-      ></rect>
-      <circle cx="256" cy="208" r="16"></circle>
-      <circle cx="304" cy="256" r="16"></circle>
-      <circle cx="208" cy="256" r="16"></circle>
-      <circle cx="256" cy="304" r="16"></circle>
+      />
+      <circle cx="256" cy="208" r="16" />
+      <circle cx="304" cy="256" r="16" />
+      <circle cx="208" cy="256" r="16" />
+      <circle cx="256" cy="304" r="16" />
     </svg>
   );
 }
-
-

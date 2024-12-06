@@ -10,38 +10,39 @@ import EJOEmoji009 from './EJOEmoji009';
 import EJOEmoji010 from './EJOEmoji010';
 
 export const EJOWrapper = {
-    EJOEmoji001,
-    EJOEmoji002,
-    EJOEmoji003,
-    EJOEmoji004,
-    EJOEmoji005,
-    EJOEmoji006,
-    EJOEmoji007,
-    EJOEmoji008,
-    EJOEmoji009,
-    EJOEmoji010,
-}
+  EJOEmoji001,
+  EJOEmoji002,
+  EJOEmoji003,
+  EJOEmoji004,
+  EJOEmoji005,
+  EJOEmoji006,
+  EJOEmoji007,
+  EJOEmoji008,
+  EJOEmoji009,
+  EJOEmoji010,
+};
 
-export type EJONames =  'EJOEmoji001'
-    | 'EJOEmoji002'
-    | 'EJOEmoji003'
-    | 'EJOEmoji004'
-    | 'EJOEmoji005'
-    | 'EJOEmoji006'
-    | 'EJOEmoji007'
-    | 'EJOEmoji008'
-    | 'EJOEmoji009'
-    | 'EJOEmoji010';
+export type EJONames =
+  | 'EJOEmoji001'
+  | 'EJOEmoji002'
+  | 'EJOEmoji003'
+  | 'EJOEmoji004'
+  | 'EJOEmoji005'
+  | 'EJOEmoji006'
+  | 'EJOEmoji007'
+  | 'EJOEmoji008'
+  | 'EJOEmoji009'
+  | 'EJOEmoji010';
 
 export {
-    EJOEmoji001,
-    EJOEmoji002,
-    EJOEmoji003,
-    EJOEmoji004,
-    EJOEmoji005,
-    EJOEmoji006,
-    EJOEmoji007,
-    EJOEmoji008,
-    EJOEmoji009,
-    EJOEmoji010,
-}
+  EJOEmoji001,
+  EJOEmoji002,
+  EJOEmoji003,
+  EJOEmoji004,
+  EJOEmoji005,
+  EJOEmoji006,
+  EJOEmoji007,
+  EJOEmoji008,
+  EJOEmoji009,
+  EJOEmoji010,
+};

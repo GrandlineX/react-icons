@@ -918,2764 +918,2763 @@ import IOWomanOutline from './IOWomanOutline';
 import IOWoman from './IOWoman';
 
 export const IOWrapper = {
-    IOAccessibilityOutline,
-    IOAccessibility,
-    IOAddCircleOutline,
-    IOAddCircle,
-    IOAddOutline,
-    IOAdd,
-    IOAirplaneOutline,
-    IOAirplane,
-    IOAlarmOutline,
-    IOAlarm,
-    IOAlbumsOutline,
-    IOAlbums,
-    IOAlertCircleOutline,
-    IOAlertCircle,
-    IOAlertOutline,
-    IOAlert,
-    IOAmericanFootballOutline,
-    IOAmericanFootball,
-    IOAnalyticsOutline,
-    IOAnalytics,
-    IOApertureOutline,
-    IOAperture,
-    IOAppsOutline,
-    IOApps,
-    IOArchiveOutline,
-    IOArchive,
-    IOArrowBackCircleOutline,
-    IOArrowBackCircle,
-    IOArrowBackOutline,
-    IOArrowBack,
-    IOArrowDownCircleOutline,
-    IOArrowDownCircle,
-    IOArrowDownOutline,
-    IOArrowDown,
-    IOArrowForwardCircleOutline,
-    IOArrowForwardCircle,
-    IOArrowForwardOutline,
-    IOArrowForward,
-    IOArrowRedoCircleOutline,
-    IOArrowRedoCircle,
-    IOArrowRedoOutline,
-    IOArrowRedo,
-    IOArrowUndoCircleOutline,
-    IOArrowUndoCircle,
-    IOArrowUndoOutline,
-    IOArrowUndo,
-    IOArrowUpCircleOutline,
-    IOArrowUpCircle,
-    IOArrowUpOutline,
-    IOArrowUp,
-    IOAtCircleOutline,
-    IOAtCircle,
-    IOAtOutline,
-    IOAt,
-    IOAttachOutline,
-    IOAttach,
-    IOBackspaceOutline,
-    IOBackspace,
-    IOBagAddOutline,
-    IOBagAdd,
-    IOBagCheckOutline,
-    IOBagCheck,
-    IOBagHandleOutline,
-    IOBagHandle,
-    IOBagOutline,
-    IOBagRemoveOutline,
-    IOBagRemove,
-    IOBag,
-    IOBalloonOutline,
-    IOBalloon,
-    IOBanOutline,
-    IOBan,
-    IOBandageOutline,
-    IOBandage,
-    IOBarChartOutline,
-    IOBarChart,
-    IOBarbellOutline,
-    IOBarbell,
-    IOBarcodeOutline,
-    IOBarcode,
-    IOBaseballOutline,
-    IOBaseball,
-    IOBasketOutline,
-    IOBasket,
-    IOBasketballOutline,
-    IOBasketball,
-    IOBatteryChargingOutline,
-    IOBatteryCharging,
-    IOBatteryDeadOutline,
-    IOBatteryDead,
-    IOBatteryFullOutline,
-    IOBatteryFull,
-    IOBatteryHalfOutline,
-    IOBatteryHalf,
-    IOBeakerOutline,
-    IOBeaker,
-    IOBedOutline,
-    IOBed,
-    IOBeerOutline,
-    IOBeer,
-    IOBicycleOutline,
-    IOBicycle,
-    IOBluetoothOutline,
-    IOBluetooth,
-    IOBoatOutline,
-    IOBoat,
-    IOBodyOutline,
-    IOBody,
-    IOBonfireOutline,
-    IOBonfire,
-    IOBookOutline,
-    IOBook,
-    IOBookmarkOutline,
-    IOBookmark,
-    IOBookmarksOutline,
-    IOBookmarks,
-    IOBowlingBallOutline,
-    IOBowlingBall,
-    IOBriefcaseOutline,
-    IOBriefcase,
-    IOBrowsersOutline,
-    IOBrowsers,
-    IOBrushOutline,
-    IOBrush,
-    IOBugOutline,
-    IOBug,
-    IOBuildOutline,
-    IOBuild,
-    IOBulbOutline,
-    IOBulb,
-    IOBusOutline,
-    IOBus,
-    IOBusinessOutline,
-    IOBusiness,
-    IOCafeOutline,
-    IOCafe,
-    IOCalculatorOutline,
-    IOCalculator,
-    IOCalendarClearOutline,
-    IOCalendarClear,
-    IOCalendarNumberOutline,
-    IOCalendarNumber,
-    IOCalendarOutline,
-    IOCalendar,
-    IOCallOutline,
-    IOCall,
-    IOCameraOutline,
-    IOCameraReverseOutline,
-    IOCameraReverse,
-    IOCamera,
-    IOCarOutline,
-    IOCarSportOutline,
-    IOCarSport,
-    IOCar,
-    IOCardOutline,
-    IOCard,
-    IOCaretBackCircleOutline,
-    IOCaretBackCircle,
-    IOCaretBackOutline,
-    IOCaretBack,
-    IOCaretDownCircleOutline,
-    IOCaretDownCircle,
-    IOCaretDownOutline,
-    IOCaretDown,
-    IOCaretForwardCircleOutline,
-    IOCaretForwardCircle,
-    IOCaretForwardOutline,
-    IOCaretForward,
-    IOCaretUpCircleOutline,
-    IOCaretUpCircle,
-    IOCaretUpOutline,
-    IOCaretUp,
-    IOCartOutline,
-    IOCart,
-    IOCashOutline,
-    IOCash,
-    IOCellularOutline,
-    IOCellular,
-    IOChatboxEllipsesOutline,
-    IOChatboxEllipses,
-    IOChatboxOutline,
-    IOChatbox,
-    IOChatbubbleEllipsesOutline,
-    IOChatbubbleEllipses,
-    IOChatbubbleOutline,
-    IOChatbubble,
-    IOChatbubblesOutline,
-    IOChatbubbles,
-    IOCheckboxOutline,
-    IOCheckbox,
-    IOCheckmarkCircleOutline,
-    IOCheckmarkCircle,
-    IOCheckmarkDoneCircleOutline,
-    IOCheckmarkDoneCircle,
-    IOCheckmarkDoneOutline,
-    IOCheckmarkDone,
-    IOCheckmarkOutline,
-    IOCheckmark,
-    IOChevronBackCircleOutline,
-    IOChevronBackCircle,
-    IOChevronBackOutline,
-    IOChevronBack,
-    IOChevronDownCircleOutline,
-    IOChevronDownCircle,
-    IOChevronDownOutline,
-    IOChevronDown,
-    IOChevronForwardCircleOutline,
-    IOChevronForwardCircle,
-    IOChevronForwardOutline,
-    IOChevronForward,
-    IOChevronUpCircleOutline,
-    IOChevronUpCircle,
-    IOChevronUpOutline,
-    IOChevronUp,
-    IOClipboardOutline,
-    IOClipboard,
-    IOCloseCircleOutline,
-    IOCloseCircle,
-    IOCloseOutline,
-    IOClose,
-    IOCloudCircleOutline,
-    IOCloudCircle,
-    IOCloudDoneOutline,
-    IOCloudDone,
-    IOCloudDownloadOutline,
-    IOCloudDownload,
-    IOCloudOfflineOutline,
-    IOCloudOffline,
-    IOCloudOutline,
-    IOCloudUploadOutline,
-    IOCloudUpload,
-    IOCloud,
-    IOCloudyNightOutline,
-    IOCloudyNight,
-    IOCloudyOutline,
-    IOCloudy,
-    IOCodeDownloadOutline,
-    IOCodeDownload,
-    IOCodeOutline,
-    IOCodeSlashOutline,
-    IOCodeSlash,
-    IOCodeWorkingOutline,
-    IOCodeWorking,
-    IOCode,
-    IOCogOutline,
-    IOCog,
-    IOColorFillOutline,
-    IOColorFill,
-    IOColorFilterOutline,
-    IOColorFilter,
-    IOColorPaletteOutline,
-    IOColorPalette,
-    IOColorWandOutline,
-    IOColorWand,
-    IOCompassOutline,
-    IOCompass,
-    IOConstructOutline,
-    IOConstruct,
-    IOContractOutline,
-    IOContract,
-    IOContrastOutline,
-    IOContrast,
-    IOCopyOutline,
-    IOCopy,
-    IOCreateOutline,
-    IOCreate,
-    IOCropOutline,
-    IOCrop,
-    IOCubeOutline,
-    IOCube,
-    IOCutOutline,
-    IOCut,
-    IODesktopOutline,
-    IODesktop,
-    IODiamondOutline,
-    IODiamond,
-    IODiceOutline,
-    IODice,
-    IODiscOutline,
-    IODisc,
-    IODocumentAttachOutline,
-    IODocumentAttach,
-    IODocumentLockOutline,
-    IODocumentLock,
-    IODocumentOutline,
-    IODocumentTextOutline,
-    IODocumentText,
-    IODocument,
-    IODocumentsOutline,
-    IODocuments,
-    IODownloadOutline,
-    IODownload,
-    IODuplicateOutline,
-    IODuplicate,
-    IOEarOutline,
-    IOEar,
-    IOEarthOutline,
-    IOEarth,
-    IOEaselOutline,
-    IOEasel,
-    IOEggOutline,
-    IOEgg,
-    IOEllipseOutline,
-    IOEllipse,
-    IOEllipsisHorizontalCircleOutline,
-    IOEllipsisHorizontalCircle,
-    IOEllipsisHorizontalOutline,
-    IOEllipsisHorizontal,
-    IOEllipsisVerticalCircleOutline,
-    IOEllipsisVerticalCircle,
-    IOEllipsisVerticalOutline,
-    IOEllipsisVertical,
-    IOEnterOutline,
-    IOEnter,
-    IOExitOutline,
-    IOExit,
-    IOExpandOutline,
-    IOExpand,
-    IOExtensionPuzzleOutline,
-    IOExtensionPuzzle,
-    IOEyeOffOutline,
-    IOEyeOff,
-    IOEyeOutline,
-    IOEye,
-    IOEyedropOutline,
-    IOEyedrop,
-    IOFastFoodOutline,
-    IOFastFood,
-    IOFemaleOutline,
-    IOFemale,
-    IOFileTrayFullOutline,
-    IOFileTrayFull,
-    IOFileTrayOutline,
-    IOFileTrayStackedOutline,
-    IOFileTrayStacked,
-    IOFileTray,
-    IOFilmOutline,
-    IOFilm,
-    IOFilterCircleOutline,
-    IOFilterCircle,
-    IOFilterOutline,
-    IOFilter,
-    IOFingerPrintOutline,
-    IOFingerPrint,
-    IOFishOutline,
-    IOFish,
-    IOFitnessOutline,
-    IOFitness,
-    IOFlagOutline,
-    IOFlag,
-    IOFlameOutline,
-    IOFlame,
-    IOFlashOffOutline,
-    IOFlashOff,
-    IOFlashOutline,
-    IOFlash,
-    IOFlashlightOutline,
-    IOFlashlight,
-    IOFlaskOutline,
-    IOFlask,
-    IOFlowerOutline,
-    IOFlower,
-    IOFolderOpenOutline,
-    IOFolderOpen,
-    IOFolderOutline,
-    IOFolder,
-    IOFootballOutline,
-    IOFootball,
-    IOFootstepsOutline,
-    IOFootsteps,
-    IOFunnelOutline,
-    IOFunnel,
-    IOGameControllerOutline,
-    IOGameController,
-    IOGiftOutline,
-    IOGift,
-    IOGitBranchOutline,
-    IOGitBranch,
-    IOGitCommitOutline,
-    IOGitCommit,
-    IOGitCompareOutline,
-    IOGitCompare,
-    IOGitMergeOutline,
-    IOGitMerge,
-    IOGitNetworkOutline,
-    IOGitNetwork,
-    IOGitPullRequestOutline,
-    IOGitPullRequest,
-    IOGlassesOutline,
-    IOGlasses,
-    IOGlobeOutline,
-    IOGlobe,
-    IOGolfOutline,
-    IOGolf,
-    IOGridOutline,
-    IOGrid,
-    IOHammerOutline,
-    IOHammer,
-    IOHandLeftOutline,
-    IOHandLeft,
-    IOHandRightOutline,
-    IOHandRight,
-    IOHappyOutline,
-    IOHappy,
-    IOHardwareChipOutline,
-    IOHardwareChip,
-    IOHeadsetOutline,
-    IOHeadset,
-    IOHeartCircleOutline,
-    IOHeartCircle,
-    IOHeartDislikeCircleOutline,
-    IOHeartDislikeCircle,
-    IOHeartDislikeOutline,
-    IOHeartDislike,
-    IOHeartHalfOutline,
-    IOHeartHalf,
-    IOHeartOutline,
-    IOHeart,
-    IOHelpBuoyOutline,
-    IOHelpBuoy,
-    IOHelpCircleOutline,
-    IOHelpCircle,
-    IOHelpOutline,
-    IOHelp,
-    IOHomeOutline,
-    IOHome,
-    IOHourglassOutline,
-    IOHourglass,
-    IOIceCreamOutline,
-    IOIceCream,
-    IOIdCardOutline,
-    IOIdCard,
-    IOImageOutline,
-    IOImage,
-    IOImagesOutline,
-    IOImages,
-    IOInfiniteOutline,
-    IOInfinite,
-    IOInformationCircleOutline,
-    IOInformationCircle,
-    IOInformationOutline,
-    IOInformation,
-    IOInvertModeOutline,
-    IOInvertMode,
-    IOJournalOutline,
-    IOJournal,
-    IOKeyOutline,
-    IOKey,
-    IOKeypadOutline,
-    IOKeypad,
-    IOLanguageOutline,
-    IOLanguage,
-    IOLaptopOutline,
-    IOLaptop,
-    IOLayersOutline,
-    IOLayers,
-    IOLeafOutline,
-    IOLeaf,
-    IOLibraryOutline,
-    IOLibrary,
-    IOLinkOutline,
-    IOLink,
-    IOListCircleOutline,
-    IOListCircle,
-    IOListOutline,
-    IOList,
-    IOLocateOutline,
-    IOLocate,
-    IOLocationOutline,
-    IOLocation,
-    IOLockClosedOutline,
-    IOLockClosed,
-    IOLockOpenOutline,
-    IOLockOpen,
-    IOLogInOutline,
-    IOLogIn,
-    IOLogOutOutline,
-    IOLogOut,
-    IOLogoAlipay,
-    IOLogoAmazon,
-    IOLogoAmplify,
-    IOLogoAndroid,
-    IOLogoAngular,
-    IOLogoAppleAppstore,
-    IOLogoAppleAr,
-    IOLogoApple,
-    IOLogoBehance,
-    IOLogoBitbucket,
-    IOLogoBitcoin,
-    IOLogoBuffer,
-    IOLogoCapacitor,
-    IOLogoChrome,
-    IOLogoClosedCaptioning,
-    IOLogoCodepen,
-    IOLogoCss3,
-    IOLogoDesignernews,
-    IOLogoDeviantart,
-    IOLogoDiscord,
-    IOLogoDocker,
-    IOLogoDribbble,
-    IOLogoDropbox,
-    IOLogoEdge,
-    IOLogoElectron,
-    IOLogoEuro,
-    IOLogoFacebook,
-    IOLogoFigma,
-    IOLogoFirebase,
-    IOLogoFirefox,
-    IOLogoFlickr,
-    IOLogoFoursquare,
-    IOLogoGithub,
-    IOLogoGitlab,
-    IOLogoGooglePlaystore,
-    IOLogoGoogle,
-    IOLogoHackernews,
-    IOLogoHtml5,
-    IOLogoInstagram,
-    IOLogoIonic,
-    IOLogoIonitron,
-    IOLogoJavascript,
-    IOLogoLaravel,
-    IOLogoLinkedin,
-    IOLogoMarkdown,
-    IOLogoMastodon,
-    IOLogoMedium,
-    IOLogoMicrosoft,
-    IOLogoNoSmoking,
-    IOLogoNodejs,
-    IOLogoNpm,
-    IOLogoOctocat,
-    IOLogoPaypal,
-    IOLogoPinterest,
-    IOLogoPlaystation,
-    IOLogoPwa,
-    IOLogoPython,
-    IOLogoReact,
-    IOLogoReddit,
-    IOLogoRss,
-    IOLogoSass,
-    IOLogoSkype,
-    IOLogoSlack,
-    IOLogoSnapchat,
-    IOLogoSoundcloud,
-    IOLogoStackoverflow,
-    IOLogoSteam,
-    IOLogoStencil,
-    IOLogoTableau,
-    IOLogoTiktok,
-    IOLogoTumblr,
-    IOLogoTux,
-    IOLogoTwitch,
-    IOLogoTwitter,
-    IOLogoUsd,
-    IOLogoVenmo,
-    IOLogoVercel,
-    IOLogoVimeo,
-    IOLogoVk,
-    IOLogoVue,
-    IOLogoWebComponent,
-    IOLogoWechat,
-    IOLogoWhatsapp,
-    IOLogoWindows,
-    IOLogoWordpress,
-    IOLogoXbox,
-    IOLogoXing,
-    IOLogoYahoo,
-    IOLogoYen,
-    IOLogoYoutube,
-    IOMagnetOutline,
-    IOMagnet,
-    IOMailOpenOutline,
-    IOMailOpen,
-    IOMailOutline,
-    IOMailUnreadOutline,
-    IOMailUnread,
-    IOMail,
-    IOMaleFemaleOutline,
-    IOMaleFemale,
-    IOMaleOutline,
-    IOMale,
-    IOManOutline,
-    IOMan,
-    IOMapOutline,
-    IOMap,
-    IOMedalOutline,
-    IOMedal,
-    IOMedicalOutline,
-    IOMedical,
-    IOMedkitOutline,
-    IOMedkit,
-    IOMegaphoneOutline,
-    IOMegaphone,
-    IOMenuOutline,
-    IOMenu,
-    IOMicCircleOutline,
-    IOMicCircle,
-    IOMicOffCircleOutline,
-    IOMicOffCircle,
-    IOMicOffOutline,
-    IOMicOff,
-    IOMicOutline,
-    IOMic,
-    IOMoonOutline,
-    IOMoon,
-    IOMoveOutline,
-    IOMove,
-    IOMusicalNoteOutline,
-    IOMusicalNote,
-    IOMusicalNotesOutline,
-    IOMusicalNotes,
-    IONavigateCircleOutline,
-    IONavigateCircle,
-    IONavigateOutline,
-    IONavigate,
-    IONewspaperOutline,
-    IONewspaper,
-    IONotificationsCircleOutline,
-    IONotificationsCircle,
-    IONotificationsOffCircleOutline,
-    IONotificationsOffCircle,
-    IONotificationsOffOutline,
-    IONotificationsOff,
-    IONotificationsOutline,
-    IONotifications,
-    IONuclearOutline,
-    IONuclear,
-    IONutritionOutline,
-    IONutrition,
-    IOOpenOutline,
-    IOOpen,
-    IOOptionsOutline,
-    IOOptions,
-    IOPaperPlaneOutline,
-    IOPaperPlane,
-    IOPartlySunnyOutline,
-    IOPartlySunny,
-    IOPauseCircleOutline,
-    IOPauseCircle,
-    IOPauseOutline,
-    IOPause,
-    IOPawOutline,
-    IOPaw,
-    IOPencilOutline,
-    IOPencil,
-    IOPeopleCircleOutline,
-    IOPeopleCircle,
-    IOPeopleOutline,
-    IOPeople,
-    IOPersonAddOutline,
-    IOPersonAdd,
-    IOPersonCircleOutline,
-    IOPersonCircle,
-    IOPersonOutline,
-    IOPersonRemoveOutline,
-    IOPersonRemove,
-    IOPerson,
-    IOPhoneLandscapeOutline,
-    IOPhoneLandscape,
-    IOPhonePortraitOutline,
-    IOPhonePortrait,
-    IOPieChartOutline,
-    IOPieChart,
-    IOPinOutline,
-    IOPin,
-    IOPintOutline,
-    IOPint,
-    IOPizzaOutline,
-    IOPizza,
-    IOPlanetOutline,
-    IOPlanet,
-    IOPlayBackCircleOutline,
-    IOPlayBackCircle,
-    IOPlayBackOutline,
-    IOPlayBack,
-    IOPlayCircleOutline,
-    IOPlayCircle,
-    IOPlayForwardCircleOutline,
-    IOPlayForwardCircle,
-    IOPlayForwardOutline,
-    IOPlayForward,
-    IOPlayOutline,
-    IOPlaySkipBackCircleOutline,
-    IOPlaySkipBackCircle,
-    IOPlaySkipBackOutline,
-    IOPlaySkipBack,
-    IOPlaySkipForwardCircleOutline,
-    IOPlaySkipForwardCircle,
-    IOPlaySkipForwardOutline,
-    IOPlaySkipForward,
-    IOPlay,
-    IOPodiumOutline,
-    IOPodium,
-    IOPowerOutline,
-    IOPower,
-    IOPricetagOutline,
-    IOPricetag,
-    IOPricetagsOutline,
-    IOPricetags,
-    IOPrintOutline,
-    IOPrint,
-    IOPrismOutline,
-    IOPrism,
-    IOPulseOutline,
-    IOPulse,
-    IOPushOutline,
-    IOPush,
-    IOQrCodeOutline,
-    IOQrCode,
-    IORadioButtonOffOutline,
-    IORadioButtonOff,
-    IORadioButtonOnOutline,
-    IORadioButtonOn,
-    IORadioOutline,
-    IORadio,
-    IORainyOutline,
-    IORainy,
-    IOReaderOutline,
-    IOReader,
-    IOReceiptOutline,
-    IOReceipt,
-    IORecordingOutline,
-    IORecording,
-    IORefreshCircleOutline,
-    IORefreshCircle,
-    IORefreshOutline,
-    IORefresh,
-    IOReloadCircleOutline,
-    IOReloadCircle,
-    IOReloadOutline,
-    IOReload,
-    IORemoveCircleOutline,
-    IORemoveCircle,
-    IORemoveOutline,
-    IORemove,
-    IOReorderFourOutline,
-    IOReorderFour,
-    IOReorderThreeOutline,
-    IOReorderThree,
-    IOReorderTwoOutline,
-    IOReorderTwo,
-    IORepeatOutline,
-    IORepeat,
-    IOResizeOutline,
-    IOResize,
-    IORestaurantOutline,
-    IORestaurant,
-    IOReturnDownBackOutline,
-    IOReturnDownBack,
-    IOReturnDownForwardOutline,
-    IOReturnDownForward,
-    IOReturnUpBackOutline,
-    IOReturnUpBack,
-    IOReturnUpForwardOutline,
-    IOReturnUpForward,
-    IORibbonOutline,
-    IORibbon,
-    IORocketOutline,
-    IORocket,
-    IORoseOutline,
-    IORose,
-    IOSadOutline,
-    IOSad,
-    IOSaveOutline,
-    IOSave,
-    IOScaleOutline,
-    IOScale,
-    IOScanCircleOutline,
-    IOScanCircle,
-    IOScanOutline,
-    IOScan,
-    IOSchoolOutline,
-    IOSchool,
-    IOSearchCircleOutline,
-    IOSearchCircle,
-    IOSearchOutline,
-    IOSearch,
-    IOSendOutline,
-    IOSend,
-    IOServerOutline,
-    IOServer,
-    IOSettingsOutline,
-    IOSettings,
-    IOShapesOutline,
-    IOShapes,
-    IOShareOutline,
-    IOShareSocialOutline,
-    IOShareSocial,
-    IOShare,
-    IOShieldCheckmarkOutline,
-    IOShieldCheckmark,
-    IOShieldHalfOutline,
-    IOShieldHalf,
-    IOShieldOutline,
-    IOShield,
-    IOShirtOutline,
-    IOShirt,
-    IOShuffleOutline,
-    IOShuffle,
-    IOSkullOutline,
-    IOSkull,
-    IOSnowOutline,
-    IOSnow,
-    IOSparklesOutline,
-    IOSparkles,
-    IOSpeedometerOutline,
-    IOSpeedometer,
-    IOSquareOutline,
-    IOSquare,
-    IOStarHalfOutline,
-    IOStarHalf,
-    IOStarOutline,
-    IOStar,
-    IOStatsChartOutline,
-    IOStatsChart,
-    IOStopCircleOutline,
-    IOStopCircle,
-    IOStopOutline,
-    IOStop,
-    IOStopwatchOutline,
-    IOStopwatch,
-    IOStorefrontOutline,
-    IOStorefront,
-    IOSubwayOutline,
-    IOSubway,
-    IOSunnyOutline,
-    IOSunny,
-    IOSwapHorizontalOutline,
-    IOSwapHorizontal,
-    IOSwapVerticalOutline,
-    IOSwapVertical,
-    IOSyncCircleOutline,
-    IOSyncCircle,
-    IOSyncOutline,
-    IOSync,
-    IOTabletLandscapeOutline,
-    IOTabletLandscape,
-    IOTabletPortraitOutline,
-    IOTabletPortrait,
-    IOTelescopeOutline,
-    IOTelescope,
-    IOTennisballOutline,
-    IOTennisball,
-    IOTerminalOutline,
-    IOTerminal,
-    IOTextOutline,
-    IOText,
-    IOThermometerOutline,
-    IOThermometer,
-    IOThumbsDownOutline,
-    IOThumbsDown,
-    IOThumbsUpOutline,
-    IOThumbsUp,
-    IOThunderstormOutline,
-    IOThunderstorm,
-    IOTicketOutline,
-    IOTicket,
-    IOTimeOutline,
-    IOTime,
-    IOTimerOutline,
-    IOTimer,
-    IOTodayOutline,
-    IOToday,
-    IOToggleOutline,
-    IOToggle,
-    IOTrailSignOutline,
-    IOTrailSign,
-    IOTrainOutline,
-    IOTrain,
-    IOTransgenderOutline,
-    IOTransgender,
-    IOTrashBinOutline,
-    IOTrashBin,
-    IOTrashOutline,
-    IOTrash,
-    IOTrendingDownOutline,
-    IOTrendingDown,
-    IOTrendingUpOutline,
-    IOTrendingUp,
-    IOTriangleOutline,
-    IOTriangle,
-    IOTrophyOutline,
-    IOTrophy,
-    IOTvOutline,
-    IOTv,
-    IOUmbrellaOutline,
-    IOUmbrella,
-    IOUnlinkOutline,
-    IOUnlink,
-    IOVideocamOffOutline,
-    IOVideocamOff,
-    IOVideocamOutline,
-    IOVideocam,
-    IOVolumeHighOutline,
-    IOVolumeHigh,
-    IOVolumeLowOutline,
-    IOVolumeLow,
-    IOVolumeMediumOutline,
-    IOVolumeMedium,
-    IOVolumeMuteOutline,
-    IOVolumeMute,
-    IOVolumeOffOutline,
-    IOVolumeOff,
-    IOWalkOutline,
-    IOWalk,
-    IOWalletOutline,
-    IOWallet,
-    IOWarningOutline,
-    IOWarning,
-    IOWatchOutline,
-    IOWatch,
-    IOWaterOutline,
-    IOWater,
-    IOWifiOutline,
-    IOWifi,
-    IOWineOutline,
-    IOWine,
-    IOWomanOutline,
-    IOWoman,
-}
+  IOAccessibilityOutline,
+  IOAccessibility,
+  IOAddCircleOutline,
+  IOAddCircle,
+  IOAddOutline,
+  IOAdd,
+  IOAirplaneOutline,
+  IOAirplane,
+  IOAlarmOutline,
+  IOAlarm,
+  IOAlbumsOutline,
+  IOAlbums,
+  IOAlertCircleOutline,
+  IOAlertCircle,
+  IOAlertOutline,
+  IOAlert,
+  IOAmericanFootballOutline,
+  IOAmericanFootball,
+  IOAnalyticsOutline,
+  IOAnalytics,
+  IOApertureOutline,
+  IOAperture,
+  IOAppsOutline,
+  IOApps,
+  IOArchiveOutline,
+  IOArchive,
+  IOArrowBackCircleOutline,
+  IOArrowBackCircle,
+  IOArrowBackOutline,
+  IOArrowBack,
+  IOArrowDownCircleOutline,
+  IOArrowDownCircle,
+  IOArrowDownOutline,
+  IOArrowDown,
+  IOArrowForwardCircleOutline,
+  IOArrowForwardCircle,
+  IOArrowForwardOutline,
+  IOArrowForward,
+  IOArrowRedoCircleOutline,
+  IOArrowRedoCircle,
+  IOArrowRedoOutline,
+  IOArrowRedo,
+  IOArrowUndoCircleOutline,
+  IOArrowUndoCircle,
+  IOArrowUndoOutline,
+  IOArrowUndo,
+  IOArrowUpCircleOutline,
+  IOArrowUpCircle,
+  IOArrowUpOutline,
+  IOArrowUp,
+  IOAtCircleOutline,
+  IOAtCircle,
+  IOAtOutline,
+  IOAt,
+  IOAttachOutline,
+  IOAttach,
+  IOBackspaceOutline,
+  IOBackspace,
+  IOBagAddOutline,
+  IOBagAdd,
+  IOBagCheckOutline,
+  IOBagCheck,
+  IOBagHandleOutline,
+  IOBagHandle,
+  IOBagOutline,
+  IOBagRemoveOutline,
+  IOBagRemove,
+  IOBag,
+  IOBalloonOutline,
+  IOBalloon,
+  IOBanOutline,
+  IOBan,
+  IOBandageOutline,
+  IOBandage,
+  IOBarChartOutline,
+  IOBarChart,
+  IOBarbellOutline,
+  IOBarbell,
+  IOBarcodeOutline,
+  IOBarcode,
+  IOBaseballOutline,
+  IOBaseball,
+  IOBasketOutline,
+  IOBasket,
+  IOBasketballOutline,
+  IOBasketball,
+  IOBatteryChargingOutline,
+  IOBatteryCharging,
+  IOBatteryDeadOutline,
+  IOBatteryDead,
+  IOBatteryFullOutline,
+  IOBatteryFull,
+  IOBatteryHalfOutline,
+  IOBatteryHalf,
+  IOBeakerOutline,
+  IOBeaker,
+  IOBedOutline,
+  IOBed,
+  IOBeerOutline,
+  IOBeer,
+  IOBicycleOutline,
+  IOBicycle,
+  IOBluetoothOutline,
+  IOBluetooth,
+  IOBoatOutline,
+  IOBoat,
+  IOBodyOutline,
+  IOBody,
+  IOBonfireOutline,
+  IOBonfire,
+  IOBookOutline,
+  IOBook,
+  IOBookmarkOutline,
+  IOBookmark,
+  IOBookmarksOutline,
+  IOBookmarks,
+  IOBowlingBallOutline,
+  IOBowlingBall,
+  IOBriefcaseOutline,
+  IOBriefcase,
+  IOBrowsersOutline,
+  IOBrowsers,
+  IOBrushOutline,
+  IOBrush,
+  IOBugOutline,
+  IOBug,
+  IOBuildOutline,
+  IOBuild,
+  IOBulbOutline,
+  IOBulb,
+  IOBusOutline,
+  IOBus,
+  IOBusinessOutline,
+  IOBusiness,
+  IOCafeOutline,
+  IOCafe,
+  IOCalculatorOutline,
+  IOCalculator,
+  IOCalendarClearOutline,
+  IOCalendarClear,
+  IOCalendarNumberOutline,
+  IOCalendarNumber,
+  IOCalendarOutline,
+  IOCalendar,
+  IOCallOutline,
+  IOCall,
+  IOCameraOutline,
+  IOCameraReverseOutline,
+  IOCameraReverse,
+  IOCamera,
+  IOCarOutline,
+  IOCarSportOutline,
+  IOCarSport,
+  IOCar,
+  IOCardOutline,
+  IOCard,
+  IOCaretBackCircleOutline,
+  IOCaretBackCircle,
+  IOCaretBackOutline,
+  IOCaretBack,
+  IOCaretDownCircleOutline,
+  IOCaretDownCircle,
+  IOCaretDownOutline,
+  IOCaretDown,
+  IOCaretForwardCircleOutline,
+  IOCaretForwardCircle,
+  IOCaretForwardOutline,
+  IOCaretForward,
+  IOCaretUpCircleOutline,
+  IOCaretUpCircle,
+  IOCaretUpOutline,
+  IOCaretUp,
+  IOCartOutline,
+  IOCart,
+  IOCashOutline,
+  IOCash,
+  IOCellularOutline,
+  IOCellular,
+  IOChatboxEllipsesOutline,
+  IOChatboxEllipses,
+  IOChatboxOutline,
+  IOChatbox,
+  IOChatbubbleEllipsesOutline,
+  IOChatbubbleEllipses,
+  IOChatbubbleOutline,
+  IOChatbubble,
+  IOChatbubblesOutline,
+  IOChatbubbles,
+  IOCheckboxOutline,
+  IOCheckbox,
+  IOCheckmarkCircleOutline,
+  IOCheckmarkCircle,
+  IOCheckmarkDoneCircleOutline,
+  IOCheckmarkDoneCircle,
+  IOCheckmarkDoneOutline,
+  IOCheckmarkDone,
+  IOCheckmarkOutline,
+  IOCheckmark,
+  IOChevronBackCircleOutline,
+  IOChevronBackCircle,
+  IOChevronBackOutline,
+  IOChevronBack,
+  IOChevronDownCircleOutline,
+  IOChevronDownCircle,
+  IOChevronDownOutline,
+  IOChevronDown,
+  IOChevronForwardCircleOutline,
+  IOChevronForwardCircle,
+  IOChevronForwardOutline,
+  IOChevronForward,
+  IOChevronUpCircleOutline,
+  IOChevronUpCircle,
+  IOChevronUpOutline,
+  IOChevronUp,
+  IOClipboardOutline,
+  IOClipboard,
+  IOCloseCircleOutline,
+  IOCloseCircle,
+  IOCloseOutline,
+  IOClose,
+  IOCloudCircleOutline,
+  IOCloudCircle,
+  IOCloudDoneOutline,
+  IOCloudDone,
+  IOCloudDownloadOutline,
+  IOCloudDownload,
+  IOCloudOfflineOutline,
+  IOCloudOffline,
+  IOCloudOutline,
+  IOCloudUploadOutline,
+  IOCloudUpload,
+  IOCloud,
+  IOCloudyNightOutline,
+  IOCloudyNight,
+  IOCloudyOutline,
+  IOCloudy,
+  IOCodeDownloadOutline,
+  IOCodeDownload,
+  IOCodeOutline,
+  IOCodeSlashOutline,
+  IOCodeSlash,
+  IOCodeWorkingOutline,
+  IOCodeWorking,
+  IOCode,
+  IOCogOutline,
+  IOCog,
+  IOColorFillOutline,
+  IOColorFill,
+  IOColorFilterOutline,
+  IOColorFilter,
+  IOColorPaletteOutline,
+  IOColorPalette,
+  IOColorWandOutline,
+  IOColorWand,
+  IOCompassOutline,
+  IOCompass,
+  IOConstructOutline,
+  IOConstruct,
+  IOContractOutline,
+  IOContract,
+  IOContrastOutline,
+  IOContrast,
+  IOCopyOutline,
+  IOCopy,
+  IOCreateOutline,
+  IOCreate,
+  IOCropOutline,
+  IOCrop,
+  IOCubeOutline,
+  IOCube,
+  IOCutOutline,
+  IOCut,
+  IODesktopOutline,
+  IODesktop,
+  IODiamondOutline,
+  IODiamond,
+  IODiceOutline,
+  IODice,
+  IODiscOutline,
+  IODisc,
+  IODocumentAttachOutline,
+  IODocumentAttach,
+  IODocumentLockOutline,
+  IODocumentLock,
+  IODocumentOutline,
+  IODocumentTextOutline,
+  IODocumentText,
+  IODocument,
+  IODocumentsOutline,
+  IODocuments,
+  IODownloadOutline,
+  IODownload,
+  IODuplicateOutline,
+  IODuplicate,
+  IOEarOutline,
+  IOEar,
+  IOEarthOutline,
+  IOEarth,
+  IOEaselOutline,
+  IOEasel,
+  IOEggOutline,
+  IOEgg,
+  IOEllipseOutline,
+  IOEllipse,
+  IOEllipsisHorizontalCircleOutline,
+  IOEllipsisHorizontalCircle,
+  IOEllipsisHorizontalOutline,
+  IOEllipsisHorizontal,
+  IOEllipsisVerticalCircleOutline,
+  IOEllipsisVerticalCircle,
+  IOEllipsisVerticalOutline,
+  IOEllipsisVertical,
+  IOEnterOutline,
+  IOEnter,
+  IOExitOutline,
+  IOExit,
+  IOExpandOutline,
+  IOExpand,
+  IOExtensionPuzzleOutline,
+  IOExtensionPuzzle,
+  IOEyeOffOutline,
+  IOEyeOff,
+  IOEyeOutline,
+  IOEye,
+  IOEyedropOutline,
+  IOEyedrop,
+  IOFastFoodOutline,
+  IOFastFood,
+  IOFemaleOutline,
+  IOFemale,
+  IOFileTrayFullOutline,
+  IOFileTrayFull,
+  IOFileTrayOutline,
+  IOFileTrayStackedOutline,
+  IOFileTrayStacked,
+  IOFileTray,
+  IOFilmOutline,
+  IOFilm,
+  IOFilterCircleOutline,
+  IOFilterCircle,
+  IOFilterOutline,
+  IOFilter,
+  IOFingerPrintOutline,
+  IOFingerPrint,
+  IOFishOutline,
+  IOFish,
+  IOFitnessOutline,
+  IOFitness,
+  IOFlagOutline,
+  IOFlag,
+  IOFlameOutline,
+  IOFlame,
+  IOFlashOffOutline,
+  IOFlashOff,
+  IOFlashOutline,
+  IOFlash,
+  IOFlashlightOutline,
+  IOFlashlight,
+  IOFlaskOutline,
+  IOFlask,
+  IOFlowerOutline,
+  IOFlower,
+  IOFolderOpenOutline,
+  IOFolderOpen,
+  IOFolderOutline,
+  IOFolder,
+  IOFootballOutline,
+  IOFootball,
+  IOFootstepsOutline,
+  IOFootsteps,
+  IOFunnelOutline,
+  IOFunnel,
+  IOGameControllerOutline,
+  IOGameController,
+  IOGiftOutline,
+  IOGift,
+  IOGitBranchOutline,
+  IOGitBranch,
+  IOGitCommitOutline,
+  IOGitCommit,
+  IOGitCompareOutline,
+  IOGitCompare,
+  IOGitMergeOutline,
+  IOGitMerge,
+  IOGitNetworkOutline,
+  IOGitNetwork,
+  IOGitPullRequestOutline,
+  IOGitPullRequest,
+  IOGlassesOutline,
+  IOGlasses,
+  IOGlobeOutline,
+  IOGlobe,
+  IOGolfOutline,
+  IOGolf,
+  IOGridOutline,
+  IOGrid,
+  IOHammerOutline,
+  IOHammer,
+  IOHandLeftOutline,
+  IOHandLeft,
+  IOHandRightOutline,
+  IOHandRight,
+  IOHappyOutline,
+  IOHappy,
+  IOHardwareChipOutline,
+  IOHardwareChip,
+  IOHeadsetOutline,
+  IOHeadset,
+  IOHeartCircleOutline,
+  IOHeartCircle,
+  IOHeartDislikeCircleOutline,
+  IOHeartDislikeCircle,
+  IOHeartDislikeOutline,
+  IOHeartDislike,
+  IOHeartHalfOutline,
+  IOHeartHalf,
+  IOHeartOutline,
+  IOHeart,
+  IOHelpBuoyOutline,
+  IOHelpBuoy,
+  IOHelpCircleOutline,
+  IOHelpCircle,
+  IOHelpOutline,
+  IOHelp,
+  IOHomeOutline,
+  IOHome,
+  IOHourglassOutline,
+  IOHourglass,
+  IOIceCreamOutline,
+  IOIceCream,
+  IOIdCardOutline,
+  IOIdCard,
+  IOImageOutline,
+  IOImage,
+  IOImagesOutline,
+  IOImages,
+  IOInfiniteOutline,
+  IOInfinite,
+  IOInformationCircleOutline,
+  IOInformationCircle,
+  IOInformationOutline,
+  IOInformation,
+  IOInvertModeOutline,
+  IOInvertMode,
+  IOJournalOutline,
+  IOJournal,
+  IOKeyOutline,
+  IOKey,
+  IOKeypadOutline,
+  IOKeypad,
+  IOLanguageOutline,
+  IOLanguage,
+  IOLaptopOutline,
+  IOLaptop,
+  IOLayersOutline,
+  IOLayers,
+  IOLeafOutline,
+  IOLeaf,
+  IOLibraryOutline,
+  IOLibrary,
+  IOLinkOutline,
+  IOLink,
+  IOListCircleOutline,
+  IOListCircle,
+  IOListOutline,
+  IOList,
+  IOLocateOutline,
+  IOLocate,
+  IOLocationOutline,
+  IOLocation,
+  IOLockClosedOutline,
+  IOLockClosed,
+  IOLockOpenOutline,
+  IOLockOpen,
+  IOLogInOutline,
+  IOLogIn,
+  IOLogOutOutline,
+  IOLogOut,
+  IOLogoAlipay,
+  IOLogoAmazon,
+  IOLogoAmplify,
+  IOLogoAndroid,
+  IOLogoAngular,
+  IOLogoAppleAppstore,
+  IOLogoAppleAr,
+  IOLogoApple,
+  IOLogoBehance,
+  IOLogoBitbucket,
+  IOLogoBitcoin,
+  IOLogoBuffer,
+  IOLogoCapacitor,
+  IOLogoChrome,
+  IOLogoClosedCaptioning,
+  IOLogoCodepen,
+  IOLogoCss3,
+  IOLogoDesignernews,
+  IOLogoDeviantart,
+  IOLogoDiscord,
+  IOLogoDocker,
+  IOLogoDribbble,
+  IOLogoDropbox,
+  IOLogoEdge,
+  IOLogoElectron,
+  IOLogoEuro,
+  IOLogoFacebook,
+  IOLogoFigma,
+  IOLogoFirebase,
+  IOLogoFirefox,
+  IOLogoFlickr,
+  IOLogoFoursquare,
+  IOLogoGithub,
+  IOLogoGitlab,
+  IOLogoGooglePlaystore,
+  IOLogoGoogle,
+  IOLogoHackernews,
+  IOLogoHtml5,
+  IOLogoInstagram,
+  IOLogoIonic,
+  IOLogoIonitron,
+  IOLogoJavascript,
+  IOLogoLaravel,
+  IOLogoLinkedin,
+  IOLogoMarkdown,
+  IOLogoMastodon,
+  IOLogoMedium,
+  IOLogoMicrosoft,
+  IOLogoNoSmoking,
+  IOLogoNodejs,
+  IOLogoNpm,
+  IOLogoOctocat,
+  IOLogoPaypal,
+  IOLogoPinterest,
+  IOLogoPlaystation,
+  IOLogoPwa,
+  IOLogoPython,
+  IOLogoReact,
+  IOLogoReddit,
+  IOLogoRss,
+  IOLogoSass,
+  IOLogoSkype,
+  IOLogoSlack,
+  IOLogoSnapchat,
+  IOLogoSoundcloud,
+  IOLogoStackoverflow,
+  IOLogoSteam,
+  IOLogoStencil,
+  IOLogoTableau,
+  IOLogoTiktok,
+  IOLogoTumblr,
+  IOLogoTux,
+  IOLogoTwitch,
+  IOLogoTwitter,
+  IOLogoUsd,
+  IOLogoVenmo,
+  IOLogoVercel,
+  IOLogoVimeo,
+  IOLogoVk,
+  IOLogoVue,
+  IOLogoWebComponent,
+  IOLogoWechat,
+  IOLogoWhatsapp,
+  IOLogoWindows,
+  IOLogoWordpress,
+  IOLogoXbox,
+  IOLogoXing,
+  IOLogoYahoo,
+  IOLogoYen,
+  IOLogoYoutube,
+  IOMagnetOutline,
+  IOMagnet,
+  IOMailOpenOutline,
+  IOMailOpen,
+  IOMailOutline,
+  IOMailUnreadOutline,
+  IOMailUnread,
+  IOMail,
+  IOMaleFemaleOutline,
+  IOMaleFemale,
+  IOMaleOutline,
+  IOMale,
+  IOManOutline,
+  IOMan,
+  IOMapOutline,
+  IOMap,
+  IOMedalOutline,
+  IOMedal,
+  IOMedicalOutline,
+  IOMedical,
+  IOMedkitOutline,
+  IOMedkit,
+  IOMegaphoneOutline,
+  IOMegaphone,
+  IOMenuOutline,
+  IOMenu,
+  IOMicCircleOutline,
+  IOMicCircle,
+  IOMicOffCircleOutline,
+  IOMicOffCircle,
+  IOMicOffOutline,
+  IOMicOff,
+  IOMicOutline,
+  IOMic,
+  IOMoonOutline,
+  IOMoon,
+  IOMoveOutline,
+  IOMove,
+  IOMusicalNoteOutline,
+  IOMusicalNote,
+  IOMusicalNotesOutline,
+  IOMusicalNotes,
+  IONavigateCircleOutline,
+  IONavigateCircle,
+  IONavigateOutline,
+  IONavigate,
+  IONewspaperOutline,
+  IONewspaper,
+  IONotificationsCircleOutline,
+  IONotificationsCircle,
+  IONotificationsOffCircleOutline,
+  IONotificationsOffCircle,
+  IONotificationsOffOutline,
+  IONotificationsOff,
+  IONotificationsOutline,
+  IONotifications,
+  IONuclearOutline,
+  IONuclear,
+  IONutritionOutline,
+  IONutrition,
+  IOOpenOutline,
+  IOOpen,
+  IOOptionsOutline,
+  IOOptions,
+  IOPaperPlaneOutline,
+  IOPaperPlane,
+  IOPartlySunnyOutline,
+  IOPartlySunny,
+  IOPauseCircleOutline,
+  IOPauseCircle,
+  IOPauseOutline,
+  IOPause,
+  IOPawOutline,
+  IOPaw,
+  IOPencilOutline,
+  IOPencil,
+  IOPeopleCircleOutline,
+  IOPeopleCircle,
+  IOPeopleOutline,
+  IOPeople,
+  IOPersonAddOutline,
+  IOPersonAdd,
+  IOPersonCircleOutline,
+  IOPersonCircle,
+  IOPersonOutline,
+  IOPersonRemoveOutline,
+  IOPersonRemove,
+  IOPerson,
+  IOPhoneLandscapeOutline,
+  IOPhoneLandscape,
+  IOPhonePortraitOutline,
+  IOPhonePortrait,
+  IOPieChartOutline,
+  IOPieChart,
+  IOPinOutline,
+  IOPin,
+  IOPintOutline,
+  IOPint,
+  IOPizzaOutline,
+  IOPizza,
+  IOPlanetOutline,
+  IOPlanet,
+  IOPlayBackCircleOutline,
+  IOPlayBackCircle,
+  IOPlayBackOutline,
+  IOPlayBack,
+  IOPlayCircleOutline,
+  IOPlayCircle,
+  IOPlayForwardCircleOutline,
+  IOPlayForwardCircle,
+  IOPlayForwardOutline,
+  IOPlayForward,
+  IOPlayOutline,
+  IOPlaySkipBackCircleOutline,
+  IOPlaySkipBackCircle,
+  IOPlaySkipBackOutline,
+  IOPlaySkipBack,
+  IOPlaySkipForwardCircleOutline,
+  IOPlaySkipForwardCircle,
+  IOPlaySkipForwardOutline,
+  IOPlaySkipForward,
+  IOPlay,
+  IOPodiumOutline,
+  IOPodium,
+  IOPowerOutline,
+  IOPower,
+  IOPricetagOutline,
+  IOPricetag,
+  IOPricetagsOutline,
+  IOPricetags,
+  IOPrintOutline,
+  IOPrint,
+  IOPrismOutline,
+  IOPrism,
+  IOPulseOutline,
+  IOPulse,
+  IOPushOutline,
+  IOPush,
+  IOQrCodeOutline,
+  IOQrCode,
+  IORadioButtonOffOutline,
+  IORadioButtonOff,
+  IORadioButtonOnOutline,
+  IORadioButtonOn,
+  IORadioOutline,
+  IORadio,
+  IORainyOutline,
+  IORainy,
+  IOReaderOutline,
+  IOReader,
+  IOReceiptOutline,
+  IOReceipt,
+  IORecordingOutline,
+  IORecording,
+  IORefreshCircleOutline,
+  IORefreshCircle,
+  IORefreshOutline,
+  IORefresh,
+  IOReloadCircleOutline,
+  IOReloadCircle,
+  IOReloadOutline,
+  IOReload,
+  IORemoveCircleOutline,
+  IORemoveCircle,
+  IORemoveOutline,
+  IORemove,
+  IOReorderFourOutline,
+  IOReorderFour,
+  IOReorderThreeOutline,
+  IOReorderThree,
+  IOReorderTwoOutline,
+  IOReorderTwo,
+  IORepeatOutline,
+  IORepeat,
+  IOResizeOutline,
+  IOResize,
+  IORestaurantOutline,
+  IORestaurant,
+  IOReturnDownBackOutline,
+  IOReturnDownBack,
+  IOReturnDownForwardOutline,
+  IOReturnDownForward,
+  IOReturnUpBackOutline,
+  IOReturnUpBack,
+  IOReturnUpForwardOutline,
+  IOReturnUpForward,
+  IORibbonOutline,
+  IORibbon,
+  IORocketOutline,
+  IORocket,
+  IORoseOutline,
+  IORose,
+  IOSadOutline,
+  IOSad,
+  IOSaveOutline,
+  IOSave,
+  IOScaleOutline,
+  IOScale,
+  IOScanCircleOutline,
+  IOScanCircle,
+  IOScanOutline,
+  IOScan,
+  IOSchoolOutline,
+  IOSchool,
+  IOSearchCircleOutline,
+  IOSearchCircle,
+  IOSearchOutline,
+  IOSearch,
+  IOSendOutline,
+  IOSend,
+  IOServerOutline,
+  IOServer,
+  IOSettingsOutline,
+  IOSettings,
+  IOShapesOutline,
+  IOShapes,
+  IOShareOutline,
+  IOShareSocialOutline,
+  IOShareSocial,
+  IOShare,
+  IOShieldCheckmarkOutline,
+  IOShieldCheckmark,
+  IOShieldHalfOutline,
+  IOShieldHalf,
+  IOShieldOutline,
+  IOShield,
+  IOShirtOutline,
+  IOShirt,
+  IOShuffleOutline,
+  IOShuffle,
+  IOSkullOutline,
+  IOSkull,
+  IOSnowOutline,
+  IOSnow,
+  IOSparklesOutline,
+  IOSparkles,
+  IOSpeedometerOutline,
+  IOSpeedometer,
+  IOSquareOutline,
+  IOSquare,
+  IOStarHalfOutline,
+  IOStarHalf,
+  IOStarOutline,
+  IOStar,
+  IOStatsChartOutline,
+  IOStatsChart,
+  IOStopCircleOutline,
+  IOStopCircle,
+  IOStopOutline,
+  IOStop,
+  IOStopwatchOutline,
+  IOStopwatch,
+  IOStorefrontOutline,
+  IOStorefront,
+  IOSubwayOutline,
+  IOSubway,
+  IOSunnyOutline,
+  IOSunny,
+  IOSwapHorizontalOutline,
+  IOSwapHorizontal,
+  IOSwapVerticalOutline,
+  IOSwapVertical,
+  IOSyncCircleOutline,
+  IOSyncCircle,
+  IOSyncOutline,
+  IOSync,
+  IOTabletLandscapeOutline,
+  IOTabletLandscape,
+  IOTabletPortraitOutline,
+  IOTabletPortrait,
+  IOTelescopeOutline,
+  IOTelescope,
+  IOTennisballOutline,
+  IOTennisball,
+  IOTerminalOutline,
+  IOTerminal,
+  IOTextOutline,
+  IOText,
+  IOThermometerOutline,
+  IOThermometer,
+  IOThumbsDownOutline,
+  IOThumbsDown,
+  IOThumbsUpOutline,
+  IOThumbsUp,
+  IOThunderstormOutline,
+  IOThunderstorm,
+  IOTicketOutline,
+  IOTicket,
+  IOTimeOutline,
+  IOTime,
+  IOTimerOutline,
+  IOTimer,
+  IOTodayOutline,
+  IOToday,
+  IOToggleOutline,
+  IOToggle,
+  IOTrailSignOutline,
+  IOTrailSign,
+  IOTrainOutline,
+  IOTrain,
+  IOTransgenderOutline,
+  IOTransgender,
+  IOTrashBinOutline,
+  IOTrashBin,
+  IOTrashOutline,
+  IOTrash,
+  IOTrendingDownOutline,
+  IOTrendingDown,
+  IOTrendingUpOutline,
+  IOTrendingUp,
+  IOTriangleOutline,
+  IOTriangle,
+  IOTrophyOutline,
+  IOTrophy,
+  IOTvOutline,
+  IOTv,
+  IOUmbrellaOutline,
+  IOUmbrella,
+  IOUnlinkOutline,
+  IOUnlink,
+  IOVideocamOffOutline,
+  IOVideocamOff,
+  IOVideocamOutline,
+  IOVideocam,
+  IOVolumeHighOutline,
+  IOVolumeHigh,
+  IOVolumeLowOutline,
+  IOVolumeLow,
+  IOVolumeMediumOutline,
+  IOVolumeMedium,
+  IOVolumeMuteOutline,
+  IOVolumeMute,
+  IOVolumeOffOutline,
+  IOVolumeOff,
+  IOWalkOutline,
+  IOWalk,
+  IOWalletOutline,
+  IOWallet,
+  IOWarningOutline,
+  IOWarning,
+  IOWatchOutline,
+  IOWatch,
+  IOWaterOutline,
+  IOWater,
+  IOWifiOutline,
+  IOWifi,
+  IOWineOutline,
+  IOWine,
+  IOWomanOutline,
+  IOWoman,
+};
 
 export type IONames =
-    | 'IOAccessibilityOutline'
-    | 'IOAccessibility'
-    | 'IOAddCircleOutline'
-    | 'IOAddCircle'
-    | 'IOAddOutline'
-    | 'IOAdd'
-    | 'IOAirplaneOutline'
-    | 'IOAirplane'
-    | 'IOAlarmOutline'
-    | 'IOAlarm'
-    | 'IOAlbumsOutline'
-    | 'IOAlbums'
-    | 'IOAlertCircleOutline'
-    | 'IOAlertCircle'
-    | 'IOAlertOutline'
-    | 'IOAlert'
-    | 'IOAmericanFootballOutline'
-    | 'IOAmericanFootball'
-    | 'IOAnalyticsOutline'
-    | 'IOAnalytics'
-    | 'IOApertureOutline'
-    | 'IOAperture'
-    | 'IOAppsOutline'
-    | 'IOApps'
-    | 'IOArchiveOutline'
-    | 'IOArchive'
-    | 'IOArrowBackCircleOutline'
-    | 'IOArrowBackCircle'
-    | 'IOArrowBackOutline'
-    | 'IOArrowBack'
-    | 'IOArrowDownCircleOutline'
-    | 'IOArrowDownCircle'
-    | 'IOArrowDownOutline'
-    | 'IOArrowDown'
-    | 'IOArrowForwardCircleOutline'
-    | 'IOArrowForwardCircle'
-    | 'IOArrowForwardOutline'
-    | 'IOArrowForward'
-    | 'IOArrowRedoCircleOutline'
-    | 'IOArrowRedoCircle'
-    | 'IOArrowRedoOutline'
-    | 'IOArrowRedo'
-    | 'IOArrowUndoCircleOutline'
-    | 'IOArrowUndoCircle'
-    | 'IOArrowUndoOutline'
-    | 'IOArrowUndo'
-    | 'IOArrowUpCircleOutline'
-    | 'IOArrowUpCircle'
-    | 'IOArrowUpOutline'
-    | 'IOArrowUp'
-    | 'IOAtCircleOutline'
-    | 'IOAtCircle'
-    | 'IOAtOutline'
-    | 'IOAt'
-    | 'IOAttachOutline'
-    | 'IOAttach'
-    | 'IOBackspaceOutline'
-    | 'IOBackspace'
-    | 'IOBagAddOutline'
-    | 'IOBagAdd'
-    | 'IOBagCheckOutline'
-    | 'IOBagCheck'
-    | 'IOBagHandleOutline'
-    | 'IOBagHandle'
-    | 'IOBagOutline'
-    | 'IOBagRemoveOutline'
-    | 'IOBagRemove'
-    | 'IOBag'
-    | 'IOBalloonOutline'
-    | 'IOBalloon'
-    | 'IOBanOutline'
-    | 'IOBan'
-    | 'IOBandageOutline'
-    | 'IOBandage'
-    | 'IOBarChartOutline'
-    | 'IOBarChart'
-    | 'IOBarbellOutline'
-    | 'IOBarbell'
-    | 'IOBarcodeOutline'
-    | 'IOBarcode'
-    | 'IOBaseballOutline'
-    | 'IOBaseball'
-    | 'IOBasketOutline'
-    | 'IOBasket'
-    | 'IOBasketballOutline'
-    | 'IOBasketball'
-    | 'IOBatteryChargingOutline'
-    | 'IOBatteryCharging'
-    | 'IOBatteryDeadOutline'
-    | 'IOBatteryDead'
-    | 'IOBatteryFullOutline'
-    | 'IOBatteryFull'
-    | 'IOBatteryHalfOutline'
-    | 'IOBatteryHalf'
-    | 'IOBeakerOutline'
-    | 'IOBeaker'
-    | 'IOBedOutline'
-    | 'IOBed'
-    | 'IOBeerOutline'
-    | 'IOBeer'
-    | 'IOBicycleOutline'
-    | 'IOBicycle'
-    | 'IOBluetoothOutline'
-    | 'IOBluetooth'
-    | 'IOBoatOutline'
-    | 'IOBoat'
-    | 'IOBodyOutline'
-    | 'IOBody'
-    | 'IOBonfireOutline'
-    | 'IOBonfire'
-    | 'IOBookOutline'
-    | 'IOBook'
-    | 'IOBookmarkOutline'
-    | 'IOBookmark'
-    | 'IOBookmarksOutline'
-    | 'IOBookmarks'
-    | 'IOBowlingBallOutline'
-    | 'IOBowlingBall'
-    | 'IOBriefcaseOutline'
-    | 'IOBriefcase'
-    | 'IOBrowsersOutline'
-    | 'IOBrowsers'
-    | 'IOBrushOutline'
-    | 'IOBrush'
-    | 'IOBugOutline'
-    | 'IOBug'
-    | 'IOBuildOutline'
-    | 'IOBuild'
-    | 'IOBulbOutline'
-    | 'IOBulb'
-    | 'IOBusOutline'
-    | 'IOBus'
-    | 'IOBusinessOutline'
-    | 'IOBusiness'
-    | 'IOCafeOutline'
-    | 'IOCafe'
-    | 'IOCalculatorOutline'
-    | 'IOCalculator'
-    | 'IOCalendarClearOutline'
-    | 'IOCalendarClear'
-    | 'IOCalendarNumberOutline'
-    | 'IOCalendarNumber'
-    | 'IOCalendarOutline'
-    | 'IOCalendar'
-    | 'IOCallOutline'
-    | 'IOCall'
-    | 'IOCameraOutline'
-    | 'IOCameraReverseOutline'
-    | 'IOCameraReverse'
-    | 'IOCamera'
-    | 'IOCarOutline'
-    | 'IOCarSportOutline'
-    | 'IOCarSport'
-    | 'IOCar'
-    | 'IOCardOutline'
-    | 'IOCard'
-    | 'IOCaretBackCircleOutline'
-    | 'IOCaretBackCircle'
-    | 'IOCaretBackOutline'
-    | 'IOCaretBack'
-    | 'IOCaretDownCircleOutline'
-    | 'IOCaretDownCircle'
-    | 'IOCaretDownOutline'
-    | 'IOCaretDown'
-    | 'IOCaretForwardCircleOutline'
-    | 'IOCaretForwardCircle'
-    | 'IOCaretForwardOutline'
-    | 'IOCaretForward'
-    | 'IOCaretUpCircleOutline'
-    | 'IOCaretUpCircle'
-    | 'IOCaretUpOutline'
-    | 'IOCaretUp'
-    | 'IOCartOutline'
-    | 'IOCart'
-    | 'IOCashOutline'
-    | 'IOCash'
-    | 'IOCellularOutline'
-    | 'IOCellular'
-    | 'IOChatboxEllipsesOutline'
-    | 'IOChatboxEllipses'
-    | 'IOChatboxOutline'
-    | 'IOChatbox'
-    | 'IOChatbubbleEllipsesOutline'
-    | 'IOChatbubbleEllipses'
-    | 'IOChatbubbleOutline'
-    | 'IOChatbubble'
-    | 'IOChatbubblesOutline'
-    | 'IOChatbubbles'
-    | 'IOCheckboxOutline'
-    | 'IOCheckbox'
-    | 'IOCheckmarkCircleOutline'
-    | 'IOCheckmarkCircle'
-    | 'IOCheckmarkDoneCircleOutline'
-    | 'IOCheckmarkDoneCircle'
-    | 'IOCheckmarkDoneOutline'
-    | 'IOCheckmarkDone'
-    | 'IOCheckmarkOutline'
-    | 'IOCheckmark'
-    | 'IOChevronBackCircleOutline'
-    | 'IOChevronBackCircle'
-    | 'IOChevronBackOutline'
-    | 'IOChevronBack'
-    | 'IOChevronDownCircleOutline'
-    | 'IOChevronDownCircle'
-    | 'IOChevronDownOutline'
-    | 'IOChevronDown'
-    | 'IOChevronForwardCircleOutline'
-    | 'IOChevronForwardCircle'
-    | 'IOChevronForwardOutline'
-    | 'IOChevronForward'
-    | 'IOChevronUpCircleOutline'
-    | 'IOChevronUpCircle'
-    | 'IOChevronUpOutline'
-    | 'IOChevronUp'
-    | 'IOClipboardOutline'
-    | 'IOClipboard'
-    | 'IOCloseCircleOutline'
-    | 'IOCloseCircle'
-    | 'IOCloseOutline'
-    | 'IOClose'
-    | 'IOCloudCircleOutline'
-    | 'IOCloudCircle'
-    | 'IOCloudDoneOutline'
-    | 'IOCloudDone'
-    | 'IOCloudDownloadOutline'
-    | 'IOCloudDownload'
-    | 'IOCloudOfflineOutline'
-    | 'IOCloudOffline'
-    | 'IOCloudOutline'
-    | 'IOCloudUploadOutline'
-    | 'IOCloudUpload'
-    | 'IOCloud'
-    | 'IOCloudyNightOutline'
-    | 'IOCloudyNight'
-    | 'IOCloudyOutline'
-    | 'IOCloudy'
-    | 'IOCodeDownloadOutline'
-    | 'IOCodeDownload'
-    | 'IOCodeOutline'
-    | 'IOCodeSlashOutline'
-    | 'IOCodeSlash'
-    | 'IOCodeWorkingOutline'
-    | 'IOCodeWorking'
-    | 'IOCode'
-    | 'IOCogOutline'
-    | 'IOCog'
-    | 'IOColorFillOutline'
-    | 'IOColorFill'
-    | 'IOColorFilterOutline'
-    | 'IOColorFilter'
-    | 'IOColorPaletteOutline'
-    | 'IOColorPalette'
-    | 'IOColorWandOutline'
-    | 'IOColorWand'
-    | 'IOCompassOutline'
-    | 'IOCompass'
-    | 'IOConstructOutline'
-    | 'IOConstruct'
-    | 'IOContractOutline'
-    | 'IOContract'
-    | 'IOContrastOutline'
-    | 'IOContrast'
-    | 'IOCopyOutline'
-    | 'IOCopy'
-    | 'IOCreateOutline'
-    | 'IOCreate'
-    | 'IOCropOutline'
-    | 'IOCrop'
-    | 'IOCubeOutline'
-    | 'IOCube'
-    | 'IOCutOutline'
-    | 'IOCut'
-    | 'IODesktopOutline'
-    | 'IODesktop'
-    | 'IODiamondOutline'
-    | 'IODiamond'
-    | 'IODiceOutline'
-    | 'IODice'
-    | 'IODiscOutline'
-    | 'IODisc'
-    | 'IODocumentAttachOutline'
-    | 'IODocumentAttach'
-    | 'IODocumentLockOutline'
-    | 'IODocumentLock'
-    | 'IODocumentOutline'
-    | 'IODocumentTextOutline'
-    | 'IODocumentText'
-    | 'IODocument'
-    | 'IODocumentsOutline'
-    | 'IODocuments'
-    | 'IODownloadOutline'
-    | 'IODownload'
-    | 'IODuplicateOutline'
-    | 'IODuplicate'
-    | 'IOEarOutline'
-    | 'IOEar'
-    | 'IOEarthOutline'
-    | 'IOEarth'
-    | 'IOEaselOutline'
-    | 'IOEasel'
-    | 'IOEggOutline'
-    | 'IOEgg'
-    | 'IOEllipseOutline'
-    | 'IOEllipse'
-    | 'IOEllipsisHorizontalCircleOutline'
-    | 'IOEllipsisHorizontalCircle'
-    | 'IOEllipsisHorizontalOutline'
-    | 'IOEllipsisHorizontal'
-    | 'IOEllipsisVerticalCircleOutline'
-    | 'IOEllipsisVerticalCircle'
-    | 'IOEllipsisVerticalOutline'
-    | 'IOEllipsisVertical'
-    | 'IOEnterOutline'
-    | 'IOEnter'
-    | 'IOExitOutline'
-    | 'IOExit'
-    | 'IOExpandOutline'
-    | 'IOExpand'
-    | 'IOExtensionPuzzleOutline'
-    | 'IOExtensionPuzzle'
-    | 'IOEyeOffOutline'
-    | 'IOEyeOff'
-    | 'IOEyeOutline'
-    | 'IOEye'
-    | 'IOEyedropOutline'
-    | 'IOEyedrop'
-    | 'IOFastFoodOutline'
-    | 'IOFastFood'
-    | 'IOFemaleOutline'
-    | 'IOFemale'
-    | 'IOFileTrayFullOutline'
-    | 'IOFileTrayFull'
-    | 'IOFileTrayOutline'
-    | 'IOFileTrayStackedOutline'
-    | 'IOFileTrayStacked'
-    | 'IOFileTray'
-    | 'IOFilmOutline'
-    | 'IOFilm'
-    | 'IOFilterCircleOutline'
-    | 'IOFilterCircle'
-    | 'IOFilterOutline'
-    | 'IOFilter'
-    | 'IOFingerPrintOutline'
-    | 'IOFingerPrint'
-    | 'IOFishOutline'
-    | 'IOFish'
-    | 'IOFitnessOutline'
-    | 'IOFitness'
-    | 'IOFlagOutline'
-    | 'IOFlag'
-    | 'IOFlameOutline'
-    | 'IOFlame'
-    | 'IOFlashOffOutline'
-    | 'IOFlashOff'
-    | 'IOFlashOutline'
-    | 'IOFlash'
-    | 'IOFlashlightOutline'
-    | 'IOFlashlight'
-    | 'IOFlaskOutline'
-    | 'IOFlask'
-    | 'IOFlowerOutline'
-    | 'IOFlower'
-    | 'IOFolderOpenOutline'
-    | 'IOFolderOpen'
-    | 'IOFolderOutline'
-    | 'IOFolder'
-    | 'IOFootballOutline'
-    | 'IOFootball'
-    | 'IOFootstepsOutline'
-    | 'IOFootsteps'
-    | 'IOFunnelOutline'
-    | 'IOFunnel'
-    | 'IOGameControllerOutline'
-    | 'IOGameController'
-    | 'IOGiftOutline'
-    | 'IOGift'
-    | 'IOGitBranchOutline'
-    | 'IOGitBranch'
-    | 'IOGitCommitOutline'
-    | 'IOGitCommit'
-    | 'IOGitCompareOutline'
-    | 'IOGitCompare'
-    | 'IOGitMergeOutline'
-    | 'IOGitMerge'
-    | 'IOGitNetworkOutline'
-    | 'IOGitNetwork'
-    | 'IOGitPullRequestOutline'
-    | 'IOGitPullRequest'
-    | 'IOGlassesOutline'
-    | 'IOGlasses'
-    | 'IOGlobeOutline'
-    | 'IOGlobe'
-    | 'IOGolfOutline'
-    | 'IOGolf'
-    | 'IOGridOutline'
-    | 'IOGrid'
-    | 'IOHammerOutline'
-    | 'IOHammer'
-    | 'IOHandLeftOutline'
-    | 'IOHandLeft'
-    | 'IOHandRightOutline'
-    | 'IOHandRight'
-    | 'IOHappyOutline'
-    | 'IOHappy'
-    | 'IOHardwareChipOutline'
-    | 'IOHardwareChip'
-    | 'IOHeadsetOutline'
-    | 'IOHeadset'
-    | 'IOHeartCircleOutline'
-    | 'IOHeartCircle'
-    | 'IOHeartDislikeCircleOutline'
-    | 'IOHeartDislikeCircle'
-    | 'IOHeartDislikeOutline'
-    | 'IOHeartDislike'
-    | 'IOHeartHalfOutline'
-    | 'IOHeartHalf'
-    | 'IOHeartOutline'
-    | 'IOHeart'
-    | 'IOHelpBuoyOutline'
-    | 'IOHelpBuoy'
-    | 'IOHelpCircleOutline'
-    | 'IOHelpCircle'
-    | 'IOHelpOutline'
-    | 'IOHelp'
-    | 'IOHomeOutline'
-    | 'IOHome'
-    | 'IOHourglassOutline'
-    | 'IOHourglass'
-    | 'IOIceCreamOutline'
-    | 'IOIceCream'
-    | 'IOIdCardOutline'
-    | 'IOIdCard'
-    | 'IOImageOutline'
-    | 'IOImage'
-    | 'IOImagesOutline'
-    | 'IOImages'
-    | 'IOInfiniteOutline'
-    | 'IOInfinite'
-    | 'IOInformationCircleOutline'
-    | 'IOInformationCircle'
-    | 'IOInformationOutline'
-    | 'IOInformation'
-    | 'IOInvertModeOutline'
-    | 'IOInvertMode'
-    | 'IOJournalOutline'
-    | 'IOJournal'
-    | 'IOKeyOutline'
-    | 'IOKey'
-    | 'IOKeypadOutline'
-    | 'IOKeypad'
-    | 'IOLanguageOutline'
-    | 'IOLanguage'
-    | 'IOLaptopOutline'
-    | 'IOLaptop'
-    | 'IOLayersOutline'
-    | 'IOLayers'
-    | 'IOLeafOutline'
-    | 'IOLeaf'
-    | 'IOLibraryOutline'
-    | 'IOLibrary'
-    | 'IOLinkOutline'
-    | 'IOLink'
-    | 'IOListCircleOutline'
-    | 'IOListCircle'
-    | 'IOListOutline'
-    | 'IOList'
-    | 'IOLocateOutline'
-    | 'IOLocate'
-    | 'IOLocationOutline'
-    | 'IOLocation'
-    | 'IOLockClosedOutline'
-    | 'IOLockClosed'
-    | 'IOLockOpenOutline'
-    | 'IOLockOpen'
-    | 'IOLogInOutline'
-    | 'IOLogIn'
-    | 'IOLogOutOutline'
-    | 'IOLogOut'
-    | 'IOLogoAlipay'
-    | 'IOLogoAmazon'
-    | 'IOLogoAmplify'
-    | 'IOLogoAndroid'
-    | 'IOLogoAngular'
-    | 'IOLogoAppleAppstore'
-    | 'IOLogoAppleAr'
-    | 'IOLogoApple'
-    | 'IOLogoBehance'
-    | 'IOLogoBitbucket'
-    | 'IOLogoBitcoin'
-    | 'IOLogoBuffer'
-    | 'IOLogoCapacitor'
-    | 'IOLogoChrome'
-    | 'IOLogoClosedCaptioning'
-    | 'IOLogoCodepen'
-    | 'IOLogoCss3'
-    | 'IOLogoDesignernews'
-    | 'IOLogoDeviantart'
-    | 'IOLogoDiscord'
-    | 'IOLogoDocker'
-    | 'IOLogoDribbble'
-    | 'IOLogoDropbox'
-    | 'IOLogoEdge'
-    | 'IOLogoElectron'
-    | 'IOLogoEuro'
-    | 'IOLogoFacebook'
-    | 'IOLogoFigma'
-    | 'IOLogoFirebase'
-    | 'IOLogoFirefox'
-    | 'IOLogoFlickr'
-    | 'IOLogoFoursquare'
-    | 'IOLogoGithub'
-    | 'IOLogoGitlab'
-    | 'IOLogoGooglePlaystore'
-    | 'IOLogoGoogle'
-    | 'IOLogoHackernews'
-    | 'IOLogoHtml5'
-    | 'IOLogoInstagram'
-    | 'IOLogoIonic'
-    | 'IOLogoIonitron'
-    | 'IOLogoJavascript'
-    | 'IOLogoLaravel'
-    | 'IOLogoLinkedin'
-    | 'IOLogoMarkdown'
-    | 'IOLogoMastodon'
-    | 'IOLogoMedium'
-    | 'IOLogoMicrosoft'
-    | 'IOLogoNoSmoking'
-    | 'IOLogoNodejs'
-    | 'IOLogoNpm'
-    | 'IOLogoOctocat'
-    | 'IOLogoPaypal'
-    | 'IOLogoPinterest'
-    | 'IOLogoPlaystation'
-    | 'IOLogoPwa'
-    | 'IOLogoPython'
-    | 'IOLogoReact'
-    | 'IOLogoReddit'
-    | 'IOLogoRss'
-    | 'IOLogoSass'
-    | 'IOLogoSkype'
-    | 'IOLogoSlack'
-    | 'IOLogoSnapchat'
-    | 'IOLogoSoundcloud'
-    | 'IOLogoStackoverflow'
-    | 'IOLogoSteam'
-    | 'IOLogoStencil'
-    | 'IOLogoTableau'
-    | 'IOLogoTiktok'
-    | 'IOLogoTumblr'
-    | 'IOLogoTux'
-    | 'IOLogoTwitch'
-    | 'IOLogoTwitter'
-    | 'IOLogoUsd'
-    | 'IOLogoVenmo'
-    | 'IOLogoVercel'
-    | 'IOLogoVimeo'
-    | 'IOLogoVk'
-    | 'IOLogoVue'
-    | 'IOLogoWebComponent'
-    | 'IOLogoWechat'
-    | 'IOLogoWhatsapp'
-    | 'IOLogoWindows'
-    | 'IOLogoWordpress'
-    | 'IOLogoXbox'
-    | 'IOLogoXing'
-    | 'IOLogoYahoo'
-    | 'IOLogoYen'
-    | 'IOLogoYoutube'
-    | 'IOMagnetOutline'
-    | 'IOMagnet'
-    | 'IOMailOpenOutline'
-    | 'IOMailOpen'
-    | 'IOMailOutline'
-    | 'IOMailUnreadOutline'
-    | 'IOMailUnread'
-    | 'IOMail'
-    | 'IOMaleFemaleOutline'
-    | 'IOMaleFemale'
-    | 'IOMaleOutline'
-    | 'IOMale'
-    | 'IOManOutline'
-    | 'IOMan'
-    | 'IOMapOutline'
-    | 'IOMap'
-    | 'IOMedalOutline'
-    | 'IOMedal'
-    | 'IOMedicalOutline'
-    | 'IOMedical'
-    | 'IOMedkitOutline'
-    | 'IOMedkit'
-    | 'IOMegaphoneOutline'
-    | 'IOMegaphone'
-    | 'IOMenuOutline'
-    | 'IOMenu'
-    | 'IOMicCircleOutline'
-    | 'IOMicCircle'
-    | 'IOMicOffCircleOutline'
-    | 'IOMicOffCircle'
-    | 'IOMicOffOutline'
-    | 'IOMicOff'
-    | 'IOMicOutline'
-    | 'IOMic'
-    | 'IOMoonOutline'
-    | 'IOMoon'
-    | 'IOMoveOutline'
-    | 'IOMove'
-    | 'IOMusicalNoteOutline'
-    | 'IOMusicalNote'
-    | 'IOMusicalNotesOutline'
-    | 'IOMusicalNotes'
-    | 'IONavigateCircleOutline'
-    | 'IONavigateCircle'
-    | 'IONavigateOutline'
-    | 'IONavigate'
-    | 'IONewspaperOutline'
-    | 'IONewspaper'
-    | 'IONotificationsCircleOutline'
-    | 'IONotificationsCircle'
-    | 'IONotificationsOffCircleOutline'
-    | 'IONotificationsOffCircle'
-    | 'IONotificationsOffOutline'
-    | 'IONotificationsOff'
-    | 'IONotificationsOutline'
-    | 'IONotifications'
-    | 'IONuclearOutline'
-    | 'IONuclear'
-    | 'IONutritionOutline'
-    | 'IONutrition'
-    | 'IOOpenOutline'
-    | 'IOOpen'
-    | 'IOOptionsOutline'
-    | 'IOOptions'
-    | 'IOPaperPlaneOutline'
-    | 'IOPaperPlane'
-    | 'IOPartlySunnyOutline'
-    | 'IOPartlySunny'
-    | 'IOPauseCircleOutline'
-    | 'IOPauseCircle'
-    | 'IOPauseOutline'
-    | 'IOPause'
-    | 'IOPawOutline'
-    | 'IOPaw'
-    | 'IOPencilOutline'
-    | 'IOPencil'
-    | 'IOPeopleCircleOutline'
-    | 'IOPeopleCircle'
-    | 'IOPeopleOutline'
-    | 'IOPeople'
-    | 'IOPersonAddOutline'
-    | 'IOPersonAdd'
-    | 'IOPersonCircleOutline'
-    | 'IOPersonCircle'
-    | 'IOPersonOutline'
-    | 'IOPersonRemoveOutline'
-    | 'IOPersonRemove'
-    | 'IOPerson'
-    | 'IOPhoneLandscapeOutline'
-    | 'IOPhoneLandscape'
-    | 'IOPhonePortraitOutline'
-    | 'IOPhonePortrait'
-    | 'IOPieChartOutline'
-    | 'IOPieChart'
-    | 'IOPinOutline'
-    | 'IOPin'
-    | 'IOPintOutline'
-    | 'IOPint'
-    | 'IOPizzaOutline'
-    | 'IOPizza'
-    | 'IOPlanetOutline'
-    | 'IOPlanet'
-    | 'IOPlayBackCircleOutline'
-    | 'IOPlayBackCircle'
-    | 'IOPlayBackOutline'
-    | 'IOPlayBack'
-    | 'IOPlayCircleOutline'
-    | 'IOPlayCircle'
-    | 'IOPlayForwardCircleOutline'
-    | 'IOPlayForwardCircle'
-    | 'IOPlayForwardOutline'
-    | 'IOPlayForward'
-    | 'IOPlayOutline'
-    | 'IOPlaySkipBackCircleOutline'
-    | 'IOPlaySkipBackCircle'
-    | 'IOPlaySkipBackOutline'
-    | 'IOPlaySkipBack'
-    | 'IOPlaySkipForwardCircleOutline'
-    | 'IOPlaySkipForwardCircle'
-    | 'IOPlaySkipForwardOutline'
-    | 'IOPlaySkipForward'
-    | 'IOPlay'
-    | 'IOPodiumOutline'
-    | 'IOPodium'
-    | 'IOPowerOutline'
-    | 'IOPower'
-    | 'IOPricetagOutline'
-    | 'IOPricetag'
-    | 'IOPricetagsOutline'
-    | 'IOPricetags'
-    | 'IOPrintOutline'
-    | 'IOPrint'
-    | 'IOPrismOutline'
-    | 'IOPrism'
-    | 'IOPulseOutline'
-    | 'IOPulse'
-    | 'IOPushOutline'
-    | 'IOPush'
-    | 'IOQrCodeOutline'
-    | 'IOQrCode'
-    | 'IORadioButtonOffOutline'
-    | 'IORadioButtonOff'
-    | 'IORadioButtonOnOutline'
-    | 'IORadioButtonOn'
-    | 'IORadioOutline'
-    | 'IORadio'
-    | 'IORainyOutline'
-    | 'IORainy'
-    | 'IOReaderOutline'
-    | 'IOReader'
-    | 'IOReceiptOutline'
-    | 'IOReceipt'
-    | 'IORecordingOutline'
-    | 'IORecording'
-    | 'IORefreshCircleOutline'
-    | 'IORefreshCircle'
-    | 'IORefreshOutline'
-    | 'IORefresh'
-    | 'IOReloadCircleOutline'
-    | 'IOReloadCircle'
-    | 'IOReloadOutline'
-    | 'IOReload'
-    | 'IORemoveCircleOutline'
-    | 'IORemoveCircle'
-    | 'IORemoveOutline'
-    | 'IORemove'
-    | 'IOReorderFourOutline'
-    | 'IOReorderFour'
-    | 'IOReorderThreeOutline'
-    | 'IOReorderThree'
-    | 'IOReorderTwoOutline'
-    | 'IOReorderTwo'
-    | 'IORepeatOutline'
-    | 'IORepeat'
-    | 'IOResizeOutline'
-    | 'IOResize'
-    | 'IORestaurantOutline'
-    | 'IORestaurant'
-    | 'IOReturnDownBackOutline'
-    | 'IOReturnDownBack'
-    | 'IOReturnDownForwardOutline'
-    | 'IOReturnDownForward'
-    | 'IOReturnUpBackOutline'
-    | 'IOReturnUpBack'
-    | 'IOReturnUpForwardOutline'
-    | 'IOReturnUpForward'
-    | 'IORibbonOutline'
-    | 'IORibbon'
-    | 'IORocketOutline'
-    | 'IORocket'
-    | 'IORoseOutline'
-    | 'IORose'
-    | 'IOSadOutline'
-    | 'IOSad'
-    | 'IOSaveOutline'
-    | 'IOSave'
-    | 'IOScaleOutline'
-    | 'IOScale'
-    | 'IOScanCircleOutline'
-    | 'IOScanCircle'
-    | 'IOScanOutline'
-    | 'IOScan'
-    | 'IOSchoolOutline'
-    | 'IOSchool'
-    | 'IOSearchCircleOutline'
-    | 'IOSearchCircle'
-    | 'IOSearchOutline'
-    | 'IOSearch'
-    | 'IOSendOutline'
-    | 'IOSend'
-    | 'IOServerOutline'
-    | 'IOServer'
-    | 'IOSettingsOutline'
-    | 'IOSettings'
-    | 'IOShapesOutline'
-    | 'IOShapes'
-    | 'IOShareOutline'
-    | 'IOShareSocialOutline'
-    | 'IOShareSocial'
-    | 'IOShare'
-    | 'IOShieldCheckmarkOutline'
-    | 'IOShieldCheckmark'
-    | 'IOShieldHalfOutline'
-    | 'IOShieldHalf'
-    | 'IOShieldOutline'
-    | 'IOShield'
-    | 'IOShirtOutline'
-    | 'IOShirt'
-    | 'IOShuffleOutline'
-    | 'IOShuffle'
-    | 'IOSkullOutline'
-    | 'IOSkull'
-    | 'IOSnowOutline'
-    | 'IOSnow'
-    | 'IOSparklesOutline'
-    | 'IOSparkles'
-    | 'IOSpeedometerOutline'
-    | 'IOSpeedometer'
-    | 'IOSquareOutline'
-    | 'IOSquare'
-    | 'IOStarHalfOutline'
-    | 'IOStarHalf'
-    | 'IOStarOutline'
-    | 'IOStar'
-    | 'IOStatsChartOutline'
-    | 'IOStatsChart'
-    | 'IOStopCircleOutline'
-    | 'IOStopCircle'
-    | 'IOStopOutline'
-    | 'IOStop'
-    | 'IOStopwatchOutline'
-    | 'IOStopwatch'
-    | 'IOStorefrontOutline'
-    | 'IOStorefront'
-    | 'IOSubwayOutline'
-    | 'IOSubway'
-    | 'IOSunnyOutline'
-    | 'IOSunny'
-    | 'IOSwapHorizontalOutline'
-    | 'IOSwapHorizontal'
-    | 'IOSwapVerticalOutline'
-    | 'IOSwapVertical'
-    | 'IOSyncCircleOutline'
-    | 'IOSyncCircle'
-    | 'IOSyncOutline'
-    | 'IOSync'
-    | 'IOTabletLandscapeOutline'
-    | 'IOTabletLandscape'
-    | 'IOTabletPortraitOutline'
-    | 'IOTabletPortrait'
-    | 'IOTelescopeOutline'
-    | 'IOTelescope'
-    | 'IOTennisballOutline'
-    | 'IOTennisball'
-    | 'IOTerminalOutline'
-    | 'IOTerminal'
-    | 'IOTextOutline'
-    | 'IOText'
-    | 'IOThermometerOutline'
-    | 'IOThermometer'
-    | 'IOThumbsDownOutline'
-    | 'IOThumbsDown'
-    | 'IOThumbsUpOutline'
-    | 'IOThumbsUp'
-    | 'IOThunderstormOutline'
-    | 'IOThunderstorm'
-    | 'IOTicketOutline'
-    | 'IOTicket'
-    | 'IOTimeOutline'
-    | 'IOTime'
-    | 'IOTimerOutline'
-    | 'IOTimer'
-    | 'IOTodayOutline'
-    | 'IOToday'
-    | 'IOToggleOutline'
-    | 'IOToggle'
-    | 'IOTrailSignOutline'
-    | 'IOTrailSign'
-    | 'IOTrainOutline'
-    | 'IOTrain'
-    | 'IOTransgenderOutline'
-    | 'IOTransgender'
-    | 'IOTrashBinOutline'
-    | 'IOTrashBin'
-    | 'IOTrashOutline'
-    | 'IOTrash'
-    | 'IOTrendingDownOutline'
-    | 'IOTrendingDown'
-    | 'IOTrendingUpOutline'
-    | 'IOTrendingUp'
-    | 'IOTriangleOutline'
-    | 'IOTriangle'
-    | 'IOTrophyOutline'
-    | 'IOTrophy'
-    | 'IOTvOutline'
-    | 'IOTv'
-    | 'IOUmbrellaOutline'
-    | 'IOUmbrella'
-    | 'IOUnlinkOutline'
-    | 'IOUnlink'
-    | 'IOVideocamOffOutline'
-    | 'IOVideocamOff'
-    | 'IOVideocamOutline'
-    | 'IOVideocam'
-    | 'IOVolumeHighOutline'
-    | 'IOVolumeHigh'
-    | 'IOVolumeLowOutline'
-    | 'IOVolumeLow'
-    | 'IOVolumeMediumOutline'
-    | 'IOVolumeMedium'
-    | 'IOVolumeMuteOutline'
-    | 'IOVolumeMute'
-    | 'IOVolumeOffOutline'
-    | 'IOVolumeOff'
-    | 'IOWalkOutline'
-    | 'IOWalk'
-    | 'IOWalletOutline'
-    | 'IOWallet'
-    | 'IOWarningOutline'
-    | 'IOWarning'
-    | 'IOWatchOutline'
-    | 'IOWatch'
-    | 'IOWaterOutline'
-    | 'IOWater'
-    | 'IOWifiOutline'
-    | 'IOWifi'
-    | 'IOWineOutline'
-    | 'IOWine'
-    | 'IOWomanOutline'
-    | 'IOWoman';
-
+  | 'IOAccessibilityOutline'
+  | 'IOAccessibility'
+  | 'IOAddCircleOutline'
+  | 'IOAddCircle'
+  | 'IOAddOutline'
+  | 'IOAdd'
+  | 'IOAirplaneOutline'
+  | 'IOAirplane'
+  | 'IOAlarmOutline'
+  | 'IOAlarm'
+  | 'IOAlbumsOutline'
+  | 'IOAlbums'
+  | 'IOAlertCircleOutline'
+  | 'IOAlertCircle'
+  | 'IOAlertOutline'
+  | 'IOAlert'
+  | 'IOAmericanFootballOutline'
+  | 'IOAmericanFootball'
+  | 'IOAnalyticsOutline'
+  | 'IOAnalytics'
+  | 'IOApertureOutline'
+  | 'IOAperture'
+  | 'IOAppsOutline'
+  | 'IOApps'
+  | 'IOArchiveOutline'
+  | 'IOArchive'
+  | 'IOArrowBackCircleOutline'
+  | 'IOArrowBackCircle'
+  | 'IOArrowBackOutline'
+  | 'IOArrowBack'
+  | 'IOArrowDownCircleOutline'
+  | 'IOArrowDownCircle'
+  | 'IOArrowDownOutline'
+  | 'IOArrowDown'
+  | 'IOArrowForwardCircleOutline'
+  | 'IOArrowForwardCircle'
+  | 'IOArrowForwardOutline'
+  | 'IOArrowForward'
+  | 'IOArrowRedoCircleOutline'
+  | 'IOArrowRedoCircle'
+  | 'IOArrowRedoOutline'
+  | 'IOArrowRedo'
+  | 'IOArrowUndoCircleOutline'
+  | 'IOArrowUndoCircle'
+  | 'IOArrowUndoOutline'
+  | 'IOArrowUndo'
+  | 'IOArrowUpCircleOutline'
+  | 'IOArrowUpCircle'
+  | 'IOArrowUpOutline'
+  | 'IOArrowUp'
+  | 'IOAtCircleOutline'
+  | 'IOAtCircle'
+  | 'IOAtOutline'
+  | 'IOAt'
+  | 'IOAttachOutline'
+  | 'IOAttach'
+  | 'IOBackspaceOutline'
+  | 'IOBackspace'
+  | 'IOBagAddOutline'
+  | 'IOBagAdd'
+  | 'IOBagCheckOutline'
+  | 'IOBagCheck'
+  | 'IOBagHandleOutline'
+  | 'IOBagHandle'
+  | 'IOBagOutline'
+  | 'IOBagRemoveOutline'
+  | 'IOBagRemove'
+  | 'IOBag'
+  | 'IOBalloonOutline'
+  | 'IOBalloon'
+  | 'IOBanOutline'
+  | 'IOBan'
+  | 'IOBandageOutline'
+  | 'IOBandage'
+  | 'IOBarChartOutline'
+  | 'IOBarChart'
+  | 'IOBarbellOutline'
+  | 'IOBarbell'
+  | 'IOBarcodeOutline'
+  | 'IOBarcode'
+  | 'IOBaseballOutline'
+  | 'IOBaseball'
+  | 'IOBasketOutline'
+  | 'IOBasket'
+  | 'IOBasketballOutline'
+  | 'IOBasketball'
+  | 'IOBatteryChargingOutline'
+  | 'IOBatteryCharging'
+  | 'IOBatteryDeadOutline'
+  | 'IOBatteryDead'
+  | 'IOBatteryFullOutline'
+  | 'IOBatteryFull'
+  | 'IOBatteryHalfOutline'
+  | 'IOBatteryHalf'
+  | 'IOBeakerOutline'
+  | 'IOBeaker'
+  | 'IOBedOutline'
+  | 'IOBed'
+  | 'IOBeerOutline'
+  | 'IOBeer'
+  | 'IOBicycleOutline'
+  | 'IOBicycle'
+  | 'IOBluetoothOutline'
+  | 'IOBluetooth'
+  | 'IOBoatOutline'
+  | 'IOBoat'
+  | 'IOBodyOutline'
+  | 'IOBody'
+  | 'IOBonfireOutline'
+  | 'IOBonfire'
+  | 'IOBookOutline'
+  | 'IOBook'
+  | 'IOBookmarkOutline'
+  | 'IOBookmark'
+  | 'IOBookmarksOutline'
+  | 'IOBookmarks'
+  | 'IOBowlingBallOutline'
+  | 'IOBowlingBall'
+  | 'IOBriefcaseOutline'
+  | 'IOBriefcase'
+  | 'IOBrowsersOutline'
+  | 'IOBrowsers'
+  | 'IOBrushOutline'
+  | 'IOBrush'
+  | 'IOBugOutline'
+  | 'IOBug'
+  | 'IOBuildOutline'
+  | 'IOBuild'
+  | 'IOBulbOutline'
+  | 'IOBulb'
+  | 'IOBusOutline'
+  | 'IOBus'
+  | 'IOBusinessOutline'
+  | 'IOBusiness'
+  | 'IOCafeOutline'
+  | 'IOCafe'
+  | 'IOCalculatorOutline'
+  | 'IOCalculator'
+  | 'IOCalendarClearOutline'
+  | 'IOCalendarClear'
+  | 'IOCalendarNumberOutline'
+  | 'IOCalendarNumber'
+  | 'IOCalendarOutline'
+  | 'IOCalendar'
+  | 'IOCallOutline'
+  | 'IOCall'
+  | 'IOCameraOutline'
+  | 'IOCameraReverseOutline'
+  | 'IOCameraReverse'
+  | 'IOCamera'
+  | 'IOCarOutline'
+  | 'IOCarSportOutline'
+  | 'IOCarSport'
+  | 'IOCar'
+  | 'IOCardOutline'
+  | 'IOCard'
+  | 'IOCaretBackCircleOutline'
+  | 'IOCaretBackCircle'
+  | 'IOCaretBackOutline'
+  | 'IOCaretBack'
+  | 'IOCaretDownCircleOutline'
+  | 'IOCaretDownCircle'
+  | 'IOCaretDownOutline'
+  | 'IOCaretDown'
+  | 'IOCaretForwardCircleOutline'
+  | 'IOCaretForwardCircle'
+  | 'IOCaretForwardOutline'
+  | 'IOCaretForward'
+  | 'IOCaretUpCircleOutline'
+  | 'IOCaretUpCircle'
+  | 'IOCaretUpOutline'
+  | 'IOCaretUp'
+  | 'IOCartOutline'
+  | 'IOCart'
+  | 'IOCashOutline'
+  | 'IOCash'
+  | 'IOCellularOutline'
+  | 'IOCellular'
+  | 'IOChatboxEllipsesOutline'
+  | 'IOChatboxEllipses'
+  | 'IOChatboxOutline'
+  | 'IOChatbox'
+  | 'IOChatbubbleEllipsesOutline'
+  | 'IOChatbubbleEllipses'
+  | 'IOChatbubbleOutline'
+  | 'IOChatbubble'
+  | 'IOChatbubblesOutline'
+  | 'IOChatbubbles'
+  | 'IOCheckboxOutline'
+  | 'IOCheckbox'
+  | 'IOCheckmarkCircleOutline'
+  | 'IOCheckmarkCircle'
+  | 'IOCheckmarkDoneCircleOutline'
+  | 'IOCheckmarkDoneCircle'
+  | 'IOCheckmarkDoneOutline'
+  | 'IOCheckmarkDone'
+  | 'IOCheckmarkOutline'
+  | 'IOCheckmark'
+  | 'IOChevronBackCircleOutline'
+  | 'IOChevronBackCircle'
+  | 'IOChevronBackOutline'
+  | 'IOChevronBack'
+  | 'IOChevronDownCircleOutline'
+  | 'IOChevronDownCircle'
+  | 'IOChevronDownOutline'
+  | 'IOChevronDown'
+  | 'IOChevronForwardCircleOutline'
+  | 'IOChevronForwardCircle'
+  | 'IOChevronForwardOutline'
+  | 'IOChevronForward'
+  | 'IOChevronUpCircleOutline'
+  | 'IOChevronUpCircle'
+  | 'IOChevronUpOutline'
+  | 'IOChevronUp'
+  | 'IOClipboardOutline'
+  | 'IOClipboard'
+  | 'IOCloseCircleOutline'
+  | 'IOCloseCircle'
+  | 'IOCloseOutline'
+  | 'IOClose'
+  | 'IOCloudCircleOutline'
+  | 'IOCloudCircle'
+  | 'IOCloudDoneOutline'
+  | 'IOCloudDone'
+  | 'IOCloudDownloadOutline'
+  | 'IOCloudDownload'
+  | 'IOCloudOfflineOutline'
+  | 'IOCloudOffline'
+  | 'IOCloudOutline'
+  | 'IOCloudUploadOutline'
+  | 'IOCloudUpload'
+  | 'IOCloud'
+  | 'IOCloudyNightOutline'
+  | 'IOCloudyNight'
+  | 'IOCloudyOutline'
+  | 'IOCloudy'
+  | 'IOCodeDownloadOutline'
+  | 'IOCodeDownload'
+  | 'IOCodeOutline'
+  | 'IOCodeSlashOutline'
+  | 'IOCodeSlash'
+  | 'IOCodeWorkingOutline'
+  | 'IOCodeWorking'
+  | 'IOCode'
+  | 'IOCogOutline'
+  | 'IOCog'
+  | 'IOColorFillOutline'
+  | 'IOColorFill'
+  | 'IOColorFilterOutline'
+  | 'IOColorFilter'
+  | 'IOColorPaletteOutline'
+  | 'IOColorPalette'
+  | 'IOColorWandOutline'
+  | 'IOColorWand'
+  | 'IOCompassOutline'
+  | 'IOCompass'
+  | 'IOConstructOutline'
+  | 'IOConstruct'
+  | 'IOContractOutline'
+  | 'IOContract'
+  | 'IOContrastOutline'
+  | 'IOContrast'
+  | 'IOCopyOutline'
+  | 'IOCopy'
+  | 'IOCreateOutline'
+  | 'IOCreate'
+  | 'IOCropOutline'
+  | 'IOCrop'
+  | 'IOCubeOutline'
+  | 'IOCube'
+  | 'IOCutOutline'
+  | 'IOCut'
+  | 'IODesktopOutline'
+  | 'IODesktop'
+  | 'IODiamondOutline'
+  | 'IODiamond'
+  | 'IODiceOutline'
+  | 'IODice'
+  | 'IODiscOutline'
+  | 'IODisc'
+  | 'IODocumentAttachOutline'
+  | 'IODocumentAttach'
+  | 'IODocumentLockOutline'
+  | 'IODocumentLock'
+  | 'IODocumentOutline'
+  | 'IODocumentTextOutline'
+  | 'IODocumentText'
+  | 'IODocument'
+  | 'IODocumentsOutline'
+  | 'IODocuments'
+  | 'IODownloadOutline'
+  | 'IODownload'
+  | 'IODuplicateOutline'
+  | 'IODuplicate'
+  | 'IOEarOutline'
+  | 'IOEar'
+  | 'IOEarthOutline'
+  | 'IOEarth'
+  | 'IOEaselOutline'
+  | 'IOEasel'
+  | 'IOEggOutline'
+  | 'IOEgg'
+  | 'IOEllipseOutline'
+  | 'IOEllipse'
+  | 'IOEllipsisHorizontalCircleOutline'
+  | 'IOEllipsisHorizontalCircle'
+  | 'IOEllipsisHorizontalOutline'
+  | 'IOEllipsisHorizontal'
+  | 'IOEllipsisVerticalCircleOutline'
+  | 'IOEllipsisVerticalCircle'
+  | 'IOEllipsisVerticalOutline'
+  | 'IOEllipsisVertical'
+  | 'IOEnterOutline'
+  | 'IOEnter'
+  | 'IOExitOutline'
+  | 'IOExit'
+  | 'IOExpandOutline'
+  | 'IOExpand'
+  | 'IOExtensionPuzzleOutline'
+  | 'IOExtensionPuzzle'
+  | 'IOEyeOffOutline'
+  | 'IOEyeOff'
+  | 'IOEyeOutline'
+  | 'IOEye'
+  | 'IOEyedropOutline'
+  | 'IOEyedrop'
+  | 'IOFastFoodOutline'
+  | 'IOFastFood'
+  | 'IOFemaleOutline'
+  | 'IOFemale'
+  | 'IOFileTrayFullOutline'
+  | 'IOFileTrayFull'
+  | 'IOFileTrayOutline'
+  | 'IOFileTrayStackedOutline'
+  | 'IOFileTrayStacked'
+  | 'IOFileTray'
+  | 'IOFilmOutline'
+  | 'IOFilm'
+  | 'IOFilterCircleOutline'
+  | 'IOFilterCircle'
+  | 'IOFilterOutline'
+  | 'IOFilter'
+  | 'IOFingerPrintOutline'
+  | 'IOFingerPrint'
+  | 'IOFishOutline'
+  | 'IOFish'
+  | 'IOFitnessOutline'
+  | 'IOFitness'
+  | 'IOFlagOutline'
+  | 'IOFlag'
+  | 'IOFlameOutline'
+  | 'IOFlame'
+  | 'IOFlashOffOutline'
+  | 'IOFlashOff'
+  | 'IOFlashOutline'
+  | 'IOFlash'
+  | 'IOFlashlightOutline'
+  | 'IOFlashlight'
+  | 'IOFlaskOutline'
+  | 'IOFlask'
+  | 'IOFlowerOutline'
+  | 'IOFlower'
+  | 'IOFolderOpenOutline'
+  | 'IOFolderOpen'
+  | 'IOFolderOutline'
+  | 'IOFolder'
+  | 'IOFootballOutline'
+  | 'IOFootball'
+  | 'IOFootstepsOutline'
+  | 'IOFootsteps'
+  | 'IOFunnelOutline'
+  | 'IOFunnel'
+  | 'IOGameControllerOutline'
+  | 'IOGameController'
+  | 'IOGiftOutline'
+  | 'IOGift'
+  | 'IOGitBranchOutline'
+  | 'IOGitBranch'
+  | 'IOGitCommitOutline'
+  | 'IOGitCommit'
+  | 'IOGitCompareOutline'
+  | 'IOGitCompare'
+  | 'IOGitMergeOutline'
+  | 'IOGitMerge'
+  | 'IOGitNetworkOutline'
+  | 'IOGitNetwork'
+  | 'IOGitPullRequestOutline'
+  | 'IOGitPullRequest'
+  | 'IOGlassesOutline'
+  | 'IOGlasses'
+  | 'IOGlobeOutline'
+  | 'IOGlobe'
+  | 'IOGolfOutline'
+  | 'IOGolf'
+  | 'IOGridOutline'
+  | 'IOGrid'
+  | 'IOHammerOutline'
+  | 'IOHammer'
+  | 'IOHandLeftOutline'
+  | 'IOHandLeft'
+  | 'IOHandRightOutline'
+  | 'IOHandRight'
+  | 'IOHappyOutline'
+  | 'IOHappy'
+  | 'IOHardwareChipOutline'
+  | 'IOHardwareChip'
+  | 'IOHeadsetOutline'
+  | 'IOHeadset'
+  | 'IOHeartCircleOutline'
+  | 'IOHeartCircle'
+  | 'IOHeartDislikeCircleOutline'
+  | 'IOHeartDislikeCircle'
+  | 'IOHeartDislikeOutline'
+  | 'IOHeartDislike'
+  | 'IOHeartHalfOutline'
+  | 'IOHeartHalf'
+  | 'IOHeartOutline'
+  | 'IOHeart'
+  | 'IOHelpBuoyOutline'
+  | 'IOHelpBuoy'
+  | 'IOHelpCircleOutline'
+  | 'IOHelpCircle'
+  | 'IOHelpOutline'
+  | 'IOHelp'
+  | 'IOHomeOutline'
+  | 'IOHome'
+  | 'IOHourglassOutline'
+  | 'IOHourglass'
+  | 'IOIceCreamOutline'
+  | 'IOIceCream'
+  | 'IOIdCardOutline'
+  | 'IOIdCard'
+  | 'IOImageOutline'
+  | 'IOImage'
+  | 'IOImagesOutline'
+  | 'IOImages'
+  | 'IOInfiniteOutline'
+  | 'IOInfinite'
+  | 'IOInformationCircleOutline'
+  | 'IOInformationCircle'
+  | 'IOInformationOutline'
+  | 'IOInformation'
+  | 'IOInvertModeOutline'
+  | 'IOInvertMode'
+  | 'IOJournalOutline'
+  | 'IOJournal'
+  | 'IOKeyOutline'
+  | 'IOKey'
+  | 'IOKeypadOutline'
+  | 'IOKeypad'
+  | 'IOLanguageOutline'
+  | 'IOLanguage'
+  | 'IOLaptopOutline'
+  | 'IOLaptop'
+  | 'IOLayersOutline'
+  | 'IOLayers'
+  | 'IOLeafOutline'
+  | 'IOLeaf'
+  | 'IOLibraryOutline'
+  | 'IOLibrary'
+  | 'IOLinkOutline'
+  | 'IOLink'
+  | 'IOListCircleOutline'
+  | 'IOListCircle'
+  | 'IOListOutline'
+  | 'IOList'
+  | 'IOLocateOutline'
+  | 'IOLocate'
+  | 'IOLocationOutline'
+  | 'IOLocation'
+  | 'IOLockClosedOutline'
+  | 'IOLockClosed'
+  | 'IOLockOpenOutline'
+  | 'IOLockOpen'
+  | 'IOLogInOutline'
+  | 'IOLogIn'
+  | 'IOLogOutOutline'
+  | 'IOLogOut'
+  | 'IOLogoAlipay'
+  | 'IOLogoAmazon'
+  | 'IOLogoAmplify'
+  | 'IOLogoAndroid'
+  | 'IOLogoAngular'
+  | 'IOLogoAppleAppstore'
+  | 'IOLogoAppleAr'
+  | 'IOLogoApple'
+  | 'IOLogoBehance'
+  | 'IOLogoBitbucket'
+  | 'IOLogoBitcoin'
+  | 'IOLogoBuffer'
+  | 'IOLogoCapacitor'
+  | 'IOLogoChrome'
+  | 'IOLogoClosedCaptioning'
+  | 'IOLogoCodepen'
+  | 'IOLogoCss3'
+  | 'IOLogoDesignernews'
+  | 'IOLogoDeviantart'
+  | 'IOLogoDiscord'
+  | 'IOLogoDocker'
+  | 'IOLogoDribbble'
+  | 'IOLogoDropbox'
+  | 'IOLogoEdge'
+  | 'IOLogoElectron'
+  | 'IOLogoEuro'
+  | 'IOLogoFacebook'
+  | 'IOLogoFigma'
+  | 'IOLogoFirebase'
+  | 'IOLogoFirefox'
+  | 'IOLogoFlickr'
+  | 'IOLogoFoursquare'
+  | 'IOLogoGithub'
+  | 'IOLogoGitlab'
+  | 'IOLogoGooglePlaystore'
+  | 'IOLogoGoogle'
+  | 'IOLogoHackernews'
+  | 'IOLogoHtml5'
+  | 'IOLogoInstagram'
+  | 'IOLogoIonic'
+  | 'IOLogoIonitron'
+  | 'IOLogoJavascript'
+  | 'IOLogoLaravel'
+  | 'IOLogoLinkedin'
+  | 'IOLogoMarkdown'
+  | 'IOLogoMastodon'
+  | 'IOLogoMedium'
+  | 'IOLogoMicrosoft'
+  | 'IOLogoNoSmoking'
+  | 'IOLogoNodejs'
+  | 'IOLogoNpm'
+  | 'IOLogoOctocat'
+  | 'IOLogoPaypal'
+  | 'IOLogoPinterest'
+  | 'IOLogoPlaystation'
+  | 'IOLogoPwa'
+  | 'IOLogoPython'
+  | 'IOLogoReact'
+  | 'IOLogoReddit'
+  | 'IOLogoRss'
+  | 'IOLogoSass'
+  | 'IOLogoSkype'
+  | 'IOLogoSlack'
+  | 'IOLogoSnapchat'
+  | 'IOLogoSoundcloud'
+  | 'IOLogoStackoverflow'
+  | 'IOLogoSteam'
+  | 'IOLogoStencil'
+  | 'IOLogoTableau'
+  | 'IOLogoTiktok'
+  | 'IOLogoTumblr'
+  | 'IOLogoTux'
+  | 'IOLogoTwitch'
+  | 'IOLogoTwitter'
+  | 'IOLogoUsd'
+  | 'IOLogoVenmo'
+  | 'IOLogoVercel'
+  | 'IOLogoVimeo'
+  | 'IOLogoVk'
+  | 'IOLogoVue'
+  | 'IOLogoWebComponent'
+  | 'IOLogoWechat'
+  | 'IOLogoWhatsapp'
+  | 'IOLogoWindows'
+  | 'IOLogoWordpress'
+  | 'IOLogoXbox'
+  | 'IOLogoXing'
+  | 'IOLogoYahoo'
+  | 'IOLogoYen'
+  | 'IOLogoYoutube'
+  | 'IOMagnetOutline'
+  | 'IOMagnet'
+  | 'IOMailOpenOutline'
+  | 'IOMailOpen'
+  | 'IOMailOutline'
+  | 'IOMailUnreadOutline'
+  | 'IOMailUnread'
+  | 'IOMail'
+  | 'IOMaleFemaleOutline'
+  | 'IOMaleFemale'
+  | 'IOMaleOutline'
+  | 'IOMale'
+  | 'IOManOutline'
+  | 'IOMan'
+  | 'IOMapOutline'
+  | 'IOMap'
+  | 'IOMedalOutline'
+  | 'IOMedal'
+  | 'IOMedicalOutline'
+  | 'IOMedical'
+  | 'IOMedkitOutline'
+  | 'IOMedkit'
+  | 'IOMegaphoneOutline'
+  | 'IOMegaphone'
+  | 'IOMenuOutline'
+  | 'IOMenu'
+  | 'IOMicCircleOutline'
+  | 'IOMicCircle'
+  | 'IOMicOffCircleOutline'
+  | 'IOMicOffCircle'
+  | 'IOMicOffOutline'
+  | 'IOMicOff'
+  | 'IOMicOutline'
+  | 'IOMic'
+  | 'IOMoonOutline'
+  | 'IOMoon'
+  | 'IOMoveOutline'
+  | 'IOMove'
+  | 'IOMusicalNoteOutline'
+  | 'IOMusicalNote'
+  | 'IOMusicalNotesOutline'
+  | 'IOMusicalNotes'
+  | 'IONavigateCircleOutline'
+  | 'IONavigateCircle'
+  | 'IONavigateOutline'
+  | 'IONavigate'
+  | 'IONewspaperOutline'
+  | 'IONewspaper'
+  | 'IONotificationsCircleOutline'
+  | 'IONotificationsCircle'
+  | 'IONotificationsOffCircleOutline'
+  | 'IONotificationsOffCircle'
+  | 'IONotificationsOffOutline'
+  | 'IONotificationsOff'
+  | 'IONotificationsOutline'
+  | 'IONotifications'
+  | 'IONuclearOutline'
+  | 'IONuclear'
+  | 'IONutritionOutline'
+  | 'IONutrition'
+  | 'IOOpenOutline'
+  | 'IOOpen'
+  | 'IOOptionsOutline'
+  | 'IOOptions'
+  | 'IOPaperPlaneOutline'
+  | 'IOPaperPlane'
+  | 'IOPartlySunnyOutline'
+  | 'IOPartlySunny'
+  | 'IOPauseCircleOutline'
+  | 'IOPauseCircle'
+  | 'IOPauseOutline'
+  | 'IOPause'
+  | 'IOPawOutline'
+  | 'IOPaw'
+  | 'IOPencilOutline'
+  | 'IOPencil'
+  | 'IOPeopleCircleOutline'
+  | 'IOPeopleCircle'
+  | 'IOPeopleOutline'
+  | 'IOPeople'
+  | 'IOPersonAddOutline'
+  | 'IOPersonAdd'
+  | 'IOPersonCircleOutline'
+  | 'IOPersonCircle'
+  | 'IOPersonOutline'
+  | 'IOPersonRemoveOutline'
+  | 'IOPersonRemove'
+  | 'IOPerson'
+  | 'IOPhoneLandscapeOutline'
+  | 'IOPhoneLandscape'
+  | 'IOPhonePortraitOutline'
+  | 'IOPhonePortrait'
+  | 'IOPieChartOutline'
+  | 'IOPieChart'
+  | 'IOPinOutline'
+  | 'IOPin'
+  | 'IOPintOutline'
+  | 'IOPint'
+  | 'IOPizzaOutline'
+  | 'IOPizza'
+  | 'IOPlanetOutline'
+  | 'IOPlanet'
+  | 'IOPlayBackCircleOutline'
+  | 'IOPlayBackCircle'
+  | 'IOPlayBackOutline'
+  | 'IOPlayBack'
+  | 'IOPlayCircleOutline'
+  | 'IOPlayCircle'
+  | 'IOPlayForwardCircleOutline'
+  | 'IOPlayForwardCircle'
+  | 'IOPlayForwardOutline'
+  | 'IOPlayForward'
+  | 'IOPlayOutline'
+  | 'IOPlaySkipBackCircleOutline'
+  | 'IOPlaySkipBackCircle'
+  | 'IOPlaySkipBackOutline'
+  | 'IOPlaySkipBack'
+  | 'IOPlaySkipForwardCircleOutline'
+  | 'IOPlaySkipForwardCircle'
+  | 'IOPlaySkipForwardOutline'
+  | 'IOPlaySkipForward'
+  | 'IOPlay'
+  | 'IOPodiumOutline'
+  | 'IOPodium'
+  | 'IOPowerOutline'
+  | 'IOPower'
+  | 'IOPricetagOutline'
+  | 'IOPricetag'
+  | 'IOPricetagsOutline'
+  | 'IOPricetags'
+  | 'IOPrintOutline'
+  | 'IOPrint'
+  | 'IOPrismOutline'
+  | 'IOPrism'
+  | 'IOPulseOutline'
+  | 'IOPulse'
+  | 'IOPushOutline'
+  | 'IOPush'
+  | 'IOQrCodeOutline'
+  | 'IOQrCode'
+  | 'IORadioButtonOffOutline'
+  | 'IORadioButtonOff'
+  | 'IORadioButtonOnOutline'
+  | 'IORadioButtonOn'
+  | 'IORadioOutline'
+  | 'IORadio'
+  | 'IORainyOutline'
+  | 'IORainy'
+  | 'IOReaderOutline'
+  | 'IOReader'
+  | 'IOReceiptOutline'
+  | 'IOReceipt'
+  | 'IORecordingOutline'
+  | 'IORecording'
+  | 'IORefreshCircleOutline'
+  | 'IORefreshCircle'
+  | 'IORefreshOutline'
+  | 'IORefresh'
+  | 'IOReloadCircleOutline'
+  | 'IOReloadCircle'
+  | 'IOReloadOutline'
+  | 'IOReload'
+  | 'IORemoveCircleOutline'
+  | 'IORemoveCircle'
+  | 'IORemoveOutline'
+  | 'IORemove'
+  | 'IOReorderFourOutline'
+  | 'IOReorderFour'
+  | 'IOReorderThreeOutline'
+  | 'IOReorderThree'
+  | 'IOReorderTwoOutline'
+  | 'IOReorderTwo'
+  | 'IORepeatOutline'
+  | 'IORepeat'
+  | 'IOResizeOutline'
+  | 'IOResize'
+  | 'IORestaurantOutline'
+  | 'IORestaurant'
+  | 'IOReturnDownBackOutline'
+  | 'IOReturnDownBack'
+  | 'IOReturnDownForwardOutline'
+  | 'IOReturnDownForward'
+  | 'IOReturnUpBackOutline'
+  | 'IOReturnUpBack'
+  | 'IOReturnUpForwardOutline'
+  | 'IOReturnUpForward'
+  | 'IORibbonOutline'
+  | 'IORibbon'
+  | 'IORocketOutline'
+  | 'IORocket'
+  | 'IORoseOutline'
+  | 'IORose'
+  | 'IOSadOutline'
+  | 'IOSad'
+  | 'IOSaveOutline'
+  | 'IOSave'
+  | 'IOScaleOutline'
+  | 'IOScale'
+  | 'IOScanCircleOutline'
+  | 'IOScanCircle'
+  | 'IOScanOutline'
+  | 'IOScan'
+  | 'IOSchoolOutline'
+  | 'IOSchool'
+  | 'IOSearchCircleOutline'
+  | 'IOSearchCircle'
+  | 'IOSearchOutline'
+  | 'IOSearch'
+  | 'IOSendOutline'
+  | 'IOSend'
+  | 'IOServerOutline'
+  | 'IOServer'
+  | 'IOSettingsOutline'
+  | 'IOSettings'
+  | 'IOShapesOutline'
+  | 'IOShapes'
+  | 'IOShareOutline'
+  | 'IOShareSocialOutline'
+  | 'IOShareSocial'
+  | 'IOShare'
+  | 'IOShieldCheckmarkOutline'
+  | 'IOShieldCheckmark'
+  | 'IOShieldHalfOutline'
+  | 'IOShieldHalf'
+  | 'IOShieldOutline'
+  | 'IOShield'
+  | 'IOShirtOutline'
+  | 'IOShirt'
+  | 'IOShuffleOutline'
+  | 'IOShuffle'
+  | 'IOSkullOutline'
+  | 'IOSkull'
+  | 'IOSnowOutline'
+  | 'IOSnow'
+  | 'IOSparklesOutline'
+  | 'IOSparkles'
+  | 'IOSpeedometerOutline'
+  | 'IOSpeedometer'
+  | 'IOSquareOutline'
+  | 'IOSquare'
+  | 'IOStarHalfOutline'
+  | 'IOStarHalf'
+  | 'IOStarOutline'
+  | 'IOStar'
+  | 'IOStatsChartOutline'
+  | 'IOStatsChart'
+  | 'IOStopCircleOutline'
+  | 'IOStopCircle'
+  | 'IOStopOutline'
+  | 'IOStop'
+  | 'IOStopwatchOutline'
+  | 'IOStopwatch'
+  | 'IOStorefrontOutline'
+  | 'IOStorefront'
+  | 'IOSubwayOutline'
+  | 'IOSubway'
+  | 'IOSunnyOutline'
+  | 'IOSunny'
+  | 'IOSwapHorizontalOutline'
+  | 'IOSwapHorizontal'
+  | 'IOSwapVerticalOutline'
+  | 'IOSwapVertical'
+  | 'IOSyncCircleOutline'
+  | 'IOSyncCircle'
+  | 'IOSyncOutline'
+  | 'IOSync'
+  | 'IOTabletLandscapeOutline'
+  | 'IOTabletLandscape'
+  | 'IOTabletPortraitOutline'
+  | 'IOTabletPortrait'
+  | 'IOTelescopeOutline'
+  | 'IOTelescope'
+  | 'IOTennisballOutline'
+  | 'IOTennisball'
+  | 'IOTerminalOutline'
+  | 'IOTerminal'
+  | 'IOTextOutline'
+  | 'IOText'
+  | 'IOThermometerOutline'
+  | 'IOThermometer'
+  | 'IOThumbsDownOutline'
+  | 'IOThumbsDown'
+  | 'IOThumbsUpOutline'
+  | 'IOThumbsUp'
+  | 'IOThunderstormOutline'
+  | 'IOThunderstorm'
+  | 'IOTicketOutline'
+  | 'IOTicket'
+  | 'IOTimeOutline'
+  | 'IOTime'
+  | 'IOTimerOutline'
+  | 'IOTimer'
+  | 'IOTodayOutline'
+  | 'IOToday'
+  | 'IOToggleOutline'
+  | 'IOToggle'
+  | 'IOTrailSignOutline'
+  | 'IOTrailSign'
+  | 'IOTrainOutline'
+  | 'IOTrain'
+  | 'IOTransgenderOutline'
+  | 'IOTransgender'
+  | 'IOTrashBinOutline'
+  | 'IOTrashBin'
+  | 'IOTrashOutline'
+  | 'IOTrash'
+  | 'IOTrendingDownOutline'
+  | 'IOTrendingDown'
+  | 'IOTrendingUpOutline'
+  | 'IOTrendingUp'
+  | 'IOTriangleOutline'
+  | 'IOTriangle'
+  | 'IOTrophyOutline'
+  | 'IOTrophy'
+  | 'IOTvOutline'
+  | 'IOTv'
+  | 'IOUmbrellaOutline'
+  | 'IOUmbrella'
+  | 'IOUnlinkOutline'
+  | 'IOUnlink'
+  | 'IOVideocamOffOutline'
+  | 'IOVideocamOff'
+  | 'IOVideocamOutline'
+  | 'IOVideocam'
+  | 'IOVolumeHighOutline'
+  | 'IOVolumeHigh'
+  | 'IOVolumeLowOutline'
+  | 'IOVolumeLow'
+  | 'IOVolumeMediumOutline'
+  | 'IOVolumeMedium'
+  | 'IOVolumeMuteOutline'
+  | 'IOVolumeMute'
+  | 'IOVolumeOffOutline'
+  | 'IOVolumeOff'
+  | 'IOWalkOutline'
+  | 'IOWalk'
+  | 'IOWalletOutline'
+  | 'IOWallet'
+  | 'IOWarningOutline'
+  | 'IOWarning'
+  | 'IOWatchOutline'
+  | 'IOWatch'
+  | 'IOWaterOutline'
+  | 'IOWater'
+  | 'IOWifiOutline'
+  | 'IOWifi'
+  | 'IOWineOutline'
+  | 'IOWine'
+  | 'IOWomanOutline'
+  | 'IOWoman';
 
 export {
-    IOAccessibilityOutline,
-    IOAccessibility,
-    IOAddCircleOutline,
-    IOAddCircle,
-    IOAddOutline,
-    IOAdd,
-    IOAirplaneOutline,
-    IOAirplane,
-    IOAlarmOutline,
-    IOAlarm,
-    IOAlbumsOutline,
-    IOAlbums,
-    IOAlertCircleOutline,
-    IOAlertCircle,
-    IOAlertOutline,
-    IOAlert,
-    IOAmericanFootballOutline,
-    IOAmericanFootball,
-    IOAnalyticsOutline,
-    IOAnalytics,
-    IOApertureOutline,
-    IOAperture,
-    IOAppsOutline,
-    IOApps,
-    IOArchiveOutline,
-    IOArchive,
-    IOArrowBackCircleOutline,
-    IOArrowBackCircle,
-    IOArrowBackOutline,
-    IOArrowBack,
-    IOArrowDownCircleOutline,
-    IOArrowDownCircle,
-    IOArrowDownOutline,
-    IOArrowDown,
-    IOArrowForwardCircleOutline,
-    IOArrowForwardCircle,
-    IOArrowForwardOutline,
-    IOArrowForward,
-    IOArrowRedoCircleOutline,
-    IOArrowRedoCircle,
-    IOArrowRedoOutline,
-    IOArrowRedo,
-    IOArrowUndoCircleOutline,
-    IOArrowUndoCircle,
-    IOArrowUndoOutline,
-    IOArrowUndo,
-    IOArrowUpCircleOutline,
-    IOArrowUpCircle,
-    IOArrowUpOutline,
-    IOArrowUp,
-    IOAtCircleOutline,
-    IOAtCircle,
-    IOAtOutline,
-    IOAt,
-    IOAttachOutline,
-    IOAttach,
-    IOBackspaceOutline,
-    IOBackspace,
-    IOBagAddOutline,
-    IOBagAdd,
-    IOBagCheckOutline,
-    IOBagCheck,
-    IOBagHandleOutline,
-    IOBagHandle,
-    IOBagOutline,
-    IOBagRemoveOutline,
-    IOBagRemove,
-    IOBag,
-    IOBalloonOutline,
-    IOBalloon,
-    IOBanOutline,
-    IOBan,
-    IOBandageOutline,
-    IOBandage,
-    IOBarChartOutline,
-    IOBarChart,
-    IOBarbellOutline,
-    IOBarbell,
-    IOBarcodeOutline,
-    IOBarcode,
-    IOBaseballOutline,
-    IOBaseball,
-    IOBasketOutline,
-    IOBasket,
-    IOBasketballOutline,
-    IOBasketball,
-    IOBatteryChargingOutline,
-    IOBatteryCharging,
-    IOBatteryDeadOutline,
-    IOBatteryDead,
-    IOBatteryFullOutline,
-    IOBatteryFull,
-    IOBatteryHalfOutline,
-    IOBatteryHalf,
-    IOBeakerOutline,
-    IOBeaker,
-    IOBedOutline,
-    IOBed,
-    IOBeerOutline,
-    IOBeer,
-    IOBicycleOutline,
-    IOBicycle,
-    IOBluetoothOutline,
-    IOBluetooth,
-    IOBoatOutline,
-    IOBoat,
-    IOBodyOutline,
-    IOBody,
-    IOBonfireOutline,
-    IOBonfire,
-    IOBookOutline,
-    IOBook,
-    IOBookmarkOutline,
-    IOBookmark,
-    IOBookmarksOutline,
-    IOBookmarks,
-    IOBowlingBallOutline,
-    IOBowlingBall,
-    IOBriefcaseOutline,
-    IOBriefcase,
-    IOBrowsersOutline,
-    IOBrowsers,
-    IOBrushOutline,
-    IOBrush,
-    IOBugOutline,
-    IOBug,
-    IOBuildOutline,
-    IOBuild,
-    IOBulbOutline,
-    IOBulb,
-    IOBusOutline,
-    IOBus,
-    IOBusinessOutline,
-    IOBusiness,
-    IOCafeOutline,
-    IOCafe,
-    IOCalculatorOutline,
-    IOCalculator,
-    IOCalendarClearOutline,
-    IOCalendarClear,
-    IOCalendarNumberOutline,
-    IOCalendarNumber,
-    IOCalendarOutline,
-    IOCalendar,
-    IOCallOutline,
-    IOCall,
-    IOCameraOutline,
-    IOCameraReverseOutline,
-    IOCameraReverse,
-    IOCamera,
-    IOCarOutline,
-    IOCarSportOutline,
-    IOCarSport,
-    IOCar,
-    IOCardOutline,
-    IOCard,
-    IOCaretBackCircleOutline,
-    IOCaretBackCircle,
-    IOCaretBackOutline,
-    IOCaretBack,
-    IOCaretDownCircleOutline,
-    IOCaretDownCircle,
-    IOCaretDownOutline,
-    IOCaretDown,
-    IOCaretForwardCircleOutline,
-    IOCaretForwardCircle,
-    IOCaretForwardOutline,
-    IOCaretForward,
-    IOCaretUpCircleOutline,
-    IOCaretUpCircle,
-    IOCaretUpOutline,
-    IOCaretUp,
-    IOCartOutline,
-    IOCart,
-    IOCashOutline,
-    IOCash,
-    IOCellularOutline,
-    IOCellular,
-    IOChatboxEllipsesOutline,
-    IOChatboxEllipses,
-    IOChatboxOutline,
-    IOChatbox,
-    IOChatbubbleEllipsesOutline,
-    IOChatbubbleEllipses,
-    IOChatbubbleOutline,
-    IOChatbubble,
-    IOChatbubblesOutline,
-    IOChatbubbles,
-    IOCheckboxOutline,
-    IOCheckbox,
-    IOCheckmarkCircleOutline,
-    IOCheckmarkCircle,
-    IOCheckmarkDoneCircleOutline,
-    IOCheckmarkDoneCircle,
-    IOCheckmarkDoneOutline,
-    IOCheckmarkDone,
-    IOCheckmarkOutline,
-    IOCheckmark,
-    IOChevronBackCircleOutline,
-    IOChevronBackCircle,
-    IOChevronBackOutline,
-    IOChevronBack,
-    IOChevronDownCircleOutline,
-    IOChevronDownCircle,
-    IOChevronDownOutline,
-    IOChevronDown,
-    IOChevronForwardCircleOutline,
-    IOChevronForwardCircle,
-    IOChevronForwardOutline,
-    IOChevronForward,
-    IOChevronUpCircleOutline,
-    IOChevronUpCircle,
-    IOChevronUpOutline,
-    IOChevronUp,
-    IOClipboardOutline,
-    IOClipboard,
-    IOCloseCircleOutline,
-    IOCloseCircle,
-    IOCloseOutline,
-    IOClose,
-    IOCloudCircleOutline,
-    IOCloudCircle,
-    IOCloudDoneOutline,
-    IOCloudDone,
-    IOCloudDownloadOutline,
-    IOCloudDownload,
-    IOCloudOfflineOutline,
-    IOCloudOffline,
-    IOCloudOutline,
-    IOCloudUploadOutline,
-    IOCloudUpload,
-    IOCloud,
-    IOCloudyNightOutline,
-    IOCloudyNight,
-    IOCloudyOutline,
-    IOCloudy,
-    IOCodeDownloadOutline,
-    IOCodeDownload,
-    IOCodeOutline,
-    IOCodeSlashOutline,
-    IOCodeSlash,
-    IOCodeWorkingOutline,
-    IOCodeWorking,
-    IOCode,
-    IOCogOutline,
-    IOCog,
-    IOColorFillOutline,
-    IOColorFill,
-    IOColorFilterOutline,
-    IOColorFilter,
-    IOColorPaletteOutline,
-    IOColorPalette,
-    IOColorWandOutline,
-    IOColorWand,
-    IOCompassOutline,
-    IOCompass,
-    IOConstructOutline,
-    IOConstruct,
-    IOContractOutline,
-    IOContract,
-    IOContrastOutline,
-    IOContrast,
-    IOCopyOutline,
-    IOCopy,
-    IOCreateOutline,
-    IOCreate,
-    IOCropOutline,
-    IOCrop,
-    IOCubeOutline,
-    IOCube,
-    IOCutOutline,
-    IOCut,
-    IODesktopOutline,
-    IODesktop,
-    IODiamondOutline,
-    IODiamond,
-    IODiceOutline,
-    IODice,
-    IODiscOutline,
-    IODisc,
-    IODocumentAttachOutline,
-    IODocumentAttach,
-    IODocumentLockOutline,
-    IODocumentLock,
-    IODocumentOutline,
-    IODocumentTextOutline,
-    IODocumentText,
-    IODocument,
-    IODocumentsOutline,
-    IODocuments,
-    IODownloadOutline,
-    IODownload,
-    IODuplicateOutline,
-    IODuplicate,
-    IOEarOutline,
-    IOEar,
-    IOEarthOutline,
-    IOEarth,
-    IOEaselOutline,
-    IOEasel,
-    IOEggOutline,
-    IOEgg,
-    IOEllipseOutline,
-    IOEllipse,
-    IOEllipsisHorizontalCircleOutline,
-    IOEllipsisHorizontalCircle,
-    IOEllipsisHorizontalOutline,
-    IOEllipsisHorizontal,
-    IOEllipsisVerticalCircleOutline,
-    IOEllipsisVerticalCircle,
-    IOEllipsisVerticalOutline,
-    IOEllipsisVertical,
-    IOEnterOutline,
-    IOEnter,
-    IOExitOutline,
-    IOExit,
-    IOExpandOutline,
-    IOExpand,
-    IOExtensionPuzzleOutline,
-    IOExtensionPuzzle,
-    IOEyeOffOutline,
-    IOEyeOff,
-    IOEyeOutline,
-    IOEye,
-    IOEyedropOutline,
-    IOEyedrop,
-    IOFastFoodOutline,
-    IOFastFood,
-    IOFemaleOutline,
-    IOFemale,
-    IOFileTrayFullOutline,
-    IOFileTrayFull,
-    IOFileTrayOutline,
-    IOFileTrayStackedOutline,
-    IOFileTrayStacked,
-    IOFileTray,
-    IOFilmOutline,
-    IOFilm,
-    IOFilterCircleOutline,
-    IOFilterCircle,
-    IOFilterOutline,
-    IOFilter,
-    IOFingerPrintOutline,
-    IOFingerPrint,
-    IOFishOutline,
-    IOFish,
-    IOFitnessOutline,
-    IOFitness,
-    IOFlagOutline,
-    IOFlag,
-    IOFlameOutline,
-    IOFlame,
-    IOFlashOffOutline,
-    IOFlashOff,
-    IOFlashOutline,
-    IOFlash,
-    IOFlashlightOutline,
-    IOFlashlight,
-    IOFlaskOutline,
-    IOFlask,
-    IOFlowerOutline,
-    IOFlower,
-    IOFolderOpenOutline,
-    IOFolderOpen,
-    IOFolderOutline,
-    IOFolder,
-    IOFootballOutline,
-    IOFootball,
-    IOFootstepsOutline,
-    IOFootsteps,
-    IOFunnelOutline,
-    IOFunnel,
-    IOGameControllerOutline,
-    IOGameController,
-    IOGiftOutline,
-    IOGift,
-    IOGitBranchOutline,
-    IOGitBranch,
-    IOGitCommitOutline,
-    IOGitCommit,
-    IOGitCompareOutline,
-    IOGitCompare,
-    IOGitMergeOutline,
-    IOGitMerge,
-    IOGitNetworkOutline,
-    IOGitNetwork,
-    IOGitPullRequestOutline,
-    IOGitPullRequest,
-    IOGlassesOutline,
-    IOGlasses,
-    IOGlobeOutline,
-    IOGlobe,
-    IOGolfOutline,
-    IOGolf,
-    IOGridOutline,
-    IOGrid,
-    IOHammerOutline,
-    IOHammer,
-    IOHandLeftOutline,
-    IOHandLeft,
-    IOHandRightOutline,
-    IOHandRight,
-    IOHappyOutline,
-    IOHappy,
-    IOHardwareChipOutline,
-    IOHardwareChip,
-    IOHeadsetOutline,
-    IOHeadset,
-    IOHeartCircleOutline,
-    IOHeartCircle,
-    IOHeartDislikeCircleOutline,
-    IOHeartDislikeCircle,
-    IOHeartDislikeOutline,
-    IOHeartDislike,
-    IOHeartHalfOutline,
-    IOHeartHalf,
-    IOHeartOutline,
-    IOHeart,
-    IOHelpBuoyOutline,
-    IOHelpBuoy,
-    IOHelpCircleOutline,
-    IOHelpCircle,
-    IOHelpOutline,
-    IOHelp,
-    IOHomeOutline,
-    IOHome,
-    IOHourglassOutline,
-    IOHourglass,
-    IOIceCreamOutline,
-    IOIceCream,
-    IOIdCardOutline,
-    IOIdCard,
-    IOImageOutline,
-    IOImage,
-    IOImagesOutline,
-    IOImages,
-    IOInfiniteOutline,
-    IOInfinite,
-    IOInformationCircleOutline,
-    IOInformationCircle,
-    IOInformationOutline,
-    IOInformation,
-    IOInvertModeOutline,
-    IOInvertMode,
-    IOJournalOutline,
-    IOJournal,
-    IOKeyOutline,
-    IOKey,
-    IOKeypadOutline,
-    IOKeypad,
-    IOLanguageOutline,
-    IOLanguage,
-    IOLaptopOutline,
-    IOLaptop,
-    IOLayersOutline,
-    IOLayers,
-    IOLeafOutline,
-    IOLeaf,
-    IOLibraryOutline,
-    IOLibrary,
-    IOLinkOutline,
-    IOLink,
-    IOListCircleOutline,
-    IOListCircle,
-    IOListOutline,
-    IOList,
-    IOLocateOutline,
-    IOLocate,
-    IOLocationOutline,
-    IOLocation,
-    IOLockClosedOutline,
-    IOLockClosed,
-    IOLockOpenOutline,
-    IOLockOpen,
-    IOLogInOutline,
-    IOLogIn,
-    IOLogOutOutline,
-    IOLogOut,
-    IOLogoAlipay,
-    IOLogoAmazon,
-    IOLogoAmplify,
-    IOLogoAndroid,
-    IOLogoAngular,
-    IOLogoAppleAppstore,
-    IOLogoAppleAr,
-    IOLogoApple,
-    IOLogoBehance,
-    IOLogoBitbucket,
-    IOLogoBitcoin,
-    IOLogoBuffer,
-    IOLogoCapacitor,
-    IOLogoChrome,
-    IOLogoClosedCaptioning,
-    IOLogoCodepen,
-    IOLogoCss3,
-    IOLogoDesignernews,
-    IOLogoDeviantart,
-    IOLogoDiscord,
-    IOLogoDocker,
-    IOLogoDribbble,
-    IOLogoDropbox,
-    IOLogoEdge,
-    IOLogoElectron,
-    IOLogoEuro,
-    IOLogoFacebook,
-    IOLogoFigma,
-    IOLogoFirebase,
-    IOLogoFirefox,
-    IOLogoFlickr,
-    IOLogoFoursquare,
-    IOLogoGithub,
-    IOLogoGitlab,
-    IOLogoGooglePlaystore,
-    IOLogoGoogle,
-    IOLogoHackernews,
-    IOLogoHtml5,
-    IOLogoInstagram,
-    IOLogoIonic,
-    IOLogoIonitron,
-    IOLogoJavascript,
-    IOLogoLaravel,
-    IOLogoLinkedin,
-    IOLogoMarkdown,
-    IOLogoMastodon,
-    IOLogoMedium,
-    IOLogoMicrosoft,
-    IOLogoNoSmoking,
-    IOLogoNodejs,
-    IOLogoNpm,
-    IOLogoOctocat,
-    IOLogoPaypal,
-    IOLogoPinterest,
-    IOLogoPlaystation,
-    IOLogoPwa,
-    IOLogoPython,
-    IOLogoReact,
-    IOLogoReddit,
-    IOLogoRss,
-    IOLogoSass,
-    IOLogoSkype,
-    IOLogoSlack,
-    IOLogoSnapchat,
-    IOLogoSoundcloud,
-    IOLogoStackoverflow,
-    IOLogoSteam,
-    IOLogoStencil,
-    IOLogoTableau,
-    IOLogoTiktok,
-    IOLogoTumblr,
-    IOLogoTux,
-    IOLogoTwitch,
-    IOLogoTwitter,
-    IOLogoUsd,
-    IOLogoVenmo,
-    IOLogoVercel,
-    IOLogoVimeo,
-    IOLogoVk,
-    IOLogoVue,
-    IOLogoWebComponent,
-    IOLogoWechat,
-    IOLogoWhatsapp,
-    IOLogoWindows,
-    IOLogoWordpress,
-    IOLogoXbox,
-    IOLogoXing,
-    IOLogoYahoo,
-    IOLogoYen,
-    IOLogoYoutube,
-    IOMagnetOutline,
-    IOMagnet,
-    IOMailOpenOutline,
-    IOMailOpen,
-    IOMailOutline,
-    IOMailUnreadOutline,
-    IOMailUnread,
-    IOMail,
-    IOMaleFemaleOutline,
-    IOMaleFemale,
-    IOMaleOutline,
-    IOMale,
-    IOManOutline,
-    IOMan,
-    IOMapOutline,
-    IOMap,
-    IOMedalOutline,
-    IOMedal,
-    IOMedicalOutline,
-    IOMedical,
-    IOMedkitOutline,
-    IOMedkit,
-    IOMegaphoneOutline,
-    IOMegaphone,
-    IOMenuOutline,
-    IOMenu,
-    IOMicCircleOutline,
-    IOMicCircle,
-    IOMicOffCircleOutline,
-    IOMicOffCircle,
-    IOMicOffOutline,
-    IOMicOff,
-    IOMicOutline,
-    IOMic,
-    IOMoonOutline,
-    IOMoon,
-    IOMoveOutline,
-    IOMove,
-    IOMusicalNoteOutline,
-    IOMusicalNote,
-    IOMusicalNotesOutline,
-    IOMusicalNotes,
-    IONavigateCircleOutline,
-    IONavigateCircle,
-    IONavigateOutline,
-    IONavigate,
-    IONewspaperOutline,
-    IONewspaper,
-    IONotificationsCircleOutline,
-    IONotificationsCircle,
-    IONotificationsOffCircleOutline,
-    IONotificationsOffCircle,
-    IONotificationsOffOutline,
-    IONotificationsOff,
-    IONotificationsOutline,
-    IONotifications,
-    IONuclearOutline,
-    IONuclear,
-    IONutritionOutline,
-    IONutrition,
-    IOOpenOutline,
-    IOOpen,
-    IOOptionsOutline,
-    IOOptions,
-    IOPaperPlaneOutline,
-    IOPaperPlane,
-    IOPartlySunnyOutline,
-    IOPartlySunny,
-    IOPauseCircleOutline,
-    IOPauseCircle,
-    IOPauseOutline,
-    IOPause,
-    IOPawOutline,
-    IOPaw,
-    IOPencilOutline,
-    IOPencil,
-    IOPeopleCircleOutline,
-    IOPeopleCircle,
-    IOPeopleOutline,
-    IOPeople,
-    IOPersonAddOutline,
-    IOPersonAdd,
-    IOPersonCircleOutline,
-    IOPersonCircle,
-    IOPersonOutline,
-    IOPersonRemoveOutline,
-    IOPersonRemove,
-    IOPerson,
-    IOPhoneLandscapeOutline,
-    IOPhoneLandscape,
-    IOPhonePortraitOutline,
-    IOPhonePortrait,
-    IOPieChartOutline,
-    IOPieChart,
-    IOPinOutline,
-    IOPin,
-    IOPintOutline,
-    IOPint,
-    IOPizzaOutline,
-    IOPizza,
-    IOPlanetOutline,
-    IOPlanet,
-    IOPlayBackCircleOutline,
-    IOPlayBackCircle,
-    IOPlayBackOutline,
-    IOPlayBack,
-    IOPlayCircleOutline,
-    IOPlayCircle,
-    IOPlayForwardCircleOutline,
-    IOPlayForwardCircle,
-    IOPlayForwardOutline,
-    IOPlayForward,
-    IOPlayOutline,
-    IOPlaySkipBackCircleOutline,
-    IOPlaySkipBackCircle,
-    IOPlaySkipBackOutline,
-    IOPlaySkipBack,
-    IOPlaySkipForwardCircleOutline,
-    IOPlaySkipForwardCircle,
-    IOPlaySkipForwardOutline,
-    IOPlaySkipForward,
-    IOPlay,
-    IOPodiumOutline,
-    IOPodium,
-    IOPowerOutline,
-    IOPower,
-    IOPricetagOutline,
-    IOPricetag,
-    IOPricetagsOutline,
-    IOPricetags,
-    IOPrintOutline,
-    IOPrint,
-    IOPrismOutline,
-    IOPrism,
-    IOPulseOutline,
-    IOPulse,
-    IOPushOutline,
-    IOPush,
-    IOQrCodeOutline,
-    IOQrCode,
-    IORadioButtonOffOutline,
-    IORadioButtonOff,
-    IORadioButtonOnOutline,
-    IORadioButtonOn,
-    IORadioOutline,
-    IORadio,
-    IORainyOutline,
-    IORainy,
-    IOReaderOutline,
-    IOReader,
-    IOReceiptOutline,
-    IOReceipt,
-    IORecordingOutline,
-    IORecording,
-    IORefreshCircleOutline,
-    IORefreshCircle,
-    IORefreshOutline,
-    IORefresh,
-    IOReloadCircleOutline,
-    IOReloadCircle,
-    IOReloadOutline,
-    IOReload,
-    IORemoveCircleOutline,
-    IORemoveCircle,
-    IORemoveOutline,
-    IORemove,
-    IOReorderFourOutline,
-    IOReorderFour,
-    IOReorderThreeOutline,
-    IOReorderThree,
-    IOReorderTwoOutline,
-    IOReorderTwo,
-    IORepeatOutline,
-    IORepeat,
-    IOResizeOutline,
-    IOResize,
-    IORestaurantOutline,
-    IORestaurant,
-    IOReturnDownBackOutline,
-    IOReturnDownBack,
-    IOReturnDownForwardOutline,
-    IOReturnDownForward,
-    IOReturnUpBackOutline,
-    IOReturnUpBack,
-    IOReturnUpForwardOutline,
-    IOReturnUpForward,
-    IORibbonOutline,
-    IORibbon,
-    IORocketOutline,
-    IORocket,
-    IORoseOutline,
-    IORose,
-    IOSadOutline,
-    IOSad,
-    IOSaveOutline,
-    IOSave,
-    IOScaleOutline,
-    IOScale,
-    IOScanCircleOutline,
-    IOScanCircle,
-    IOScanOutline,
-    IOScan,
-    IOSchoolOutline,
-    IOSchool,
-    IOSearchCircleOutline,
-    IOSearchCircle,
-    IOSearchOutline,
-    IOSearch,
-    IOSendOutline,
-    IOSend,
-    IOServerOutline,
-    IOServer,
-    IOSettingsOutline,
-    IOSettings,
-    IOShapesOutline,
-    IOShapes,
-    IOShareOutline,
-    IOShareSocialOutline,
-    IOShareSocial,
-    IOShare,
-    IOShieldCheckmarkOutline,
-    IOShieldCheckmark,
-    IOShieldHalfOutline,
-    IOShieldHalf,
-    IOShieldOutline,
-    IOShield,
-    IOShirtOutline,
-    IOShirt,
-    IOShuffleOutline,
-    IOShuffle,
-    IOSkullOutline,
-    IOSkull,
-    IOSnowOutline,
-    IOSnow,
-    IOSparklesOutline,
-    IOSparkles,
-    IOSpeedometerOutline,
-    IOSpeedometer,
-    IOSquareOutline,
-    IOSquare,
-    IOStarHalfOutline,
-    IOStarHalf,
-    IOStarOutline,
-    IOStar,
-    IOStatsChartOutline,
-    IOStatsChart,
-    IOStopCircleOutline,
-    IOStopCircle,
-    IOStopOutline,
-    IOStop,
-    IOStopwatchOutline,
-    IOStopwatch,
-    IOStorefrontOutline,
-    IOStorefront,
-    IOSubwayOutline,
-    IOSubway,
-    IOSunnyOutline,
-    IOSunny,
-    IOSwapHorizontalOutline,
-    IOSwapHorizontal,
-    IOSwapVerticalOutline,
-    IOSwapVertical,
-    IOSyncCircleOutline,
-    IOSyncCircle,
-    IOSyncOutline,
-    IOSync,
-    IOTabletLandscapeOutline,
-    IOTabletLandscape,
-    IOTabletPortraitOutline,
-    IOTabletPortrait,
-    IOTelescopeOutline,
-    IOTelescope,
-    IOTennisballOutline,
-    IOTennisball,
-    IOTerminalOutline,
-    IOTerminal,
-    IOTextOutline,
-    IOText,
-    IOThermometerOutline,
-    IOThermometer,
-    IOThumbsDownOutline,
-    IOThumbsDown,
-    IOThumbsUpOutline,
-    IOThumbsUp,
-    IOThunderstormOutline,
-    IOThunderstorm,
-    IOTicketOutline,
-    IOTicket,
-    IOTimeOutline,
-    IOTime,
-    IOTimerOutline,
-    IOTimer,
-    IOTodayOutline,
-    IOToday,
-    IOToggleOutline,
-    IOToggle,
-    IOTrailSignOutline,
-    IOTrailSign,
-    IOTrainOutline,
-    IOTrain,
-    IOTransgenderOutline,
-    IOTransgender,
-    IOTrashBinOutline,
-    IOTrashBin,
-    IOTrashOutline,
-    IOTrash,
-    IOTrendingDownOutline,
-    IOTrendingDown,
-    IOTrendingUpOutline,
-    IOTrendingUp,
-    IOTriangleOutline,
-    IOTriangle,
-    IOTrophyOutline,
-    IOTrophy,
-    IOTvOutline,
-    IOTv,
-    IOUmbrellaOutline,
-    IOUmbrella,
-    IOUnlinkOutline,
-    IOUnlink,
-    IOVideocamOffOutline,
-    IOVideocamOff,
-    IOVideocamOutline,
-    IOVideocam,
-    IOVolumeHighOutline,
-    IOVolumeHigh,
-    IOVolumeLowOutline,
-    IOVolumeLow,
-    IOVolumeMediumOutline,
-    IOVolumeMedium,
-    IOVolumeMuteOutline,
-    IOVolumeMute,
-    IOVolumeOffOutline,
-    IOVolumeOff,
-    IOWalkOutline,
-    IOWalk,
-    IOWalletOutline,
-    IOWallet,
-    IOWarningOutline,
-    IOWarning,
-    IOWatchOutline,
-    IOWatch,
-    IOWaterOutline,
-    IOWater,
-    IOWifiOutline,
-    IOWifi,
-    IOWineOutline,
-    IOWine,
-    IOWomanOutline,
-    IOWoman,
-}
+  IOAccessibilityOutline,
+  IOAccessibility,
+  IOAddCircleOutline,
+  IOAddCircle,
+  IOAddOutline,
+  IOAdd,
+  IOAirplaneOutline,
+  IOAirplane,
+  IOAlarmOutline,
+  IOAlarm,
+  IOAlbumsOutline,
+  IOAlbums,
+  IOAlertCircleOutline,
+  IOAlertCircle,
+  IOAlertOutline,
+  IOAlert,
+  IOAmericanFootballOutline,
+  IOAmericanFootball,
+  IOAnalyticsOutline,
+  IOAnalytics,
+  IOApertureOutline,
+  IOAperture,
+  IOAppsOutline,
+  IOApps,
+  IOArchiveOutline,
+  IOArchive,
+  IOArrowBackCircleOutline,
+  IOArrowBackCircle,
+  IOArrowBackOutline,
+  IOArrowBack,
+  IOArrowDownCircleOutline,
+  IOArrowDownCircle,
+  IOArrowDownOutline,
+  IOArrowDown,
+  IOArrowForwardCircleOutline,
+  IOArrowForwardCircle,
+  IOArrowForwardOutline,
+  IOArrowForward,
+  IOArrowRedoCircleOutline,
+  IOArrowRedoCircle,
+  IOArrowRedoOutline,
+  IOArrowRedo,
+  IOArrowUndoCircleOutline,
+  IOArrowUndoCircle,
+  IOArrowUndoOutline,
+  IOArrowUndo,
+  IOArrowUpCircleOutline,
+  IOArrowUpCircle,
+  IOArrowUpOutline,
+  IOArrowUp,
+  IOAtCircleOutline,
+  IOAtCircle,
+  IOAtOutline,
+  IOAt,
+  IOAttachOutline,
+  IOAttach,
+  IOBackspaceOutline,
+  IOBackspace,
+  IOBagAddOutline,
+  IOBagAdd,
+  IOBagCheckOutline,
+  IOBagCheck,
+  IOBagHandleOutline,
+  IOBagHandle,
+  IOBagOutline,
+  IOBagRemoveOutline,
+  IOBagRemove,
+  IOBag,
+  IOBalloonOutline,
+  IOBalloon,
+  IOBanOutline,
+  IOBan,
+  IOBandageOutline,
+  IOBandage,
+  IOBarChartOutline,
+  IOBarChart,
+  IOBarbellOutline,
+  IOBarbell,
+  IOBarcodeOutline,
+  IOBarcode,
+  IOBaseballOutline,
+  IOBaseball,
+  IOBasketOutline,
+  IOBasket,
+  IOBasketballOutline,
+  IOBasketball,
+  IOBatteryChargingOutline,
+  IOBatteryCharging,
+  IOBatteryDeadOutline,
+  IOBatteryDead,
+  IOBatteryFullOutline,
+  IOBatteryFull,
+  IOBatteryHalfOutline,
+  IOBatteryHalf,
+  IOBeakerOutline,
+  IOBeaker,
+  IOBedOutline,
+  IOBed,
+  IOBeerOutline,
+  IOBeer,
+  IOBicycleOutline,
+  IOBicycle,
+  IOBluetoothOutline,
+  IOBluetooth,
+  IOBoatOutline,
+  IOBoat,
+  IOBodyOutline,
+  IOBody,
+  IOBonfireOutline,
+  IOBonfire,
+  IOBookOutline,
+  IOBook,
+  IOBookmarkOutline,
+  IOBookmark,
+  IOBookmarksOutline,
+  IOBookmarks,
+  IOBowlingBallOutline,
+  IOBowlingBall,
+  IOBriefcaseOutline,
+  IOBriefcase,
+  IOBrowsersOutline,
+  IOBrowsers,
+  IOBrushOutline,
+  IOBrush,
+  IOBugOutline,
+  IOBug,
+  IOBuildOutline,
+  IOBuild,
+  IOBulbOutline,
+  IOBulb,
+  IOBusOutline,
+  IOBus,
+  IOBusinessOutline,
+  IOBusiness,
+  IOCafeOutline,
+  IOCafe,
+  IOCalculatorOutline,
+  IOCalculator,
+  IOCalendarClearOutline,
+  IOCalendarClear,
+  IOCalendarNumberOutline,
+  IOCalendarNumber,
+  IOCalendarOutline,
+  IOCalendar,
+  IOCallOutline,
+  IOCall,
+  IOCameraOutline,
+  IOCameraReverseOutline,
+  IOCameraReverse,
+  IOCamera,
+  IOCarOutline,
+  IOCarSportOutline,
+  IOCarSport,
+  IOCar,
+  IOCardOutline,
+  IOCard,
+  IOCaretBackCircleOutline,
+  IOCaretBackCircle,
+  IOCaretBackOutline,
+  IOCaretBack,
+  IOCaretDownCircleOutline,
+  IOCaretDownCircle,
+  IOCaretDownOutline,
+  IOCaretDown,
+  IOCaretForwardCircleOutline,
+  IOCaretForwardCircle,
+  IOCaretForwardOutline,
+  IOCaretForward,
+  IOCaretUpCircleOutline,
+  IOCaretUpCircle,
+  IOCaretUpOutline,
+  IOCaretUp,
+  IOCartOutline,
+  IOCart,
+  IOCashOutline,
+  IOCash,
+  IOCellularOutline,
+  IOCellular,
+  IOChatboxEllipsesOutline,
+  IOChatboxEllipses,
+  IOChatboxOutline,
+  IOChatbox,
+  IOChatbubbleEllipsesOutline,
+  IOChatbubbleEllipses,
+  IOChatbubbleOutline,
+  IOChatbubble,
+  IOChatbubblesOutline,
+  IOChatbubbles,
+  IOCheckboxOutline,
+  IOCheckbox,
+  IOCheckmarkCircleOutline,
+  IOCheckmarkCircle,
+  IOCheckmarkDoneCircleOutline,
+  IOCheckmarkDoneCircle,
+  IOCheckmarkDoneOutline,
+  IOCheckmarkDone,
+  IOCheckmarkOutline,
+  IOCheckmark,
+  IOChevronBackCircleOutline,
+  IOChevronBackCircle,
+  IOChevronBackOutline,
+  IOChevronBack,
+  IOChevronDownCircleOutline,
+  IOChevronDownCircle,
+  IOChevronDownOutline,
+  IOChevronDown,
+  IOChevronForwardCircleOutline,
+  IOChevronForwardCircle,
+  IOChevronForwardOutline,
+  IOChevronForward,
+  IOChevronUpCircleOutline,
+  IOChevronUpCircle,
+  IOChevronUpOutline,
+  IOChevronUp,
+  IOClipboardOutline,
+  IOClipboard,
+  IOCloseCircleOutline,
+  IOCloseCircle,
+  IOCloseOutline,
+  IOClose,
+  IOCloudCircleOutline,
+  IOCloudCircle,
+  IOCloudDoneOutline,
+  IOCloudDone,
+  IOCloudDownloadOutline,
+  IOCloudDownload,
+  IOCloudOfflineOutline,
+  IOCloudOffline,
+  IOCloudOutline,
+  IOCloudUploadOutline,
+  IOCloudUpload,
+  IOCloud,
+  IOCloudyNightOutline,
+  IOCloudyNight,
+  IOCloudyOutline,
+  IOCloudy,
+  IOCodeDownloadOutline,
+  IOCodeDownload,
+  IOCodeOutline,
+  IOCodeSlashOutline,
+  IOCodeSlash,
+  IOCodeWorkingOutline,
+  IOCodeWorking,
+  IOCode,
+  IOCogOutline,
+  IOCog,
+  IOColorFillOutline,
+  IOColorFill,
+  IOColorFilterOutline,
+  IOColorFilter,
+  IOColorPaletteOutline,
+  IOColorPalette,
+  IOColorWandOutline,
+  IOColorWand,
+  IOCompassOutline,
+  IOCompass,
+  IOConstructOutline,
+  IOConstruct,
+  IOContractOutline,
+  IOContract,
+  IOContrastOutline,
+  IOContrast,
+  IOCopyOutline,
+  IOCopy,
+  IOCreateOutline,
+  IOCreate,
+  IOCropOutline,
+  IOCrop,
+  IOCubeOutline,
+  IOCube,
+  IOCutOutline,
+  IOCut,
+  IODesktopOutline,
+  IODesktop,
+  IODiamondOutline,
+  IODiamond,
+  IODiceOutline,
+  IODice,
+  IODiscOutline,
+  IODisc,
+  IODocumentAttachOutline,
+  IODocumentAttach,
+  IODocumentLockOutline,
+  IODocumentLock,
+  IODocumentOutline,
+  IODocumentTextOutline,
+  IODocumentText,
+  IODocument,
+  IODocumentsOutline,
+  IODocuments,
+  IODownloadOutline,
+  IODownload,
+  IODuplicateOutline,
+  IODuplicate,
+  IOEarOutline,
+  IOEar,
+  IOEarthOutline,
+  IOEarth,
+  IOEaselOutline,
+  IOEasel,
+  IOEggOutline,
+  IOEgg,
+  IOEllipseOutline,
+  IOEllipse,
+  IOEllipsisHorizontalCircleOutline,
+  IOEllipsisHorizontalCircle,
+  IOEllipsisHorizontalOutline,
+  IOEllipsisHorizontal,
+  IOEllipsisVerticalCircleOutline,
+  IOEllipsisVerticalCircle,
+  IOEllipsisVerticalOutline,
+  IOEllipsisVertical,
+  IOEnterOutline,
+  IOEnter,
+  IOExitOutline,
+  IOExit,
+  IOExpandOutline,
+  IOExpand,
+  IOExtensionPuzzleOutline,
+  IOExtensionPuzzle,
+  IOEyeOffOutline,
+  IOEyeOff,
+  IOEyeOutline,
+  IOEye,
+  IOEyedropOutline,
+  IOEyedrop,
+  IOFastFoodOutline,
+  IOFastFood,
+  IOFemaleOutline,
+  IOFemale,
+  IOFileTrayFullOutline,
+  IOFileTrayFull,
+  IOFileTrayOutline,
+  IOFileTrayStackedOutline,
+  IOFileTrayStacked,
+  IOFileTray,
+  IOFilmOutline,
+  IOFilm,
+  IOFilterCircleOutline,
+  IOFilterCircle,
+  IOFilterOutline,
+  IOFilter,
+  IOFingerPrintOutline,
+  IOFingerPrint,
+  IOFishOutline,
+  IOFish,
+  IOFitnessOutline,
+  IOFitness,
+  IOFlagOutline,
+  IOFlag,
+  IOFlameOutline,
+  IOFlame,
+  IOFlashOffOutline,
+  IOFlashOff,
+  IOFlashOutline,
+  IOFlash,
+  IOFlashlightOutline,
+  IOFlashlight,
+  IOFlaskOutline,
+  IOFlask,
+  IOFlowerOutline,
+  IOFlower,
+  IOFolderOpenOutline,
+  IOFolderOpen,
+  IOFolderOutline,
+  IOFolder,
+  IOFootballOutline,
+  IOFootball,
+  IOFootstepsOutline,
+  IOFootsteps,
+  IOFunnelOutline,
+  IOFunnel,
+  IOGameControllerOutline,
+  IOGameController,
+  IOGiftOutline,
+  IOGift,
+  IOGitBranchOutline,
+  IOGitBranch,
+  IOGitCommitOutline,
+  IOGitCommit,
+  IOGitCompareOutline,
+  IOGitCompare,
+  IOGitMergeOutline,
+  IOGitMerge,
+  IOGitNetworkOutline,
+  IOGitNetwork,
+  IOGitPullRequestOutline,
+  IOGitPullRequest,
+  IOGlassesOutline,
+  IOGlasses,
+  IOGlobeOutline,
+  IOGlobe,
+  IOGolfOutline,
+  IOGolf,
+  IOGridOutline,
+  IOGrid,
+  IOHammerOutline,
+  IOHammer,
+  IOHandLeftOutline,
+  IOHandLeft,
+  IOHandRightOutline,
+  IOHandRight,
+  IOHappyOutline,
+  IOHappy,
+  IOHardwareChipOutline,
+  IOHardwareChip,
+  IOHeadsetOutline,
+  IOHeadset,
+  IOHeartCircleOutline,
+  IOHeartCircle,
+  IOHeartDislikeCircleOutline,
+  IOHeartDislikeCircle,
+  IOHeartDislikeOutline,
+  IOHeartDislike,
+  IOHeartHalfOutline,
+  IOHeartHalf,
+  IOHeartOutline,
+  IOHeart,
+  IOHelpBuoyOutline,
+  IOHelpBuoy,
+  IOHelpCircleOutline,
+  IOHelpCircle,
+  IOHelpOutline,
+  IOHelp,
+  IOHomeOutline,
+  IOHome,
+  IOHourglassOutline,
+  IOHourglass,
+  IOIceCreamOutline,
+  IOIceCream,
+  IOIdCardOutline,
+  IOIdCard,
+  IOImageOutline,
+  IOImage,
+  IOImagesOutline,
+  IOImages,
+  IOInfiniteOutline,
+  IOInfinite,
+  IOInformationCircleOutline,
+  IOInformationCircle,
+  IOInformationOutline,
+  IOInformation,
+  IOInvertModeOutline,
+  IOInvertMode,
+  IOJournalOutline,
+  IOJournal,
+  IOKeyOutline,
+  IOKey,
+  IOKeypadOutline,
+  IOKeypad,
+  IOLanguageOutline,
+  IOLanguage,
+  IOLaptopOutline,
+  IOLaptop,
+  IOLayersOutline,
+  IOLayers,
+  IOLeafOutline,
+  IOLeaf,
+  IOLibraryOutline,
+  IOLibrary,
+  IOLinkOutline,
+  IOLink,
+  IOListCircleOutline,
+  IOListCircle,
+  IOListOutline,
+  IOList,
+  IOLocateOutline,
+  IOLocate,
+  IOLocationOutline,
+  IOLocation,
+  IOLockClosedOutline,
+  IOLockClosed,
+  IOLockOpenOutline,
+  IOLockOpen,
+  IOLogInOutline,
+  IOLogIn,
+  IOLogOutOutline,
+  IOLogOut,
+  IOLogoAlipay,
+  IOLogoAmazon,
+  IOLogoAmplify,
+  IOLogoAndroid,
+  IOLogoAngular,
+  IOLogoAppleAppstore,
+  IOLogoAppleAr,
+  IOLogoApple,
+  IOLogoBehance,
+  IOLogoBitbucket,
+  IOLogoBitcoin,
+  IOLogoBuffer,
+  IOLogoCapacitor,
+  IOLogoChrome,
+  IOLogoClosedCaptioning,
+  IOLogoCodepen,
+  IOLogoCss3,
+  IOLogoDesignernews,
+  IOLogoDeviantart,
+  IOLogoDiscord,
+  IOLogoDocker,
+  IOLogoDribbble,
+  IOLogoDropbox,
+  IOLogoEdge,
+  IOLogoElectron,
+  IOLogoEuro,
+  IOLogoFacebook,
+  IOLogoFigma,
+  IOLogoFirebase,
+  IOLogoFirefox,
+  IOLogoFlickr,
+  IOLogoFoursquare,
+  IOLogoGithub,
+  IOLogoGitlab,
+  IOLogoGooglePlaystore,
+  IOLogoGoogle,
+  IOLogoHackernews,
+  IOLogoHtml5,
+  IOLogoInstagram,
+  IOLogoIonic,
+  IOLogoIonitron,
+  IOLogoJavascript,
+  IOLogoLaravel,
+  IOLogoLinkedin,
+  IOLogoMarkdown,
+  IOLogoMastodon,
+  IOLogoMedium,
+  IOLogoMicrosoft,
+  IOLogoNoSmoking,
+  IOLogoNodejs,
+  IOLogoNpm,
+  IOLogoOctocat,
+  IOLogoPaypal,
+  IOLogoPinterest,
+  IOLogoPlaystation,
+  IOLogoPwa,
+  IOLogoPython,
+  IOLogoReact,
+  IOLogoReddit,
+  IOLogoRss,
+  IOLogoSass,
+  IOLogoSkype,
+  IOLogoSlack,
+  IOLogoSnapchat,
+  IOLogoSoundcloud,
+  IOLogoStackoverflow,
+  IOLogoSteam,
+  IOLogoStencil,
+  IOLogoTableau,
+  IOLogoTiktok,
+  IOLogoTumblr,
+  IOLogoTux,
+  IOLogoTwitch,
+  IOLogoTwitter,
+  IOLogoUsd,
+  IOLogoVenmo,
+  IOLogoVercel,
+  IOLogoVimeo,
+  IOLogoVk,
+  IOLogoVue,
+  IOLogoWebComponent,
+  IOLogoWechat,
+  IOLogoWhatsapp,
+  IOLogoWindows,
+  IOLogoWordpress,
+  IOLogoXbox,
+  IOLogoXing,
+  IOLogoYahoo,
+  IOLogoYen,
+  IOLogoYoutube,
+  IOMagnetOutline,
+  IOMagnet,
+  IOMailOpenOutline,
+  IOMailOpen,
+  IOMailOutline,
+  IOMailUnreadOutline,
+  IOMailUnread,
+  IOMail,
+  IOMaleFemaleOutline,
+  IOMaleFemale,
+  IOMaleOutline,
+  IOMale,
+  IOManOutline,
+  IOMan,
+  IOMapOutline,
+  IOMap,
+  IOMedalOutline,
+  IOMedal,
+  IOMedicalOutline,
+  IOMedical,
+  IOMedkitOutline,
+  IOMedkit,
+  IOMegaphoneOutline,
+  IOMegaphone,
+  IOMenuOutline,
+  IOMenu,
+  IOMicCircleOutline,
+  IOMicCircle,
+  IOMicOffCircleOutline,
+  IOMicOffCircle,
+  IOMicOffOutline,
+  IOMicOff,
+  IOMicOutline,
+  IOMic,
+  IOMoonOutline,
+  IOMoon,
+  IOMoveOutline,
+  IOMove,
+  IOMusicalNoteOutline,
+  IOMusicalNote,
+  IOMusicalNotesOutline,
+  IOMusicalNotes,
+  IONavigateCircleOutline,
+  IONavigateCircle,
+  IONavigateOutline,
+  IONavigate,
+  IONewspaperOutline,
+  IONewspaper,
+  IONotificationsCircleOutline,
+  IONotificationsCircle,
+  IONotificationsOffCircleOutline,
+  IONotificationsOffCircle,
+  IONotificationsOffOutline,
+  IONotificationsOff,
+  IONotificationsOutline,
+  IONotifications,
+  IONuclearOutline,
+  IONuclear,
+  IONutritionOutline,
+  IONutrition,
+  IOOpenOutline,
+  IOOpen,
+  IOOptionsOutline,
+  IOOptions,
+  IOPaperPlaneOutline,
+  IOPaperPlane,
+  IOPartlySunnyOutline,
+  IOPartlySunny,
+  IOPauseCircleOutline,
+  IOPauseCircle,
+  IOPauseOutline,
+  IOPause,
+  IOPawOutline,
+  IOPaw,
+  IOPencilOutline,
+  IOPencil,
+  IOPeopleCircleOutline,
+  IOPeopleCircle,
+  IOPeopleOutline,
+  IOPeople,
+  IOPersonAddOutline,
+  IOPersonAdd,
+  IOPersonCircleOutline,
+  IOPersonCircle,
+  IOPersonOutline,
+  IOPersonRemoveOutline,
+  IOPersonRemove,
+  IOPerson,
+  IOPhoneLandscapeOutline,
+  IOPhoneLandscape,
+  IOPhonePortraitOutline,
+  IOPhonePortrait,
+  IOPieChartOutline,
+  IOPieChart,
+  IOPinOutline,
+  IOPin,
+  IOPintOutline,
+  IOPint,
+  IOPizzaOutline,
+  IOPizza,
+  IOPlanetOutline,
+  IOPlanet,
+  IOPlayBackCircleOutline,
+  IOPlayBackCircle,
+  IOPlayBackOutline,
+  IOPlayBack,
+  IOPlayCircleOutline,
+  IOPlayCircle,
+  IOPlayForwardCircleOutline,
+  IOPlayForwardCircle,
+  IOPlayForwardOutline,
+  IOPlayForward,
+  IOPlayOutline,
+  IOPlaySkipBackCircleOutline,
+  IOPlaySkipBackCircle,
+  IOPlaySkipBackOutline,
+  IOPlaySkipBack,
+  IOPlaySkipForwardCircleOutline,
+  IOPlaySkipForwardCircle,
+  IOPlaySkipForwardOutline,
+  IOPlaySkipForward,
+  IOPlay,
+  IOPodiumOutline,
+  IOPodium,
+  IOPowerOutline,
+  IOPower,
+  IOPricetagOutline,
+  IOPricetag,
+  IOPricetagsOutline,
+  IOPricetags,
+  IOPrintOutline,
+  IOPrint,
+  IOPrismOutline,
+  IOPrism,
+  IOPulseOutline,
+  IOPulse,
+  IOPushOutline,
+  IOPush,
+  IOQrCodeOutline,
+  IOQrCode,
+  IORadioButtonOffOutline,
+  IORadioButtonOff,
+  IORadioButtonOnOutline,
+  IORadioButtonOn,
+  IORadioOutline,
+  IORadio,
+  IORainyOutline,
+  IORainy,
+  IOReaderOutline,
+  IOReader,
+  IOReceiptOutline,
+  IOReceipt,
+  IORecordingOutline,
+  IORecording,
+  IORefreshCircleOutline,
+  IORefreshCircle,
+  IORefreshOutline,
+  IORefresh,
+  IOReloadCircleOutline,
+  IOReloadCircle,
+  IOReloadOutline,
+  IOReload,
+  IORemoveCircleOutline,
+  IORemoveCircle,
+  IORemoveOutline,
+  IORemove,
+  IOReorderFourOutline,
+  IOReorderFour,
+  IOReorderThreeOutline,
+  IOReorderThree,
+  IOReorderTwoOutline,
+  IOReorderTwo,
+  IORepeatOutline,
+  IORepeat,
+  IOResizeOutline,
+  IOResize,
+  IORestaurantOutline,
+  IORestaurant,
+  IOReturnDownBackOutline,
+  IOReturnDownBack,
+  IOReturnDownForwardOutline,
+  IOReturnDownForward,
+  IOReturnUpBackOutline,
+  IOReturnUpBack,
+  IOReturnUpForwardOutline,
+  IOReturnUpForward,
+  IORibbonOutline,
+  IORibbon,
+  IORocketOutline,
+  IORocket,
+  IORoseOutline,
+  IORose,
+  IOSadOutline,
+  IOSad,
+  IOSaveOutline,
+  IOSave,
+  IOScaleOutline,
+  IOScale,
+  IOScanCircleOutline,
+  IOScanCircle,
+  IOScanOutline,
+  IOScan,
+  IOSchoolOutline,
+  IOSchool,
+  IOSearchCircleOutline,
+  IOSearchCircle,
+  IOSearchOutline,
+  IOSearch,
+  IOSendOutline,
+  IOSend,
+  IOServerOutline,
+  IOServer,
+  IOSettingsOutline,
+  IOSettings,
+  IOShapesOutline,
+  IOShapes,
+  IOShareOutline,
+  IOShareSocialOutline,
+  IOShareSocial,
+  IOShare,
+  IOShieldCheckmarkOutline,
+  IOShieldCheckmark,
+  IOShieldHalfOutline,
+  IOShieldHalf,
+  IOShieldOutline,
+  IOShield,
+  IOShirtOutline,
+  IOShirt,
+  IOShuffleOutline,
+  IOShuffle,
+  IOSkullOutline,
+  IOSkull,
+  IOSnowOutline,
+  IOSnow,
+  IOSparklesOutline,
+  IOSparkles,
+  IOSpeedometerOutline,
+  IOSpeedometer,
+  IOSquareOutline,
+  IOSquare,
+  IOStarHalfOutline,
+  IOStarHalf,
+  IOStarOutline,
+  IOStar,
+  IOStatsChartOutline,
+  IOStatsChart,
+  IOStopCircleOutline,
+  IOStopCircle,
+  IOStopOutline,
+  IOStop,
+  IOStopwatchOutline,
+  IOStopwatch,
+  IOStorefrontOutline,
+  IOStorefront,
+  IOSubwayOutline,
+  IOSubway,
+  IOSunnyOutline,
+  IOSunny,
+  IOSwapHorizontalOutline,
+  IOSwapHorizontal,
+  IOSwapVerticalOutline,
+  IOSwapVertical,
+  IOSyncCircleOutline,
+  IOSyncCircle,
+  IOSyncOutline,
+  IOSync,
+  IOTabletLandscapeOutline,
+  IOTabletLandscape,
+  IOTabletPortraitOutline,
+  IOTabletPortrait,
+  IOTelescopeOutline,
+  IOTelescope,
+  IOTennisballOutline,
+  IOTennisball,
+  IOTerminalOutline,
+  IOTerminal,
+  IOTextOutline,
+  IOText,
+  IOThermometerOutline,
+  IOThermometer,
+  IOThumbsDownOutline,
+  IOThumbsDown,
+  IOThumbsUpOutline,
+  IOThumbsUp,
+  IOThunderstormOutline,
+  IOThunderstorm,
+  IOTicketOutline,
+  IOTicket,
+  IOTimeOutline,
+  IOTime,
+  IOTimerOutline,
+  IOTimer,
+  IOTodayOutline,
+  IOToday,
+  IOToggleOutline,
+  IOToggle,
+  IOTrailSignOutline,
+  IOTrailSign,
+  IOTrainOutline,
+  IOTrain,
+  IOTransgenderOutline,
+  IOTransgender,
+  IOTrashBinOutline,
+  IOTrashBin,
+  IOTrashOutline,
+  IOTrash,
+  IOTrendingDownOutline,
+  IOTrendingDown,
+  IOTrendingUpOutline,
+  IOTrendingUp,
+  IOTriangleOutline,
+  IOTriangle,
+  IOTrophyOutline,
+  IOTrophy,
+  IOTvOutline,
+  IOTv,
+  IOUmbrellaOutline,
+  IOUmbrella,
+  IOUnlinkOutline,
+  IOUnlink,
+  IOVideocamOffOutline,
+  IOVideocamOff,
+  IOVideocamOutline,
+  IOVideocam,
+  IOVolumeHighOutline,
+  IOVolumeHigh,
+  IOVolumeLowOutline,
+  IOVolumeLow,
+  IOVolumeMediumOutline,
+  IOVolumeMedium,
+  IOVolumeMuteOutline,
+  IOVolumeMute,
+  IOVolumeOffOutline,
+  IOVolumeOff,
+  IOWalkOutline,
+  IOWalk,
+  IOWalletOutline,
+  IOWallet,
+  IOWarningOutline,
+  IOWarning,
+  IOWatchOutline,
+  IOWatch,
+  IOWaterOutline,
+  IOWater,
+  IOWifiOutline,
+  IOWifi,
+  IOWineOutline,
+  IOWine,
+  IOWomanOutline,
+  IOWoman,
+};

@@ -1,19 +1,8 @@
 import React from 'react';
+import { IconProps, useIconProps } from '../IconProps';
 
-export default function SIGitlab(props: {
-  size?: number;
-  width?: number;
-  height?: number;
-}) {
-  let { width, height, size } = props;
-  if (size !== undefined) {
-    width = size;
-    height = size;
-  }
-  if (width === undefined && height === undefined) {
-    width = 16;
-    height = 16;
-  }
+export default function SIGitlab(props: IconProps) {
+  const { width, height } = useIconProps(props);
 
   return (
     <svg
