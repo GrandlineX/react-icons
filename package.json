@@ -1,10 +1,10 @@
 {
   "name": "@grandlinex/react-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "dependencies": {
+  "peerDependencies": {
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
@@ -24,7 +24,7 @@
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-react": "7.37.2",
-    "eslint-plugin-react-hooks": "5.1.0",
+    "eslint-plugin-react-hooks": "4.6.2",
     "gulp": "5.0.0",
     "gulp-concat": "2.6.1",
     "gulp-sass": "6.0.0",
