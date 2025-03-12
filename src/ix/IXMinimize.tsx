@@ -1,9 +1,11 @@
 import React from 'react';
+import { IconProps, useIconProps } from '../IconProps';
 
-export default function IXMinimize(props: { width?: number; height?: number }) {
-  const { width, height } = props;
+export default function IXMinimize(props: IconProps) {
+  const { width, height, className } = useIconProps(props);
   return (
     <svg
+      className={`glx--icon glx-xi-icon${className}`}
       stroke="currentColor"
       fill="currentColor"
       strokeWidth="0"
