@@ -1,16 +1,16 @@
 {
   "name": "@grandlinex/react-icons",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "peerDependencies": {
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react": "19.x.x",
+    "react-dom": "19.x.x"
   },
   "devDependencies": {
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
     "@typescript-eslint/eslint-plugin": "7.16.0",
     "@typescript-eslint/parser": "7.16.0",
     "cross-env": "7.0.3",
