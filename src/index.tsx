@@ -1,7 +1,9 @@
+import React from "react";
 import { IONames, IOWrapper } from './io';
 import { EJFNames, EJFWrapper } from './ejf';
 import { SINames, SIWrapper } from './si';
 import { IXNames, IXWrapper } from './ix';
+import { IconProps } from "./IconProps";
 
 export * from './io';
 export * from './ejf';
@@ -37,6 +39,8 @@ export const IWrapperFull = () => {
   };
 };
 
-export function getIcon(name: INames) {
-  return IWrapper(name);
+
+export function Icon({ name, size, width, height, className, stroke,fill }: IconProps & { name: INames }) {
+    const Icon = IWrapper(name);
+    return <Icon className={className} width={width} height={height} size={size} stroke={stroke} fill={fill} />;
 }
